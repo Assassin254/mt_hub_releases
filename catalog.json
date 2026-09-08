@@ -52,6 +52,51 @@
       "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_PBR_Studio.zip",
       "n_panel_tab": "MT_PBR Studio Pro",
       "is_available": true
+    },
+    {
+      "code": "MT_SmartGroup",
+      "module_name": "MT_SmartGroup",
+      "name": "MT_SmartGroup Pro",
+      "icon": "OUTLINER_COLLECTION",
+      "version": "v1.0.0",
+      "version_tuple": [1, 0, 0],
+      "desc_lines": [
+        "⚡ Đồng bộ 1-Click trạng thái ẩn/hiện mọi Tab & Workspace",
+        "🚪 Thoát kẹt Local View (phím /) chống thất lạc đối tượng",
+        "👁️ Phục hồi & Hiện lại 100% đối tượng và Collection toàn file",
+        "🔄 Nút bấm nhanh Sync Views trực tiếp trên đỉnh Header 3D Viewport",
+        "📦 Quản lý Nhóm Smart Group (Lộ trình: Bounding Box & Group 3ds Max)"
+      ],
+      "desc_lines_en": [
+        "⚡ 1-Click Sync visible/hidden state across all Workspaces & Tabs",
+        "🚪 Auto-escape trapped Local Views (/) preventing lost objects",
+        "👁️ Master Unhide & restore 100% objects and collections in the file",
+        "🔄 Quick 'Sync Views' header button right inside 3D Viewport",
+        "📦 Smart Grouping Management (Roadmap: Bounding Box & 3ds Max Group)"
+      ],
+      "price": "150.000đ ($12)",
+      "price_vi": "150.000đ",
+      "price_en": "$12",
+      "update_recommend": false,
+      "update_notice": "Phiên bản khởi tạo v1.0.0 chính thức phát hành!",
+      "update_notice_en": "Official release v1.0.0 launched!",
+      "changelog": [
+        "Đồng bộ hóa khung nhìn và trạng thái ẩn hiện giữa các Tab/Workspace",
+        "Tự động giải phóng các viewport bị kẹt Local View",
+        "Tích hợp nút thao tác nhanh trên Header 3D Viewport",
+        "Liên kết hệ sinh thái điều hành MT_Hub Master"
+      ],
+      "changelog_en": [
+        "Synchronize visible/hidden states across all Tabs and Workspaces",
+        "Auto-escape viewport trapped in Local View",
+        "Quick action button integrated on 3D Viewport Header",
+        "Integrated into MT_Hub Master ecosystem"
+      ],
+      "tutorial_url": "https://www.youtube.com/@minhtuan3d",
+      "buy_url": "https://minhtuan.gumroad.com/l/mt_smartgroup",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_SmartGroup.zip",
+      "n_panel_tab": "MT_SmartGroup",
+      "is_available": true
     }
   ]
 }
