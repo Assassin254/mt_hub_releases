@@ -12,7 +12,7 @@
     "Hot-reload add-on in Blender without uninstalling or restarting"
   ],
   "updated_at": "2026-09-08 10:00:00",
-  "announcement": "Chào mừng bạn đến với Hệ Sinh Thái Add-on minhtuan Studio!",
+  "announcement": "Chào mừng bạn đến với Hệ Sinh Thái Add-on MT_Hub!",
   "products": [
     {
       "code": "MT_PBR_Studio",
@@ -29,6 +29,14 @@
         "Chống treo máy & HDRI siêu nhẹ Viewport",
         "Tạo vệt bẩn ở khu vực giao hình khối & 50 vật liệu chuẩn PBR"
       ],
+      "desc_lines_en": [
+        "⚡ 1-Click Complete PBR Maps Generator (Normal, Bump, Rough, AO)",
+        "⛰️ Hybrid 3D Relief & Fabric/Leather Micro-Sheen (zero plastic shine)",
+        "🌐 Full 100% Bilingual Support (Tiếng Việt & English)",
+        "Eyedropper Material Cloner (Maps + Modifiers + Settings)",
+        "Anti-Freeze HDRI Studio & Lightweight Viewport Mode",
+        "Geometric Intersection Dirt/AO & 50 Architecture PBR Presets"
+      ],
       "price": "300.000đ ($24)",
       "price_vi": "300.000đ",
       "price_en": "$24",
@@ -40,17 +48,17 @@
         "💎 Bổ sung Preset Đá Xuyên Sáng (Backlit Translucent Stone) quầy bar & vách tivi",
         "🎯 Thêm thanh trượt chỉnh Brightness / Contrast cho Alpha Dirt & Scratches",
         "⚡ Tối ưu hóa hiệu năng render và tương thích Blender 5.x",
-        "🚀 Bổ sung tab MT_Hub quản lý bản quyền và cập nhật 1-Click"
+        "🚀 Tối ưu hóa không gian làm việc độc lập, kết nối MT_Hub Master"
       ],
       "changelog_en": [
         "🌐 Real-time automatic language synchronization with MT_Hub Master",
         "💎 Added Backlit Translucent Stone / Onyx preset for bars & feature walls",
         "🎯 Added Brightness & Contrast controls for Alpha Dirt & Surface Imperfections",
         "⚡ Optimized render performance & Blender 5.x compatibility",
-        "🚀 Integrated MT_Hub 1-Click update and license manager tab"
+        "🚀 Optimized standalone workspace with direct MT_Hub Master link"
       ],
-      "tutorial_url": "https://www.youtube.com/@minhtuan3d",
-      "buy_url": "https://minhtuan.gumroad.com/l/mt_pbr_studio",
+      "tutorial_url": "",
+      "buy_url": "",
       "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_PBR_Studio.zip",
       "n_panel_tab": "MT_PBR Studio Pro",
       "is_available": true
@@ -86,8 +94,8 @@
         "Updated 3D Viewport Header icon for intuitive feedback",
         "Instant license link synchronization with MT_Hub Master"
       ],
-      "tutorial_url": "https://www.youtube.com/@minhtuan3d",
-      "buy_url": "https://minhtuan.gumroad.com/l/mt_smartgroup",
+      "tutorial_url": "",
+      "buy_url": "",
       "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_SmartGroup.zip",
       "n_panel_tab": "MT_SmartGroup",
       "is_available": true
