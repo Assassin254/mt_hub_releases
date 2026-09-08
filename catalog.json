@@ -8,17 +8,37 @@
       "module_name": "MT_PBR_Studio",
       "name": "MT_PBR Studio Pro",
       "icon": "MATERIAL",
-      "version": "v3.11.0",
-      "version_tuple": [3, 11, 0],
+      "version": "v3.12.0",
+      "version_tuple": [3, 12, 0],
       "desc_lines": [
+        "⚡ Tạo trọn bộ Maps PBR (Normal, Bump, Rough, AO) 1-Click",
+        "⛰️ Nổi khối Hybrid 3D & Bắt sáng Vải/Da (Sheen) khử bóng nhựa",
+        "🌐 Song ngữ Tiếng Việt & English toàn diện 100%",
         "Bút hút vật liệu Eyedropper hút trọn bộ (Maps + Modifiers)",
         "Chống treo máy & HDRI siêu nhẹ Viewport",
-        "Lọc mặt đứng Dirt tự động & 48 vật liệu chuẩn PBR"
+        "Tạo vệt bẩn ở khu vực giao hình khối & 50 vật liệu chuẩn PBR"
       ],
-      "price": "450.000đ ($22)",
+      "price": "300.000đ ($24)",
+      "price_vi": "300.000đ",
+      "price_en": "$24",
+      "update_recommend": true,
+      "update_notice": "Đã có bản cập nhật v3.12.0: Bổ sung Preset Đá Xuyên Sáng (Backlit Onyx), tinh chỉnh Alpha Dirt và tối ưu hiệu năng! Khuyến nghị cập nhật ngay.",
+      "update_notice_en": "Update v3.12.0 is out with Backlit Onyx Stone preset, Alpha Dirt controls and performance optimizations! Recommended to update.",
+      "changelog": [
+        "💎 Bổ sung Preset Đá Xuyên Sáng (Backlit Translucent Stone) quầy bar & vách tivi",
+        "🎯 Thêm thanh trượt chỉnh Brightness / Contrast cho Alpha Dirt & Scratches",
+        "⚡ Tối ưu hóa hiệu năng render và tương thích Blender 5.x",
+        "🚀 Bổ sung tab MT_Hub quản lý bản quyền và cập nhật 1-Click"
+      ],
+      "changelog_en": [
+        "💎 Added Backlit Translucent Stone / Onyx preset for bars & feature walls",
+        "🎯 Added Brightness & Contrast controls for Alpha Dirt & Surface Imperfections",
+        "⚡ Optimized render performance & Blender 5.x compatibility",
+        "🚀 Integrated MT_Hub 1-Click update and license manager tab"
+      ],
       "tutorial_url": "https://www.youtube.com/@minhtuan3d",
       "buy_url": "https://minhtuan.gumroad.com/l/mt_pbr_studio",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.11.0/MT_PBR_Studio.zip",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_PBR_Studio.zip",
       "n_panel_tab": "MT_PBR Studio Pro",
       "is_available": true
     }
