@@ -1,14 +1,18 @@
 {
-  "hub_version": "1.0.0",
-  "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v1.0.0/MT_Hub.zip",
-  "hub_update_notice": "Đã có bản cập nhật mới cho MT_Hub Master: Hỗ trợ tự động nâng cấp 1-Click!",
-  "hub_update_notice_en": "New update available for MT_Hub Master: 1-Click self-update support!",
+  "hub_version": "1.1.0",
+  "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Hub.zip",
+  "hub_update_notice": "Đã có bản cập nhật mới MT_Hub Master v1.1.0: Hỗ trợ tự động nâng cấp 1-Click và tích hợp cẩm nang PDF song ngữ!",
+  "hub_update_notice_en": "New update available for MT_Hub Master v1.1.0: 1-Click self-update support and bilingual PDF manuals!",
   "hub_changelog": [
     "Hỗ trợ tự động cập nhật chính mình 1-Click từ máy chủ đám mây",
+    "Tích hợp trọn bộ cẩm nang hướng dẫn sử dụng PDF song ngữ Việt - Anh",
+    "Đồng bộ hóa ngôn ngữ thời gian thực với các add-on con",
     "Tự động nạp lại add-on mà không cần gỡ ra cài lại hoặc khởi động lại Blender"
   ],
   "hub_changelog_en": [
-    "1-Click self-update for MT_Hub directly from GitHub cloud releases",
+    "1-Click self-update for MT_Hub directly from GitHub cloud releases without reinstalling",
+    "Integrated comprehensive bilingual (Vietnamese - English) PDF user manuals",
+    "Real-time language synchronization with child add-ons",
     "Hot-reload add-on in Blender without uninstalling or restarting"
   ],
   "updated_at": "2026-09-08 10:00:00",
