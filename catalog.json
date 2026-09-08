@@ -58,8 +58,8 @@
       "module_name": "MT_SmartGroup",
       "name": "MT_SmartGroup Pro",
       "icon": "OUTLINER_COLLECTION",
-      "version": "v1.0.0",
-      "version_tuple": [1, 0, 0],
+      "version": "v1.1.0",
+      "version_tuple": [1, 1, 0],
       "desc_lines": [
         "⚡ Đồng bộ 1-Click trạng thái ẩn/hiện mọi Tab & Workspace",
         "🚪 Thoát kẹt Local View (phím /) chống thất lạc đối tượng",
@@ -77,20 +77,20 @@
       "price": "150.000đ ($12)",
       "price_vi": "150.000đ",
       "price_en": "$12",
-      "update_recommend": false,
-      "update_notice": "Phiên bản khởi tạo v1.0.0 chính thức phát hành!",
-      "update_notice_en": "Official release v1.0.0 launched!",
+      "update_recommend": true,
+      "update_notice": "Đã có bản cập nhật v1.1.0: Nâng cấp hiệu năng đồng bộ khung nhìn và giao diện. Khuyến nghị cập nhật ngay!",
+      "update_notice_en": "Update v1.1.0 is available: Optimized viewport synchronization and interface upgrades. Recommended to update!",
       "changelog": [
-        "Đồng bộ hóa khung nhìn và trạng thái ẩn hiện giữa các Tab/Workspace",
-        "Tự động giải phóng các viewport bị kẹt Local View",
-        "Tích hợp nút thao tác nhanh trên Header 3D Viewport",
-        "Liên kết hệ sinh thái điều hành MT_Hub Master"
+        "Tối ưu hóa hiệu năng đồng bộ Viewport trên các file dự án lớn",
+        "Nâng cấp độ mượt và tự động thoát kẹt Local View",
+        "Cập nhật icon Header FILE_REFRESH trực quan",
+        "Đồng bộ liên kết bản quyền tức thì với MT_Hub Master"
       ],
       "changelog_en": [
-        "Synchronize visible/hidden states across all Tabs and Workspaces",
-        "Auto-escape viewport trapped in Local View",
-        "Quick action button integrated on 3D Viewport Header",
-        "Integrated into MT_Hub Master ecosystem"
+        "Optimized viewport synchronization performance on large project files",
+        "Enhanced auto-escape for trapped Local Views",
+        "Updated 3D Viewport Header icon for intuitive feedback",
+        "Instant license link synchronization with MT_Hub Master"
       ],
       "tutorial_url": "https://www.youtube.com/@minhtuan3d",
       "buy_url": "https://minhtuan.gumroad.com/l/mt_smartgroup",
