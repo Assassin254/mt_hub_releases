@@ -61,22 +61,14 @@
       "version": "v1.1.0",
       "version_tuple": [1, 1, 0],
       "desc_lines": [
-        "⚡ Đồng bộ 1-Click trạng thái ẩn/hiện mọi Tab & Workspace",
-        "🚪 Thoát kẹt Local View (phím /) chống thất lạc đối tượng",
-        "👁️ Phục hồi & Hiện lại 100% đối tượng và Collection toàn file",
-        "🔄 Nút bấm nhanh Sync Views trực tiếp trên đỉnh Header 3D Viewport",
-        "📦 Quản lý Nhóm Smart Group (Lộ trình: Bounding Box & Group 3ds Max)"
+        "Đang trong giai đoạn phát triển (Sẽ cập nhật sớm)..."
       ],
       "desc_lines_en": [
-        "⚡ 1-Click Sync visible/hidden state across all Workspaces & Tabs",
-        "🚪 Auto-escape trapped Local Views (/) preventing lost objects",
-        "👁️ Master Unhide & restore 100% objects and collections in the file",
-        "🔄 Quick 'Sync Views' header button right inside 3D Viewport",
-        "📦 Smart Grouping Management (Roadmap: Bounding Box & 3ds Max Group)"
+        "Currently under development (Will be updated soon)..."
       ],
-      "price": "150.000đ ($12)",
-      "price_vi": "150.000đ",
-      "price_en": "$12",
+      "price": "0đ ($0)",
+      "price_vi": "0đ",
+      "price_en": "$0",
       "update_recommend": true,
       "update_notice": "Đã có bản cập nhật v1.1.0: Nâng cấp hiệu năng đồng bộ khung nhìn và giao diện. Khuyến nghị cập nhật ngay!",
       "update_notice_en": "Update v1.1.0 is available: Optimized viewport synchronization and interface upgrades. Recommended to update!",
