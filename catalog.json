@@ -61,7 +61,10 @@
         "⚡ Optimized render performance & Blender 5.x compatibility",
         "🚀 Optimized standalone workspace with direct MT_Hub Master link"
       ],
-      "tutorial_url": "",
+      "tutorial_url": "https://assassin254.github.io/mt-studio-docs/",
+      "tutorial_url_en": "https://assassin254.github.io/mt-studio-docs/en.html",
+      "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
+      "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
       "buy_url": "",
       "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_PBR_Studio.zip",
       "n_panel_tab": "MT_PBR Studio Pro",
