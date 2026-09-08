@@ -36,12 +36,14 @@
       "update_notice": "Đã có bản cập nhật v3.12.0: Bổ sung Preset Đá Xuyên Sáng (Backlit Onyx), tinh chỉnh Alpha Dirt và tối ưu hiệu năng! Khuyến nghị cập nhật ngay.",
       "update_notice_en": "Update v3.12.0 is out with Backlit Onyx Stone preset, Alpha Dirt controls and performance optimizations! Recommended to update.",
       "changelog": [
+        "🌐 Tự động đồng bộ ngôn ngữ (Tiếng Việt / English) tức thì với MT_Hub Master",
         "💎 Bổ sung Preset Đá Xuyên Sáng (Backlit Translucent Stone) quầy bar & vách tivi",
         "🎯 Thêm thanh trượt chỉnh Brightness / Contrast cho Alpha Dirt & Scratches",
         "⚡ Tối ưu hóa hiệu năng render và tương thích Blender 5.x",
         "🚀 Bổ sung tab MT_Hub quản lý bản quyền và cập nhật 1-Click"
       ],
       "changelog_en": [
+        "🌐 Real-time automatic language synchronization with MT_Hub Master",
         "💎 Added Backlit Translucent Stone / Onyx preset for bars & feature walls",
         "🎯 Added Brightness & Contrast controls for Alpha Dirt & Surface Imperfections",
         "⚡ Optimized render performance & Blender 5.x compatibility",
