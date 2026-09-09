@@ -1,22 +1,20 @@
-{
+﻿{
   "hub_version": "1.1.1",
-  "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Hub.zip",
-  "hub_update_notice": "Đã có bản cập nhật mới MT_Hub Master v1.1.1: Tự động kết nối cổng cẩm nang trực tuyến GitHub Pages trên trình duyệt cho mọi thiết bị!",
-  "hub_update_notice_en": "New update available for MT_Hub Master v1.1.1: Auto-connect to live GitHub Pages online documentation across all devices!",
+  "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v1.1.1/MT_Hub.zip",
+  "hub_update_notice": "",
+  "hub_update_notice_en": "",
   "hub_changelog": [
-    "Tự động mở cẩm nang trực tuyến trên trình duyệt (không phụ thuộc file máy cục bộ)",
-    "Hỗ trợ xem hướng dẫn online từ bất kỳ máy tính nào",
-    "Đồng bộ hóa ngôn ngữ thời gian thực với các add-on con",
-    "Hỗ trợ tự động cập nhật chính mình 1-Click từ máy chủ đám mây"
+    "Them o nhap ma kich hoat truc tiep tren panel",
+    "Sua loi hien thi phien ban v1.0.0 sai",
+    "Gui don hang real-time len MT_Admin Dashboard",
+    "Sua loi mo tab trinh duyet khi gui don"
   ],
   "hub_changelog_en": [
-    "Auto-connect to live online documentation in browser (zero local file dependency)",
-    "Support viewing online guides from any computer seamlessly",
-    "Real-time language synchronization with child add-ons",
-    "1-Click self-update for MT_Hub directly from GitHub cloud releases"
+    "Added direct activation key input field on panel",
+    "Fixed incorrect v1.0.0 version display",
+    "Real-time order push to MT_Admin Dashboard",
+    "Fixed browser tab opening bug when submitting orders"
   ],
-  "updated_at": "2026-09-09 07:10:00",
-  "announcement": "Chào mừng bạn đến với Hệ Sinh Thái Add-on MT_Hub!",
   "products": [
     {
       "code": "MT_PBR_Studio",
@@ -26,49 +24,53 @@
       "version": "v3.12.1",
       "version_tuple": [3, 12, 1],
       "desc_lines": [
-        "⚡ Tạo trọn bộ Maps PBR (Normal, Bump, Rough, AO) 1-Click",
-        "⛰️ Nổi khối Hybrid 3D & Bắt sáng Vải/Da (Sheen) khử bóng nhựa",
-        "🌐 Song ngữ Tiếng Việt & English toàn diện 100%",
-        "Bút hút vật liệu Eyedropper hút trọn bộ (Maps + Modifiers)",
-        "Chống treo máy & HDRI siêu nhẹ Viewport",
-        "Tạo vệt bẩn ở khu vực giao hình khối & 50 vật liệu chuẩn PBR"
+        "Kho 50 Preset Vat Lieu PBR Dinh Cao (10 Ho Vat Lieu Chuan Kien Truc)",
+        "Tu dong tao PBR Maps (Normal, Bump, Rough, AO) 1-Click tu anh mau",
+        "Noi khoi Hybrid 3D Relief & Bat sang Vai & Da (Sheen) khu hoan toan bong nhua",
+        "Can van go thong minh theo tho & Chieu UV Box Mapping tu dong",
+        "Nuoc 3D Procedural & Song bien bot trang thoi gian thuc",
+        "Vet xuoc & Bui ban voi Gizmo di chuyen/xoay truc quan trong Viewport",
+        "Tao vet ban o khu vuc giao hinh khoi (Dirt/AO) toan bo cong trinh",
+        "But hut Eyedropper sao chep tron bo (Maps + Modifiers + Cai dat)",
+        "Studio HDRI xoay goc sang & Viewport sieu nhe tiet kiem 99% VRAM",
+        "Tu dong dong goi & Export toan bo texture chong mat file"
       ],
       "desc_lines_en": [
-        "⚡ 1-Click Complete PBR Maps Generator (Normal, Bump, Rough, AO)",
-        "⛰️ Hybrid 3D Relief & Fabric/Leather Micro-Sheen (zero plastic shine)",
-        "🌐 Full 100% Bilingual Support (Tiếng Việt & English)",
+        "50 Advanced Architectural PBR Material Presets (10 Families)",
+        "1-Click PBR Maps (Normal, Bump, Rough, AO) from Color Image",
+        "Hybrid 3D Relief & Fabric/Leather Micro-Sheen (zero synthetic shine)",
+        "Smart Wood Grain Alignment & Automatic Triplanar Box Mapping",
+        "Procedural 3D Water & Real-time Ocean Foam Waves",
+        "Surface Imperfections & Scratches with Interactive Viewport Gizmo",
+        "Geometric Intersection Crevice & Corner Grime (Dirt/AO)",
         "Eyedropper Material Cloner (Maps + Modifiers + Settings)",
-        "Anti-Freeze HDRI Studio & Lightweight Viewport Mode",
-        "Geometric Intersection Dirt/AO & 50 Architecture PBR Presets"
+        "Studio HDRI Rotation & Lightweight Viewport Saving 99% VRAM",
+        "Auto Collect & Package Complete Textures for Render Farms"
       ],
-      "price": "300.000đ ($24)",
-      "price_vi": "300.000đ",
+      "price": "300.000d ($24)",
+      "price_vi": "300.000d",
       "price_en": "$24",
       "update_recommend": true,
-      "update_notice": "Đã có bản cập nhật v3.12.1: Tự động mở cẩm nang trực tuyến GitHub Pages trên trình duyệt mọi máy tính! Khuyến nghị cập nhật ngay.",
-      "update_notice_en": "Update v3.12.1 is out: Auto-connect to live GitHub Pages online documentation in browser! Recommended to update.",
+      "update_notice": "Tac gia khuyen nghi cap nhat len phien ban moi nhat de toi uu hieu nang va sua loi!",
+      "update_notice_en": "Recommended to update to the latest version for performance optimization and bug fixes!",
       "changelog": [
-        "🌐 Tự động mở cẩm nang trực tuyến trên trình duyệt (không phụ thuộc file máy cục bộ)",
-        "🌐 Tự động đồng bộ ngôn ngữ (Tiếng Việt / English) tức thì với MT_Hub Master",
-        "💎 Bổ sung Preset Đá Xuyên Sáng (Backlit Translucent Stone) quầy bar & vách tivi",
-        "🎯 Thêm thanh trượt chỉnh Brightness / Contrast cho Alpha Dirt & Scratches",
-        "⚡ Tối ưu hóa hiệu năng render và tương thích Blender 5.x",
-        "🚀 Tối ưu hóa không gian làm việc độc lập, kết nối MT_Hub Master"
+        "Toi uu hoa toc do tao PBR maps 1-Click",
+        "Khu hoan toan bong nhua vai sofa voi cong nghe Micro-Sheen",
+        "Tao vet ban o khu vuc giao hinh khoi Dirt/AO dong bo toan cong trinh",
+        "Lien ket truc tiep voi tram dieu hanh MT_Hub Master"
       ],
       "changelog_en": [
-        "🌐 Auto-connect to live online documentation in browser (zero local file dependency)",
-        "🌐 Real-time automatic language synchronization with MT_Hub Master",
-        "💎 Added Backlit Translucent Stone / Onyx preset for bars & feature walls",
-        "🎯 Added Brightness & Contrast controls for Alpha Dirt & Surface Imperfections",
-        "⚡ Optimized render performance & Blender 5.x compatibility",
-        "🚀 Optimized standalone workspace with direct MT_Hub Master link"
+        "Optimized 1-Click PBR map generation speed",
+        "Zero synthetic plastic reflection on sofas with Micro-Sheen",
+        "Crevice & corner Dirt/AO generator at geometric intersections",
+        "Direct link with MT_Hub Master ecosystem"
       ],
       "tutorial_url": "https://assassin254.github.io/mt-studio-docs/",
       "tutorial_url_en": "https://assassin254.github.io/mt-studio-docs/en.html",
       "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
       "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
       "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_PBR_Studio.zip",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v1.1.1/MT_PBR_Studio.zip",
       "n_panel_tab": "MT_PBR Studio Pro",
       "is_available": true
     },
@@ -77,35 +79,21 @@
       "module_name": "MT_SmartGroup",
       "name": "MT_SmartGroup Pro",
       "icon": "OUTLINER_COLLECTION",
-      "version": "v1.1.0",
-      "version_tuple": [1, 1, 0],
-      "desc_lines": [
-        "Đang trong giai đoạn phát triển (Sẽ cập nhật sớm)..."
-      ],
-      "desc_lines_en": [
-        "Currently under development (Will be updated soon)..."
-      ],
-      "price": "0đ ($0)",
-      "price_vi": "0đ",
+      "version": "v1.0.0",
+      "version_tuple": [1, 0, 0],
+      "desc_lines": ["Dang trong giai doan phat trien (Se cap nhat som)..."],
+      "desc_lines_en": ["Currently under development (Will be updated soon)..."],
+      "price": "0d ($0)",
+      "price_vi": "0d",
       "price_en": "$0",
-      "update_recommend": true,
-      "update_notice": "Đã có bản cập nhật v1.1.0: Nâng cấp hiệu năng đồng bộ khung nhìn và giao diện. Khuyến nghị cập nhật ngay!",
-      "update_notice_en": "Update v1.1.0 is available: Optimized viewport synchronization and interface upgrades. Recommended to update!",
-      "changelog": [
-        "Tối ưu hóa hiệu năng đồng bộ Viewport trên các file dự án lớn",
-        "Nâng cấp độ mượt và tự động thoát kẹt Local View",
-        "Cập nhật icon Header FILE_REFRESH trực quan",
-        "Đồng bộ liên kết bản quyền tức thì với MT_Hub Master"
-      ],
-      "changelog_en": [
-        "Optimized viewport synchronization performance on large project files",
-        "Enhanced auto-escape for trapped Local Views",
-        "Updated 3D Viewport Header icon for intuitive feedback",
-        "Instant license link synchronization with MT_Hub Master"
-      ],
+      "update_recommend": false,
+      "update_notice": "Phien ban khoi tao v1.0.0 chinh thuc phat hanh!",
+      "update_notice_en": "Official release v1.0.0 launched!",
+      "changelog": [],
+      "changelog_en": [],
       "tutorial_url": "",
       "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_SmartGroup.zip",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v1.1.1/MT_SmartGroup.zip",
       "n_panel_tab": "MT_SmartGroup",
       "is_available": true
     }
