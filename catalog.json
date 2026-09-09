@@ -1,21 +1,21 @@
 {
-  "hub_version": "1.1.0",
+  "hub_version": "1.1.1",
   "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Hub.zip",
-  "hub_update_notice": "Đã có bản cập nhật mới MT_Hub Master v1.1.0: Hỗ trợ tự động nâng cấp 1-Click và tích hợp cẩm nang PDF song ngữ!",
-  "hub_update_notice_en": "New update available for MT_Hub Master v1.1.0: 1-Click self-update support and bilingual PDF manuals!",
+  "hub_update_notice": "Đã có bản cập nhật mới MT_Hub Master v1.1.1: Tự động kết nối cổng cẩm nang trực tuyến GitHub Pages trên trình duyệt cho mọi thiết bị!",
+  "hub_update_notice_en": "New update available for MT_Hub Master v1.1.1: Auto-connect to live GitHub Pages online documentation across all devices!",
   "hub_changelog": [
-    "Hỗ trợ tự động cập nhật chính mình 1-Click từ máy chủ đám mây",
-    "Tích hợp trọn bộ cẩm nang hướng dẫn sử dụng PDF song ngữ Việt - Anh",
+    "Tự động mở cẩm nang trực tuyến trên trình duyệt (không phụ thuộc file máy cục bộ)",
+    "Hỗ trợ xem hướng dẫn online từ bất kỳ máy tính nào",
     "Đồng bộ hóa ngôn ngữ thời gian thực với các add-on con",
-    "Tự động nạp lại add-on mà không cần gỡ ra cài lại hoặc khởi động lại Blender"
+    "Hỗ trợ tự động cập nhật chính mình 1-Click từ máy chủ đám mây"
   ],
   "hub_changelog_en": [
-    "1-Click self-update for MT_Hub directly from GitHub cloud releases without reinstalling",
-    "Integrated comprehensive bilingual (Vietnamese - English) PDF user manuals",
+    "Auto-connect to live online documentation in browser (zero local file dependency)",
+    "Support viewing online guides from any computer seamlessly",
     "Real-time language synchronization with child add-ons",
-    "Hot-reload add-on in Blender without uninstalling or restarting"
+    "1-Click self-update for MT_Hub directly from GitHub cloud releases"
   ],
-  "updated_at": "2026-09-08 10:00:00",
+  "updated_at": "2026-09-09 07:10:00",
   "announcement": "Chào mừng bạn đến với Hệ Sinh Thái Add-on MT_Hub!",
   "products": [
     {
@@ -23,8 +23,8 @@
       "module_name": "MT_PBR_Studio",
       "name": "MT_PBR Studio Pro",
       "icon": "MATERIAL",
-      "version": "v3.12.0",
-      "version_tuple": [3, 12, 0],
+      "version": "v3.12.1",
+      "version_tuple": [3, 12, 1],
       "desc_lines": [
         "⚡ Tạo trọn bộ Maps PBR (Normal, Bump, Rough, AO) 1-Click",
         "⛰️ Nổi khối Hybrid 3D & Bắt sáng Vải/Da (Sheen) khử bóng nhựa",
@@ -45,9 +45,10 @@
       "price_vi": "300.000đ",
       "price_en": "$24",
       "update_recommend": true,
-      "update_notice": "Đã có bản cập nhật v3.12.0: Bổ sung Preset Đá Xuyên Sáng (Backlit Onyx), tinh chỉnh Alpha Dirt và tối ưu hiệu năng! Khuyến nghị cập nhật ngay.",
-      "update_notice_en": "Update v3.12.0 is out with Backlit Onyx Stone preset, Alpha Dirt controls and performance optimizations! Recommended to update.",
+      "update_notice": "Đã có bản cập nhật v3.12.1: Tự động mở cẩm nang trực tuyến GitHub Pages trên trình duyệt mọi máy tính! Khuyến nghị cập nhật ngay.",
+      "update_notice_en": "Update v3.12.1 is out: Auto-connect to live GitHub Pages online documentation in browser! Recommended to update.",
       "changelog": [
+        "🌐 Tự động mở cẩm nang trực tuyến trên trình duyệt (không phụ thuộc file máy cục bộ)",
         "🌐 Tự động đồng bộ ngôn ngữ (Tiếng Việt / English) tức thì với MT_Hub Master",
         "💎 Bổ sung Preset Đá Xuyên Sáng (Backlit Translucent Stone) quầy bar & vách tivi",
         "🎯 Thêm thanh trượt chỉnh Brightness / Contrast cho Alpha Dirt & Scratches",
@@ -55,6 +56,7 @@
         "🚀 Tối ưu hóa không gian làm việc độc lập, kết nối MT_Hub Master"
       ],
       "changelog_en": [
+        "🌐 Auto-connect to live online documentation in browser (zero local file dependency)",
         "🌐 Real-time automatic language synchronization with MT_Hub Master",
         "💎 Added Backlit Translucent Stone / Onyx preset for bars & feature walls",
         "🎯 Added Brightness & Contrast controls for Alpha Dirt & Surface Imperfections",
