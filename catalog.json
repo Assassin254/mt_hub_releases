@@ -1,15 +1,17 @@
-﻿{
-  "hub_version": "1.1.1",
+{
+  "hub_version": "1.1.2",
   "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v1.1.1/MT_Hub.zip",
   "hub_update_notice": "",
   "hub_update_notice_en": "",
   "hub_changelog": [
+    "Tự động ẩn tab đơn hàng chờ sau khi khách đã kích hoạt bản quyền thành công",
     "Them o nhap ma kich hoat truc tiep tren panel",
     "Sua loi hien thi phien ban v1.0.0 sai",
     "Gui don hang real-time len MT_Admin Dashboard",
     "Sua loi mo tab trinh duyet khi gui don"
   ],
   "hub_changelog_en": [
+    "Auto hide pending order tab after successful license activation",
     "Added direct activation key input field on panel",
     "Fixed incorrect v1.0.0 version display",
     "Real-time order push to MT_Admin Dashboard",
@@ -22,7 +24,11 @@
       "name": "MT_PBR Studio Pro",
       "icon": "MATERIAL",
       "version": "v3.12.1",
-      "version_tuple": [3, 12, 1],
+      "version_tuple": [
+        3,
+        12,
+        1
+      ],
       "desc_lines": [
         "Kho 50 Preset Vat Lieu PBR Dinh Cao (10 Ho Vat Lieu Chuan Kien Truc)",
         "Tu dong tao PBR Maps (Normal, Bump, Rough, AO) 1-Click tu anh mau",
@@ -80,9 +86,17 @@
       "name": "MT_SmartGroup Pro",
       "icon": "OUTLINER_COLLECTION",
       "version": "v1.0.0",
-      "version_tuple": [1, 0, 0],
-      "desc_lines": ["Dang trong giai doan phat trien (Se cap nhat som)..."],
-      "desc_lines_en": ["Currently under development (Will be updated soon)..."],
+      "version_tuple": [
+        1,
+        0,
+        0
+      ],
+      "desc_lines": [
+        "Dang trong giai doan phat trien (Se cap nhat som)..."
+      ],
+      "desc_lines_en": [
+        "Currently under development (Will be updated soon)..."
+      ],
       "price": "0d ($0)",
       "price_vi": "0d",
       "price_en": "$0",
