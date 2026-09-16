@@ -1,9 +1,10 @@
 {
-  "hub_version": "1.1.2",
+  "hub_version": "1.1.3",
   "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v1.1.1/MT_Hub.zip",
   "hub_update_notice": "",
   "hub_update_notice_en": "",
   "hub_changelog": [
+    "Tối ưu hóa hiệu năng, loại bỏ hoàn toàn giật lag khi dùng bảng điều khiển",
     "Tự động ẩn tab đơn hàng chờ sau khi khách đã kích hoạt bản quyền thành công",
     "Them o nhap ma kich hoat truc tiep tren panel",
     "Sua loi hien thi phien ban v1.0.0 sai",
@@ -11,6 +12,7 @@
     "Sua loi mo tab trinh duyet khi gui don"
   ],
   "hub_changelog_en": [
+    "Performance optimizations: completely eliminated panel lag and stuttering",
     "Auto hide pending order tab after successful license activation",
     "Added direct activation key input field on panel",
     "Fixed incorrect v1.0.0 version display",
