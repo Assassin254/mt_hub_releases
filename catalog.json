@@ -6,10 +6,10 @@
     "hub_changelog": [
         "Tối ưu hóa hiệu năng, loại bỏ hoàn toàn giật lag khi dùng bảng điều khiển",
         "Tự động ẩn tab đơn hàng chờ sau khi khách đã kích hoạt bản quyền thành công",
-        "Them o nhap ma kich hoat truc tiep tren panel",
-        "Sua loi hien thi phien ban v1.0.0 sai",
-        "Gui don hang real-time len MT_Admin Dashboard",
-        "Sua loi mo tab trinh duyet khi gui don"
+        "Thêm ô nhập mã kích hoạt trực tiếp trên panel",
+        "Sửa lỗi hiển thị phiên bản v1.0.0 sai",
+        "Gửi đơn hàng real-time lên MT_Admin Dashboard",
+        "Sửa lỗi mở tab trình duyệt khi gửi đơn"
     ],
     "hub_changelog_en": [
         "Performance optimizations: completely eliminated panel lag and stuttering",
@@ -32,42 +32,42 @@
                 2
             ],
             "desc_lines": [
-                "Kho 50 Preset Vat Lieu PBR Dinh Cao (10 Ho Vat Lieu Chuan Kien Truc)",
-                "Tu dong tao PBR Maps (Normal, Bump, Rough, AO) 1-Click tu anh mau",
-                "Noi khoi Hybrid 3D Relief & Bat sang Vai & Da (Sheen) khu hoan toan bong nhua",
-                "Can van go thong minh theo tho & Chieu UV Box Mapping tu dong",
-                "Nuoc 3D Procedural & Song bien bot trang thoi gian thuc",
-                "Vet xuoc & Bui ban voi Gizmo di chuyen/xoay truc quan trong Viewport",
-                "Tao vet ban o khu vuc giao hinh khoi (Dirt/AO) toan bo cong trinh",
-                "But hut Eyedropper sao chep tron bo (Maps + Modifiers + Cai dat)",
-                "Studio HDRI xoay goc sang & Viewport sieu nhe tiet kiem 99% VRAM",
-                "Tu dong dong goi & Export toan bo texture chong mat file"
+                "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
+                "✨ Tự động tạo PBR Maps (Normal, Bump, Rough, AO) 1-Click từ ảnh màu",
+                "⛰️ Nổi khối Hybrid 3D Relief & Bắt sáng Vải & Da (Sheen) khử hoàn toàn bóng nhựa",
+                "🪵 Căn vân gỗ thông minh theo thớ & Chiếu UV Box Mapping tự động",
+                "🌊 Nước 3D Procedural & Sóng biển bọt trắng thời gian thực",
+                "🎯 Vết xước & Bụi bẩn với Gizmo di chuyển/xoay trực quan trong Viewport",
+                "🏛️ Tạo vệt bẩn ở khu vực giao hình khối (Dirt/AO) toàn bộ công trình",
+                "🖌️ Bút hút Eyedropper sao chép trọn bộ (Maps + Modifiers + Cài đặt)",
+                "🌅 Studio HDRI xoay góc sáng & Viewport siêu nhẹ tiết kiệm 99% VRAM",
+                "📦 Tự động đóng gói & Export toàn bộ texture chống mất file"
             ],
             "desc_lines_en": [
-                "50 Advanced Architectural PBR Material Presets (10 Families)",
-                "1-Click PBR Maps (Normal, Bump, Rough, AO) from Color Image",
-                "Hybrid 3D Relief & Fabric/Leather Micro-Sheen (zero synthetic shine)",
-                "Smart Wood Grain Alignment & Automatic Triplanar Box Mapping",
-                "Procedural 3D Water & Real-time Ocean Foam Waves",
-                "Surface Imperfections & Scratches with Interactive Viewport Gizmo",
-                "Geometric Intersection Crevice & Corner Grime (Dirt/AO)",
-                "Eyedropper Material Cloner (Maps + Modifiers + Settings)",
-                "Studio HDRI Rotation & Lightweight Viewport Saving 99% VRAM",
-                "Auto Collect & Package Complete Textures for Render Farms"
+                "⚡ 50 Advanced Architectural PBR Material Presets (10 Families)",
+                "✨ 1-Click PBR Maps (Normal, Bump, Rough, AO) from Color Image",
+                "⛰️ Hybrid 3D Relief & Fabric/Leather Micro-Sheen (zero synthetic shine)",
+                "🪵 Smart Wood Grain Alignment & Automatic Triplanar Box Mapping",
+                "🌊 Procedural 3D Water & Real-time Ocean Foam Waves",
+                "🎯 Surface Imperfections & Scratches with Interactive Viewport Gizmo",
+                "🏛️ Geometric Intersection Crevice & Corner Grime (Dirt/AO)",
+                "🖌️ Eyedropper Material Cloner (Maps + Modifiers + Settings)",
+                "🌅 Studio HDRI Rotation & Lightweight Viewport Saving 99% VRAM",
+                "📦 Auto Collect & Package Complete Textures for Render Farms"
             ],
-            "price": "300.000d ($24)",
-            "price_vi": "300.000d",
-            "price_en": "$24",
+            "price": "300.000đ ()",
+            "price_vi": "300.000đ",
+            "price_en": "",
             "update_recommend": true,
             "update_notice": "Tác giả khuyến nghị cập nhật lên phiên bản v3.12.2 để sửa lỗi vật liệu ngoại lai.",
             "update_notice_en": "Recommended to update to v3.12.2 for fixing third-party material issues.",
             "changelog": [
                 "Sửa lỗi mất màu/texture gốc khi bật tắt Dirt AO",
                 "Sửa lỗi UnboundLocalError khi vẽ UI ngôn ngữ Tiếng Anh",
-                "Toi uu hoa toc do tao PBR maps 1-Click",
-                "Khu hoan toan bong nhua vai sofa voi cong nghe Micro-Sheen",
-                "Tao vet ban o khu vuc giao hinh khoi Dirt/AO dong bo toan cong trinh",
-                "Lien ket truc tiep voi tram dieu hanh MT_Hub Master"
+                "Tối ưu hóa tốc độ tạo PBR maps 1-Click",
+                "Khử hoàn toàn bóng nhựa vải sofa với công nghệ Micro-Sheen",
+                "Tạo vệt bẩn ở khu vực giao hình khối Dirt/AO đồng bộ toàn công trình",
+                "Liên kết trực tiếp với trạm điều hành MT_Hub Master"
             ],
             "changelog_en": [
                 "Fixed loss of original colors/textures when toggling Dirt AO",
@@ -89,31 +89,39 @@
         {
             "code": "MT_SmartGroup",
             "module_name": "MT_SmartGroup",
-            "name": "MT_SmartGroup Pro",
-            "icon": "OUTLINER_COLLECTION",
-            "version": "v1.0.0",
+            "name": "MT SmartGroup",
+            "icon": "GROUP",
+            "version": "v1.1.0",
             "version_tuple": [
                 1,
-                0,
+                1,
                 0
             ],
             "desc_lines": [
-                "Dang trong giai doan phat trien (Se cap nhat som)..."
+                "📦 Gom nhóm toàn bộ object như 3ds Max / SketchUp",
+                "🚀 Mở / Đóng / Chỉnh sửa trực tiếp không rã Group",
+                "✨ Group lồng Group (Nested Groups) đa cấp độ"
             ],
             "desc_lines_en": [
-                "Currently under development (Will be updated soon)..."
+                "📦 Group objects exactly like 3ds Max / SketchUp",
+                "🚀 Open / Close / Edit directly without ungrouping",
+                "✨ Multi-level Nested Groups support"
             ],
-            "price": "0d ($0)",
-            "price_vi": "0d",
-            "price_en": "$0",
+            "price": "MIỄN PHÍ",
+            "price_vi": "MIỄN PHÍ",
+            "price_en": "FREE",
             "update_recommend": false,
-            "update_notice": "Phien ban khoi tao v1.0.0 chinh thuc phat hanh!",
-            "update_notice_en": "Official release v1.0.0 launched!",
-            "changelog": [],
-            "changelog_en": [],
+            "update_notice": "",
+            "update_notice_en": "",
+            "changelog": [
+                "Phát hành bản Alpha 1.1.0"
+            ],
+            "changelog_en": [
+                "Alpha release 1.1.0"
+            ],
             "tutorial_url": "",
             "buy_url": "",
-            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_SmartGroup.zip",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.2/MT_SmartGroup.zip",
             "n_panel_tab": "MT_SmartGroup",
             "is_available": true
         }
