@@ -1,163 +1,167 @@
 {
-  "hub_version": "1.1.5",
-  "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Hub.zip",
-  "hub_update_notice": "",
-  "hub_update_notice_en": "",
-  "hub_changelog": [
-    "Cập nhật xong tự động ẩn banner thông báo lập tức thay vì đợi 10 giây",
-    "Ra mắt add-on mới: MT_Camera - Quản lý máy ảnh chuyên nghiệp",
-    "Tối ưu hóa hiệu năng, loại bỏ hoàn toàn giật lag khi dùng bảng điều khiển",
-    "Tự động ẩn tab đơn hàng chờ sau khi khách đã kích hoạt bản quyền thành công",
-    "Thêm ô nhập mã kích hoạt trực tiếp trên panel",
-    "Sửa lỗi hiển thị phiên bản v1.0.0 sai",
-    "Gửi đơn hàng real-time lên MT_Admin Dashboard",
-    "Sửa lỗi mở tab trình duyệt khi gửi đơn"
-  ],
-  "hub_changelog_en": [
-    "New add-on launch: MT_Camera - Professional camera management",
-    "Performance optimizations: completely eliminated panel lag and stuttering",
-    "Auto hide pending order tab after successful license activation",
-    "Added direct activation key input field on panel",
-    "Fixed incorrect v1.0.0 version display",
-    "Real-time order push to MT_Admin Dashboard",
-    "Fixed browser tab opening bug when submitting orders"
-  ],
-  "products": [
-    {
-      "code": "MT_PBR_Studio",
-      "module_name": "MT_PBR_Studio",
-      "name": "MT_PBR Studio Pro",
-      "icon": "MATERIAL",
-      "version": "v3.12.2",
-      "version_tuple": [
-        3,
-        12,
-        2
-      ],
-      "desc_lines": [
-        "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
-        "✨ Tự động tạo PBR Maps (Normal, Bump, Rough, AO) 1-Click từ ảnh màu",
-        "⛰️ Nổi khối Hybrid 3D Relief & Bắt sáng Vải & Da (Sheen) khử hoàn toàn bóng nhựa",
-        "🪵 Căn vân gỗ thông minh theo thớ & Chiếu UV Box Mapping tự động",
-        "🌊 Nước 3D Procedural & Sóng biển bọt trắng thời gian thực",
-        "🎯 Vết xước & Bụi bẩn với Gizmo di chuyển/xoay trực quan trong Viewport",
-        "🏛️ Tạo vệt bẩn ở khu vực giao hình khối (Dirt/AO) toàn bộ công trình",
-        "🖌️ Bút hút Eyedropper sao chép trọn bộ (Maps + Modifiers + Cài đặt)",
-        "🌅 Studio HDRI xoay góc sáng & Viewport siêu nhẹ tiết kiệm 99% VRAM",
-        "📦 Tự động đóng gói & Export toàn bộ texture chống mất file"
-      ],
-      "desc_lines_en": [
-        "⚡ 50 Advanced Architectural PBR Material Presets (10 Families)",
-        "✨ 1-Click PBR Maps (Normal, Bump, Rough, AO) from Color Image",
-        "⛰️ Hybrid 3D Relief & Fabric/Leather Micro-Sheen (zero synthetic shine)",
-        "🪵 Smart Wood Grain Alignment & Automatic Triplanar Box Mapping",
-        "🌊 Procedural 3D Water & Real-time Ocean Foam Waves",
-        "🎯 Surface Imperfections & Scratches with Interactive Viewport Gizmo",
-        "🏛️ Geometric Intersection Crevice & Corner Grime (Dirt/AO)",
-        "🖌️ Eyedropper Material Cloner (Maps + Modifiers + Settings)",
-        "🌅 Studio HDRI Rotation & Lightweight Viewport Saving 99% VRAM",
-        "📦 Auto Collect & Package Complete Textures for Render Farms"
-      ],
-      "price": "300.000đ ()",
-      "price_vi": "300.000đ",
-      "price_en": "",
-      "update_recommend": true,
-      "update_notice": "Tác giả khuyến nghị cập nhật lên phiên bản v3.12.2 để sửa lỗi vật liệu ngoại lai.",
-      "update_notice_en": "Recommended to update to v3.12.2 for fixing third-party material issues.",
-      "changelog": [
-        "Sửa lỗi mất màu/texture gốc khi bật tắt Dirt AO",
-        "Sửa lỗi UnboundLocalError khi vẽ UI ngôn ngữ Tiếng Anh",
-        "Tối ưu hóa tốc độ tạo PBR maps 1-Click",
-        "Khử hoàn toàn bóng nhựa vải sofa với công nghệ Micro-Sheen",
-        "Tạo vệt bẩn ở khu vực giao hình khối Dirt/AO đồng bộ toàn công trình",
-        "Liên kết trực tiếp với trạm điều hành MT_Hub Master"
-      ],
-      "changelog_en": [
-        "Fixed loss of original colors/textures when toggling Dirt AO",
-        "Fixed UnboundLocalError when rendering English UI language",
-        "Optimized 1-Click PBR map generation speed",
-        "Zero synthetic plastic reflection on sofas with Micro-Sheen",
-        "Crevice & corner Dirt/AO generator at geometric intersections",
-        "Direct link with MT_Hub Master ecosystem"
-      ],
-      "tutorial_url": "https://assassin254.github.io/mt-studio-docs/",
-      "tutorial_url_en": "https://assassin254.github.io/mt-studio-docs/en.html",
-      "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
-      "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
-      "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.2/MT_PBR_Studio.zip",
-      "n_panel_tab": "MT_PBR Studio Pro",
-      "is_available": true
-    },
-    {
-      "code": "MT_SmartGroup",
-      "module_name": "MT_SmartGroup",
-      "name": "MT SmartGroup",
-      "icon": "GROUP",
-      "version": "v1.1.0",
-      "version_tuple": [
-        1,
-        1,
-        0
-      ],
-      "desc_lines": [
-        "📦 Gom nhóm toàn bộ object như 3ds Max / SketchUp",
-        "🚀 Mở / Đóng / Chỉnh sửa trực tiếp không rã Group",
-        "✨ Group lồng Group (Nested Groups) đa cấp độ"
-      ],
-      "desc_lines_en": [
-        "📦 Group objects exactly like 3ds Max / SketchUp",
-        "🚀 Open / Close / Edit directly without ungrouping",
-        "✨ Multi-level Nested Groups support"
-      ],
-      "price": "MIỄN PHÍ",
-      "price_vi": "MIỄN PHÍ",
-      "price_en": "FREE",
-      "update_recommend": false,
-      "update_notice": "",
-      "update_notice_en": "",
-      "changelog": [
-        "Phát hành bản Alpha 1.1.0"
-      ],
-      "changelog_en": [
-        "Alpha release 1.1.0"
-      ],
-      "tutorial_url": "",
-      "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.2/MT_SmartGroup.zip",
-      "n_panel_tab": "MT_SmartGroup",
-      "is_available": true
-    },
-    {
-      "code": "MT_Camera",
-      "module_name": "MT_Camera",
-      "name": "MT Camera Pro",
-      "icon": "CAMERA_DATA",
-      "version": "v1.2.0",
-      "version_tuple": [
-        1,
-        2,
-        0
-      ],
-      "desc_lines": [
-        "Quản lý, căn chỉnh, thiết lập và render camera tự động."
-      ],
-      "desc_lines_en": [
-        "Manage, align, setup, and render cameras automatically."
-      ],
-      "price": "0đ ()",
-      "price_vi": "0đ",
-      "price_en": "",
-      "update_recommend": false,
-      "update_notice": "Ra mắt MT Camera!",
-      "update_notice_en": "MT Camera launched!",
-      "changelog": [],
-      "changelog_en": [],
-      "tutorial_url": "",
-      "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Camera.zip",
-      "n_panel_tab": "MT Camera",
-      "is_available": true
-    }
-  ]
+    "hub_version": "1.1.5",
+    "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Hub.zip",
+    "hub_update_notice": "",
+    "hub_update_notice_en": "",
+    "hub_changelog": [
+        "Cập nhật xong tự động ẩn banner thông báo lập tức thay vì đợi 10 giây",
+        "Ra mắt add-on mới: MT_Camera - Quản lý máy ảnh chuyên nghiệp",
+        "Tối ưu hóa hiệu năng, loại bỏ hoàn toàn giật lag khi dùng bảng điều khiển",
+        "Tự động ẩn tab đơn hàng chờ sau khi khách đã kích hoạt bản quyền thành công",
+        "Thêm ô nhập mã kích hoạt trực tiếp trên panel",
+        "Sửa lỗi hiển thị phiên bản v1.0.0 sai",
+        "Gửi đơn hàng real-time lên MT_Admin Dashboard",
+        "Sửa lỗi mở tab trình duyệt khi gửi đơn"
+    ],
+    "hub_changelog_en": [
+        "New add-on launch: MT_Camera - Professional camera management",
+        "Performance optimizations: completely eliminated panel lag and stuttering",
+        "Auto hide pending order tab after successful license activation",
+        "Added direct activation key input field on panel",
+        "Fixed incorrect v1.0.0 version display",
+        "Real-time order push to MT_Admin Dashboard",
+        "Fixed browser tab opening bug when submitting orders"
+    ],
+    "products": [
+        {
+            "code": "MT_PBR_Studio",
+            "module_name": "MT_PBR_Studio",
+            "name": "MT_PBR Studio Pro",
+            "icon": "MATERIAL",
+            "version": "v3.12.2",
+            "version_tuple": [
+                3,
+                12,
+                2
+            ],
+            "desc_lines": [
+                "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
+                "✨ Tự động tạo PBR Maps (Normal, Bump, Rough, AO) 1-Click từ ảnh màu",
+                "⛰️ Nổi khối Hybrid 3D Relief & Bắt sáng Vải & Da (Sheen) khử hoàn toàn bóng nhựa",
+                "🪵 Căn vân gỗ thông minh theo thớ & Chiếu UV Box Mapping tự động",
+                "🌊 Nước 3D Procedural & Sóng biển bọt trắng thời gian thực",
+                "🎯 Vết xước & Bụi bẩn với Gizmo di chuyển/xoay trực quan trong Viewport",
+                "🏛️ Tạo vệt bẩn ở khu vực giao hình khối (Dirt/AO) toàn bộ công trình",
+                "🖌️ Bút hút Eyedropper sao chép trọn bộ (Maps + Modifiers + Cài đặt)",
+                "🌅 Studio HDRI xoay góc sáng & Viewport siêu nhẹ tiết kiệm 99% VRAM",
+                "📦 Tự động đóng gói & Export toàn bộ texture chống mất file"
+            ],
+            "desc_lines_en": [
+                "⚡ 50 Advanced Architectural PBR Material Presets (10 Families)",
+                "✨ 1-Click PBR Maps (Normal, Bump, Rough, AO) from Color Image",
+                "⛰️ Hybrid 3D Relief & Fabric/Leather Micro-Sheen (zero synthetic shine)",
+                "🪵 Smart Wood Grain Alignment & Automatic Triplanar Box Mapping",
+                "🌊 Procedural 3D Water & Real-time Ocean Foam Waves",
+                "🎯 Surface Imperfections & Scratches with Interactive Viewport Gizmo",
+                "🏛️ Geometric Intersection Crevice & Corner Grime (Dirt/AO)",
+                "🖌️ Eyedropper Material Cloner (Maps + Modifiers + Settings)",
+                "🌅 Studio HDRI Rotation & Lightweight Viewport Saving 99% VRAM",
+                "📦 Auto Collect & Package Complete Textures for Render Farms"
+            ],
+            "price": "300.000đ ()",
+            "price_vi": "300.000đ",
+            "price_en": "",
+            "update_recommend": true,
+            "update_notice": "Tác giả khuyến nghị cập nhật lên phiên bản v3.12.2 để sửa lỗi vật liệu ngoại lai.",
+            "update_notice_en": "Recommended to update to v3.12.2 for fixing third-party material issues.",
+            "changelog": [
+                "Sửa lỗi mất màu/texture gốc khi bật tắt Dirt AO",
+                "Sửa lỗi UnboundLocalError khi vẽ UI ngôn ngữ Tiếng Anh",
+                "Tối ưu hóa tốc độ tạo PBR maps 1-Click",
+                "Khử hoàn toàn bóng nhựa vải sofa với công nghệ Micro-Sheen",
+                "Tạo vệt bẩn ở khu vực giao hình khối Dirt/AO đồng bộ toàn công trình",
+                "Liên kết trực tiếp với trạm điều hành MT_Hub Master"
+            ],
+            "changelog_en": [
+                "Fixed loss of original colors/textures when toggling Dirt AO",
+                "Fixed UnboundLocalError when rendering English UI language",
+                "Optimized 1-Click PBR map generation speed",
+                "Zero synthetic plastic reflection on sofas with Micro-Sheen",
+                "Crevice & corner Dirt/AO generator at geometric intersections",
+                "Direct link with MT_Hub Master ecosystem"
+            ],
+            "tutorial_url": "https://assassin254.github.io/mt-studio-docs/",
+            "tutorial_url_en": "https://assassin254.github.io/mt-studio-docs/en.html",
+            "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
+            "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
+            "buy_url": "",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.2/MT_PBR_Studio.zip",
+            "n_panel_tab": "MT_PBR Studio Pro",
+            "is_available": true
+        },
+        {
+            "code": "MT_SmartGroup",
+            "module_name": "MT_SmartGroup",
+            "name": "MT SmartGroup",
+            "icon": "GROUP",
+            "version": "v1.1.0",
+            "version_tuple": [
+                1,
+                1,
+                0
+            ],
+            "desc_lines": [
+                "📦 Gom nhóm toàn bộ object như 3ds Max / SketchUp",
+                "🚀 Mở / Đóng / Chỉnh sửa trực tiếp không rã Group",
+                "✨ Group lồng Group (Nested Groups) đa cấp độ"
+            ],
+            "desc_lines_en": [
+                "📦 Group objects exactly like 3ds Max / SketchUp",
+                "🚀 Open / Close / Edit directly without ungrouping",
+                "✨ Multi-level Nested Groups support"
+            ],
+            "price": "MIỄN PHÍ",
+            "price_vi": "MIỄN PHÍ",
+            "price_en": "FREE",
+            "update_recommend": false,
+            "update_notice": "",
+            "update_notice_en": "",
+            "changelog": [
+                "Phát hành bản Alpha 1.1.0"
+            ],
+            "changelog_en": [
+                "Alpha release 1.1.0"
+            ],
+            "tutorial_url": "",
+            "buy_url": "",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.2/MT_SmartGroup.zip",
+            "n_panel_tab": "MT_SmartGroup",
+            "is_available": true
+        },
+        {
+            "code": "MT_Camera",
+            "module_name": "MT_Camera",
+            "name": "MT Camera Pro",
+            "icon": "CAMERA_DATA",
+            "version": "v1.3.1",
+            "version_tuple": [
+                1,
+                3,
+                1
+            ],
+            "desc_lines": [
+                "Quản lý, căn chỉnh, thiết lập và render camera tự động."
+            ],
+            "desc_lines_en": [
+                "Manage, align, setup, and render cameras automatically."
+            ],
+            "price": "0đ ()",
+            "price_vi": "0đ",
+            "price_en": "",
+            "update_recommend": false,
+            "update_notice": "Ra mắt MT Camera!",
+            "update_notice_en": "MT Camera launched!",
+            "changelog": [
+                "Tự động lưu khổ ảnh theo Camera",
+                "Thuật toán Auto Shift hoàn toàn mới, chính xác 100%",
+                "Batch Render tích hợp UI"
+            ],
+            "changelog_en": [],
+            "tutorial_url": "",
+            "buy_url": "",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Camera.zip",
+            "n_panel_tab": "MT Camera",
+            "is_available": true
+        }
+    ]
 }
