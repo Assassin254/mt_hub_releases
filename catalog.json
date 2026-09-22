@@ -133,11 +133,11 @@
             "module_name": "MT_Camera",
             "name": "MT Camera Pro",
             "icon": "CAMERA_DATA",
-            "version": "v1.3.1",
+            "version": "v1.3.2",
             "version_tuple": [
                 1,
                 3,
-                1
+                2
             ],
             "desc_lines": [
                 "Quản lý, căn chỉnh, thiết lập và render camera tự động."
@@ -152,6 +152,7 @@
             "update_notice": "Ra mắt MT Camera!",
             "update_notice_en": "MT Camera launched!",
             "changelog": [
+                "Sửa lỗi Render Viewport không ăn vật liệu (Material Preview)",
                 "Tự động lưu khổ ảnh theo Camera",
                 "Thuật toán Auto Shift hoàn toàn mới, chính xác 100%",
                 "Batch Render tích hợp UI"
