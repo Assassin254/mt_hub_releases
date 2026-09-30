@@ -29,11 +29,11 @@
             "module_name": "MT_PBR_Studio",
             "name": "MT_PBR Studio Pro",
             "icon": "MATERIAL",
-            "version": "v3.12.11",
+            "version": "v3.12.12",
             "version_tuple": [
                 3,
                 12,
-                11
+                12
             ],
             "desc_lines": [
                 "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -63,9 +63,11 @@
             "price_vi": "300.000đ",
             "price_en": "",
             "update_recommend": true,
-            "update_notice": "Bản vá nóng v3.12.11: Sửa lỗi hệ thống ném ngoại lệ khi dùng công cụ tịnh tiến UV do dư thừa mã nguồn cũ, đồng thời bổ sung khả năng tự động đồng bộ kích thước UV thực tế lên UI khi chọn vật thể khác.",
-            "update_notice_en": "Hotfix v3.12.11: Fixed AttributeError in UV translate modal and added auto-sync of UV real-world sizes when selecting different objects.",
+            "update_notice": "Bản vá khẩn cấp v3.12.12: Khắc phục triệt để lỗi biến mất Texture khi đổi thông số vật liệu và sửa lỗi không làm mới thông số kích thước trên giao diện UI.",
+            "update_notice_en": "Emergency Hotfix v3.12.12: Fixed texture disappearing when changing material presets and forced UI redraw for texture size syncing.",
             "changelog": [
+                "Sửa lỗi nghiêm trọng: Đổi preset vật liệu (ví dụ sang Bóng kính) làm mất texture đang có",
+                "Sửa lỗi UI: Thông số kích thước (Dài, Rộng, Cao) không chịu nhảy số khi chọn đối tượng khác (buộc Blender làm mới giao diện)",
                 "Sửa lỗi Python Traceback (AttributeError: is_dragging) khi kích hoạt công cụ kéo UV do xung đột mã nguồn",
                 "Tính năng mới: Giao diện giờ đây tự động Cập nhật hiển thị kích thước Texture (mm) chính xác của vật thể đang được chọn (trước đây UI không đổi khi chọn vật thể khác)",
                 "Sửa lỗi vỡ UV (vật liệu về màu trơn) do bước nhảy chuột quá lớn khi vừa bấm nút lệnh Kéo UV",
@@ -88,6 +90,8 @@
                 "Liên kết trực tiếp với trạm điều hành MT_Hub Master"
             ],
             "changelog_en": [
+                "Critical Fix: Changing material preset (e.g. to Polished) no longer deletes the existing custom texture",
+                "UI Fix: Texture size parameters now accurately and immediately update in the panel when selecting different objects",
                 "Fixed Python Traceback (AttributeError: is_dragging) when using UV drag tool caused by code conflict",
                 "New Feature: UI now automatically synchronizes and displays the correct Texture Size (mm) of the currently selected object",
                 "Fixed UV corruption (solid color material) caused by large mouse jumps when triggering the UV drag tool",
@@ -114,7 +118,7 @@
             "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
             "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
             "buy_url": "",
-            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.11/MT_PBR_Studio.zip",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.12/MT_PBR_Studio.zip",
             "n_panel_tab": "MT_PBR Studio Pro",
             "is_available": true
         },
