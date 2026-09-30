@@ -28,11 +28,11 @@
             "module_name": "MT_PBR_Studio",
             "name": "MT_PBR Studio Pro",
             "icon": "MATERIAL",
-            "version": "v3.12.4",
+            "version": "v3.12.5",
             "version_tuple": [
                 3,
                 12,
-                4
+                5
             ],
             "desc_lines": [
                 "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -62,9 +62,10 @@
             "price_vi": "300.000đ",
             "price_en": "",
             "update_recommend": true,
-            "update_notice": "Tác giả khuyến nghị cập nhật lên phiên bản v3.12.4 (Giao diện Kích thước mm thông minh & Xoay góc tùy ý).",
-            "update_notice_en": "Recommended to update to v3.12.4 (Smart MM size UI & Arbitrary angle rotation).",
+            "update_notice": "Tác giả khuyến nghị cập nhật lên phiên bản v3.12.5 (Hỗ trợ xoay/chỉnh UV theo từng mặt Mesh trong Edit Mode).",
+            "update_notice_en": "Recommended to update to v3.12.5 (Supports per-face UV rotation/projection in Edit Mode).",
             "changelog": [
+                "Hỗ trợ Xoay góc và Chiếu UV theo từng bề mặt độc lập trong chế độ Edit Mode",
                 "UI mới: Nhập tham số xoay UV chủ động (-45, 30...) và Link kích thước XYZ",
                 "Thêm ô nhập kích thước map thực tế (mm) chuẩn kiến trúc & Tỉ lệ nhanh (x2, x3)",
                 "Sửa lỗi nút xoay UV không hoạt động do xung đột tọa độ",
@@ -76,6 +77,7 @@
                 "Liên kết trực tiếp với trạm điều hành MT_Hub Master"
             ],
             "changelog_en": [
+                "Support individual per-face UV rotation and projection in Edit Mode",
                 "New UI: Arbitrary UV rotation input and Link XYZ sizes",
                 "Added real-world map size (mm) for architecture & Quick multipliers (x2, x3)",
                 "Fixed UV rotation buttons not working due to coordinate conflict",
@@ -91,7 +93,7 @@
             "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
             "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
             "buy_url": "",
-            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.4/MT_PBR_Studio.zip",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.5/MT_PBR_Studio.zip",
             "n_panel_tab": "MT_PBR Studio Pro",
             "is_available": true
         },
