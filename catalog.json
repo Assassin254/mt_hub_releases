@@ -29,11 +29,11 @@
             "module_name": "MT_PBR_Studio",
             "name": "MT_PBR Studio Pro",
             "icon": "MATERIAL",
-            "version": "v3.12.12",
+            "version": "v3.12.13",
             "version_tuple": [
                 3,
                 12,
-                12
+                13
             ],
             "desc_lines": [
                 "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -63,9 +63,12 @@
             "price_vi": "300.000đ",
             "price_en": "",
             "update_recommend": true,
-            "update_notice": "Bản vá khẩn cấp v3.12.12: Khắc phục triệt để lỗi biến mất Texture khi đổi thông số vật liệu và sửa lỗi không làm mới thông số kích thước trên giao diện UI.",
-            "update_notice_en": "Emergency Hotfix v3.12.12: Fixed texture disappearing when changing material presets and forced UI redraw for texture size syncing.",
+            "update_notice": "Bản cập nhật v3.12.13: Nâng cấp bút hút vật liệu thông minh (chỉ mặt nào lấy vật liệu mặt đó, dùng chung không tạo bản sao) và tối ưu hóa siêu mượt công cụ kéo UV cho các model lưới nặng (Sketchup/3dsmax).",
+            "update_notice_en": "Update v3.12.13: Smart eyedropper upgrades (per-face picking, no duplication) and ultra-smooth UV drag optimization for high-poly meshes.",
             "changelog": [
+                "Nâng cấp Bút hút vật liệu (Eyedropper): Hỗ trợ hút chính xác từng mặt phẳng của vật thể đa vật liệu (Multi-material)",
+                "Nâng cấp Bút hút: Giờ đây tự động Gán Chung (Link) đúng vật liệu gốc, tuyệt đối không tự tạo ra hàng loạt bản sao như trước",
+                "Tối ưu hiệu năng đột phá: Công cụ kéo thả di chuyển UV giờ đây siêu mượt, xử lý tức thời không hề giật lag trên các model Sketchup/3dsmax hàng triệu poly",
                 "Sửa lỗi nghiêm trọng: Đổi preset vật liệu (ví dụ sang Bóng kính) làm mất texture đang có",
                 "Sửa lỗi UI: Thông số kích thước (Dài, Rộng, Cao) không chịu nhảy số khi chọn đối tượng khác (buộc Blender làm mới giao diện)",
                 "Sửa lỗi Python Traceback (AttributeError: is_dragging) khi kích hoạt công cụ kéo UV do xung đột mã nguồn",
@@ -90,6 +93,9 @@
                 "Liên kết trực tiếp với trạm điều hành MT_Hub Master"
             ],
             "changelog_en": [
+                "Eyedropper Upgrade: Now accurately picks the specific face material on multi-material objects",
+                "Eyedropper Upgrade: Correctly links the exact original material without spawning duplicate materials",
+                "Performance Breakthrough: UV interactive translation is now ultra-smooth with zero lag on million-polygon Sketchup/3dsmax imports",
                 "Critical Fix: Changing material preset (e.g. to Polished) no longer deletes the existing custom texture",
                 "UI Fix: Texture size parameters now accurately and immediately update in the panel when selecting different objects",
                 "Fixed Python Traceback (AttributeError: is_dragging) when using UV drag tool caused by code conflict",
@@ -118,7 +124,7 @@
             "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
             "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
             "buy_url": "",
-            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.12/MT_PBR_Studio.zip",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.13/MT_PBR_Studio.zip",
             "n_panel_tab": "MT_PBR Studio Pro",
             "is_available": true
         },
