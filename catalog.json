@@ -28,11 +28,11 @@
             "module_name": "MT_PBR_Studio",
             "name": "MT_PBR Studio Pro",
             "icon": "MATERIAL",
-            "version": "v3.12.7",
+            "version": "v3.12.8",
             "version_tuple": [
                 3,
                 12,
-                7
+                8
             ],
             "desc_lines": [
                 "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -62,9 +62,10 @@
             "price_vi": "300.000đ",
             "price_en": "",
             "update_recommend": true,
-            "update_notice": "Tác giả khuyến nghị cập nhật lên phiên bản v3.12.7 (Khắc phục triệt để lỗi Normal/Displacement trên Marble).",
-            "update_notice_en": "Recommended to update to v3.12.7 (Fixed flat materials getting bumps from texture packs).",
+            "update_notice": "Tác giả khuyến nghị cập nhật lên phiên bản v3.12.8 (Tính năng mới: Tương tác di chuyển vân gỗ/map trực tiếp bằng chuột).",
+            "update_notice_en": "Recommended to update to v3.12.8 (New feature: Interactive UV translation via mouse drag).",
             "changelog": [
+                "Tính năng mới: \"Kéo Chuột Di Chuyển UV\" cho phép căn chỉnh mép vân gỗ/texture trực quan bằng tay",
                 "Sửa lỗi Đá Marble Bóng Kính vẫn bị gồ ghề khi nạp bộ maps (Texture Pack) có chứa Normal map",
                 "UI: Đóng tab Xem Trước Vật Liệu mặc định để chống lag Viewport",
                 "Sửa lỗi Đá Marble Cẩm Thạch Bóng Kính bị gồ ghề do tự sinh Normal Map",
@@ -81,6 +82,7 @@
                 "Liên kết trực tiếp với trạm điều hành MT_Hub Master"
             ],
             "changelog_en": [
+                "New Feature: Interactive \"Drag to Move UV\" operator to easily align texture seams",
                 "Fixed Polished Marble getting bumpy when loading a texture pack containing Normal maps",
                 "UI: Collapsed Material Preview by default to prevent UI lag",
                 "Fixed Polished Marble being bumpy due to auto-generated normal maps",
@@ -101,7 +103,7 @@
             "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
             "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
             "buy_url": "",
-            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.7/MT_PBR_Studio.zip",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.8/MT_PBR_Studio.zip",
             "n_panel_tab": "MT_PBR Studio Pro",
             "is_available": true
         },
