@@ -29,11 +29,11 @@
             "module_name": "MT_PBR_Studio",
             "name": "MT_PBR Studio Pro",
             "icon": "MATERIAL",
-            "version": "v3.12.15",
+            "version": "v3.12.16",
             "version_tuple": [
                 3,
                 12,
-                15
+                16
             ],
             "desc_lines": [
                 "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -63,9 +63,12 @@
             "price_vi": "300.000đ",
             "price_en": "",
             "update_recommend": true,
-            "update_notice": "Bản cập nhật v3.12.15: ĐỒNG BỘ TUYỆT ĐỐI GÓC XOAY TEXTURE. Sửa triệt để lỗi góc xoay vân bề mặt (như vân gỗ) ở chế độ View Solid không khớp (lệch 90 độ) so với View Material/Render. Giờ đây Solid View luôn đồng bộ chính xác với Material để phục vụ xuất ảnh thô.",
-            "update_notice_en": "Update v3.12.15: Absolute Texture Rotation Sync. Fixes the issue where texture rotation (like wood grain) in Solid View was 90 degrees out of sync with Material/Render View. Solid view is now perfectly synced for viewport raw exports.",
+            "update_notice": "Bản cập nhật v3.12.16: BỔ SUNG HỌ TRANH ẢNH & SỬA LỖI SOLID VIEW. Đã thêm 7 preset mới cho hệ Vải, Thảm và Họ Tranh hoàn toàn mới. Đặc biệt thêm nút \"Trích Xuất / Bake Ảnh Solid View\" để chữa cháy triệt để lỗi vật liệu bị xám xịt trong View Solid (Hỗ trợ cả trích xuất ảnh bị giấu trong Node Group và tự động nướng vân Procedural).",
+            "update_notice_en": "Update v3.12.16: ART FAMILY & SOLID VIEW FIX. Added 7 new presets for Fabric, Rug, and a completely new Art family. Introduced a new \"Extract/Bake Solid View Image\" button to instantly fix gray materials in Solid View (supports extracting images hidden in node groups and automatic procedural texture baking).",
             "changelog": [
+                "Hệ vật liệu mới (ART): Tranh bóng kính, Tranh Canvas (vải bố), Tranh Sơn Dầu (lồi lõm vệt cọ), Tranh Sơn Mài (bóng sâu)",
+                "Hệ Vải mở rộng: Rèm vải nhám, Rèm voan xuyên sáng, Thảm dệt lồi lõm (Displacement)",
+                "Tính năng mới: \"Trích Xuất / Bake Ảnh Solid View\" (Nằm dưới nút hút vật liệu) - Cứu cánh cho vật liệu bị xám trong Solid View. Bấm là hiện ảnh!",
                 "Đồng bộ Solid View & Material View: Chế độ View Solid Texture giờ đây luôn tự động đồng bộ (bắt chính xác Base Color) để hướng vân gỗ luôn khớp 100% với Material Preview",
                 "Sửa lỗi tính toán Scale khi xoay UV: Cập nhật tự động hoán đổi kích thước Chiều Dài (X) / Rộng (Y) khi xoay 90 độ, tránh tình trạng làm méo bẹp (squash) texture trong shader",
                 "Tự động dọn dẹp rác xoay UV: Triệt tiêu thông số Rotation sinh ra trong node Mapping (nguyên nhân gây lệch với Solid View), 100% dồn toán học vào lưới Mesh UV",
@@ -98,6 +101,9 @@
                 "Liên kết trực tiếp với trạm điều hành MT_Hub Master"
             ],
             "changelog_en": [
+                "New Art Family: Glossy Glass Art, Canvas (fabric weave), Oil Painting (brush strokes), Lacquer (deep gloss)",
+                "Expanded Fabric: Curtain, Sheer (transmission), Rug (displacement)",
+                "New Feature: \"Extract / Bake Solid View Image\" - 1-click fix for gray materials in Solid View. Extracts hidden images or automatically bakes procedural textures!",
                 "Viewport Sync: Solid View Texture mode now perfectly tracks the Base Color node, ensuring wood grain rotation matches Material Preview exactly",
                 "UV Rotation Math Fix: Swaps X and Y scale values automatically when rotating 90 degrees to prevent texture squashing in the shader",
                 "UV Rotation Clean-up: Zeroes out any residual Rotation parameters in the Mapping node (which caused Solid View desyncs) and bakes all rotation strictly into the Mesh UVs",
@@ -134,7 +140,7 @@
             "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
             "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
             "buy_url": "",
-            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.15/MT_PBR_Studio.zip",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.16/MT_PBR_Studio.zip",
             "n_panel_tab": "MT_PBR Studio Pro",
             "is_available": true
         },
