@@ -29,11 +29,11 @@
             "module_name": "MT_PBR_Studio",
             "name": "MT_PBR Studio Pro",
             "icon": "MATERIAL",
-            "version": "v3.12.20",
+            "version": "v3.12.21",
             "version_tuple": [
                 3,
                 12,
-                20
+                21
             ],
             "desc_lines": [
                 "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -66,6 +66,7 @@
             "update_notice": "Bản cập nhật v3.12.16: BỔ SUNG HỌ TRANH ẢNH & SỬA LỖI SOLID VIEW. Đã thêm 7 preset mới cho hệ Vải, Thảm và Họ Tranh hoàn toàn mới. Đặc biệt thêm nút \"Trích Xuất / Bake Ảnh Solid View\" để chữa cháy triệt để lỗi vật liệu bị xám xịt trong View Solid (Hỗ trợ cả trích xuất ảnh bị giấu trong Node Group và tự động nướng vân Procedural).",
             "update_notice_en": "Update v3.12.16: ART FAMILY & SOLID VIEW FIX. Added 7 new presets for Fabric, Rug, and a completely new Art family. Introduced a new \"Extract/Bake Solid View Image\" button to instantly fix gray materials in Solid View (supports extracting images hidden in node groups and automatic procedural texture baking).",
             "changelog": [
+                "Fix lỗi hiển thị nút Tách Bảng Giao Diện trên phiên bản 3.12.20 (Đã di chuyển lên trên cùng dưới thanh Đổi Ngôn Ngữ).",
                 "Tự động kích hoạt độ trong suốt (Alpha Blend) trên Solid View (Viewport Display) cho vật liệu Kính, Rèm Voan và Nước, hỗ trợ cực tốt cho quy trình xuất ảnh Solid đưa vào AI Render (ControlNet).",
                 "Bổ sung nút \"Tách Bảng Giao Diện Sang Cửa Sổ Khác\" giúp làm việc linh hoạt trên 2 màn hình độc lập",
                 "Bản Vá Lỗi v3.12.18: Fix triệt để lỗi Traceback khi nướng ảnh Solid View trên vật thể có nhiều vật liệu. Đã khắc phục lỗi ẩn danh sách vật liệu Vải mới (Rèm, Thảm, Canvas).",
@@ -105,6 +106,7 @@
                 "Liên kết trực tiếp với trạm điều hành MT_Hub Master"
             ],
             "changelog_en": [
+                "Fixed missing Pop Out button in UI (now positioned at the top of the panel).",
                 "Automatically enable Alpha Blend in Solid View for Glass, Sheer, and Water materials, optimizing viewport captures for AI Rendering (ControlNet).",
                 "Added \"Pop Out To New Window\" button for dual-monitor workflows",
                 "Patch v3.12.18: Fully fixed Traceback error when baking Solid View image on objects with multiple materials. Fixed missing new Fabric presets.",
@@ -148,7 +150,7 @@
             "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
             "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
             "buy_url": "",
-            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.20/MT_PBR_Studio.zip",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.21/MT_PBR_Studio.zip",
             "n_panel_tab": "MT_PBR Studio Pro",
             "is_available": true
         },
