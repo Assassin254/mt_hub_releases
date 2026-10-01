@@ -29,11 +29,11 @@
             "module_name": "MT_PBR_Studio",
             "name": "MT_PBR Studio Pro",
             "icon": "MATERIAL",
-            "version": "v3.12.14",
+            "version": "v3.12.15",
             "version_tuple": [
                 3,
                 12,
-                14
+                15
             ],
             "desc_lines": [
                 "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -63,9 +63,12 @@
             "price_vi": "300.000đ",
             "price_en": "",
             "update_recommend": true,
-            "update_notice": "Bản cập nhật v3.12.14: Cải thiện thuật toán ghi nhớ Texture linh hoạt. Giờ đây khi đổi TÍNH CHẤT trong cùng một họ (ví dụ: Gỗ mờ -> Gỗ bóng) thì texture Gỗ vẫn được giữ nguyên. Nhưng khi đổi hẳn sang HỌ KHÁC (ví dụ: Gỗ -> Kim Loại) thì texture Gỗ sẽ bị xóa để tránh rác (Kim loại dính vân gỗ).",
-            "update_notice_en": "Update v3.12.14: Smart Texture memory. Changing presets within the same family keeps the texture, but switching to a completely different family (e.g., Wood -> Metal) automatically clears the old texture.",
+            "update_notice": "Bản cập nhật v3.12.15: ĐỒNG BỘ TUYỆT ĐỐI GÓC XOAY TEXTURE. Sửa triệt để lỗi góc xoay vân bề mặt (như vân gỗ) ở chế độ View Solid không khớp (lệch 90 độ) so với View Material/Render. Giờ đây Solid View luôn đồng bộ chính xác với Material để phục vụ xuất ảnh thô.",
+            "update_notice_en": "Update v3.12.15: Absolute Texture Rotation Sync. Fixes the issue where texture rotation (like wood grain) in Solid View was 90 degrees out of sync with Material/Render View. Solid view is now perfectly synced for viewport raw exports.",
             "changelog": [
+                "Đồng bộ Solid View & Material View: Chế độ View Solid Texture giờ đây luôn tự động đồng bộ (bắt chính xác Base Color) để hướng vân gỗ luôn khớp 100% với Material Preview",
+                "Sửa lỗi tính toán Scale khi xoay UV: Cập nhật tự động hoán đổi kích thước Chiều Dài (X) / Rộng (Y) khi xoay 90 độ, tránh tình trạng làm méo bẹp (squash) texture trong shader",
+                "Tự động dọn dẹp rác xoay UV: Triệt tiêu thông số Rotation sinh ra trong node Mapping (nguyên nhân gây lệch với Solid View), 100% dồn toán học vào lưới Mesh UV",
                 "Sửa lỗi logic UI: Khi đổi hẳn sang \"Họ Vật Liệu\" khác (như Gỗ -> Kim Loại), ảnh texture của Họ cũ sẽ tự động được gỡ bỏ thay vì bị gán nhầm sang vật liệu mới",
                 "Sửa lỗi UI: Khi chọn một vật thể trống chưa có vật liệu, UI sẽ tự động làm sạch đường dẫn Texture thay vì bị dính texture của vật thể được chọn trước đó",
                 "Nâng cấp Bút hút vật liệu (Eyedropper): Hỗ trợ hút chính xác từng mặt phẳng của vật thể đa vật liệu (Multi-material)",
@@ -95,6 +98,9 @@
                 "Liên kết trực tiếp với trạm điều hành MT_Hub Master"
             ],
             "changelog_en": [
+                "Viewport Sync: Solid View Texture mode now perfectly tracks the Base Color node, ensuring wood grain rotation matches Material Preview exactly",
+                "UV Rotation Math Fix: Swaps X and Y scale values automatically when rotating 90 degrees to prevent texture squashing in the shader",
+                "UV Rotation Clean-up: Zeroes out any residual Rotation parameters in the Mapping node (which caused Solid View desyncs) and bakes all rotation strictly into the Mesh UVs",
                 "UI Logic Fix: Switching to a different Material Family automatically unloads the old custom texture to prevent mismatches",
                 "UI Fix: Selecting an object with no material now properly clears the custom texture UI instead of showing the previous objects texture",
                 "Eyedropper Upgrade: Now accurately picks the specific face material on multi-material objects",
@@ -128,7 +134,7 @@
             "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
             "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
             "buy_url": "",
-            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.14/MT_PBR_Studio.zip",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.15/MT_PBR_Studio.zip",
             "n_panel_tab": "MT_PBR Studio Pro",
             "is_available": true
         },
