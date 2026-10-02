@@ -240,11 +240,11 @@
       "module_name": "MT_Lightmix",
       "name": "MT Lightmix",
       "icon": "LIGHT",
-      "version": "v1.0.13",
+      "version": "v1.0.14",
       "version_tuple": [
         1,
         0,
-        13
+        14
       ],
       "desc_lines": [
         "Công cụ bố trí đèn nội thất và tương tác LightMix thời gian thực."
@@ -256,7 +256,7 @@
       "price_vi": "MIỄN PHÍ",
       "price_en": "FREE",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_Lightmix v1.0.13",
+      "update_notice": "Cập nhật MT_Lightmix v1.0.14",
       "update_notice_en": "Update MT_Lightmix to version v1.0.12",
       "changelog": [],
       "changelog_en": [],
