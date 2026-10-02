@@ -29,11 +29,11 @@
             "module_name": "MT_PBR_Studio",
             "name": "MT_PBR Studio Pro",
             "icon": "MATERIAL",
-            "version": "v3.12.26",
+            "version": "v3.12.27",
             "version_tuple": [
                 3,
                 12,
-                26
+                27
             ],
             "desc_lines": [
                 "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -66,6 +66,7 @@
             "update_notice": "Bản cập nhật v3.12.16: BỔ SUNG HỌ TRANH ẢNH & SỬA LỖI SOLID VIEW. Đã thêm 7 preset mới cho hệ Vải, Thảm và Họ Tranh hoàn toàn mới. Đặc biệt thêm nút \"Trích Xuất / Bake Ảnh Solid View\" để chữa cháy triệt để lỗi vật liệu bị xám xịt trong View Solid (Hỗ trợ cả trích xuất ảnh bị giấu trong Node Group và tự động nướng vân Procedural).",
             "update_notice_en": "Update v3.12.16: ART FAMILY & SOLID VIEW FIX. Added 7 new presets for Fabric, Rug, and a completely new Art family. Introduced a new \"Extract/Bake Solid View Image\" button to instantly fix gray materials in Solid View (supports extracting images hidden in node groups and automatic procedural texture baking).",
             "changelog": [
+                "HOTFIX: Xử lý triệt để lỗi crash mất danh sách Vật liệu con khi chọn họ Đèn phát sáng.",
                 "Thêm mới vật liệu \"Đá Ngọc Xuyên Sáng (Procedural Alabaster)\". Cho phép tinh chỉnh Noise tự động và tuỳ biến 2 hệ màu (Base/Glow) bằng công cụ Color Ramp đưa ra tận bảng N-Panel. Tạo ngay ánh sáng dịu nhẹ tự phát sáng mà không cần map ảnh.",
                 "Hiển thị nút Shadow Trick ở cả bảng tinh chỉnh Rèm (Họ Vải & Da).",
                 "Tối ưu hoá mã nguồn thuật toán Shadow Trick cho nhẹ hơn. Sẵn sàng cho mọi người cập nhật.",
@@ -111,6 +112,7 @@
                 "Liên kết trực tiếp với trạm điều hành MT_Hub Master"
             ],
             "changelog_en": [
+                "HOTFIX: Resolved a critical issue where preset lists disappeared due to dict parsing error.",
                 "New Preset: \"Procedural Alabaster / Paper Lamp\". Added native UI for Color Ramp tuning of procedural glowing veins directly from the N-Panel without using the shader editor.",
                 "Display Shadow Trick button in Fabric settings panel.",
                 "Code optimization for Shadow Trick algorithm. Ready for update.",
@@ -160,7 +162,7 @@
             "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
             "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
             "buy_url": "",
-            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.26/MT_PBR_Studio.zip",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.27/MT_PBR_Studio.zip",
             "n_panel_tab": "MT_PBR Studio Pro",
             "is_available": true
         },
