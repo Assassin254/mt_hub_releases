@@ -308,11 +308,11 @@
       "module_name": "MT_Materials_Procedural",
       "name": "MT Procedural Texture",
       "icon": "MATERIAL",
-      "version": "v2.2.1",
+      "version": "v2.2.2",
       "version_tuple": [
         2,
         2,
-        1
+        2
       ],
       "desc_lines": [
         "Tạo vật liệu Procedural chuyên nghiệp bằng hệ thống Node."
@@ -324,7 +324,7 @@
       "price_vi": "MIỄN PHÍ",
       "price_en": "FREE",
       "update_recommend": false,
-      "update_notice": "Cập nhật MT_Procedural_Texture v2.2.1",
+      "update_notice": "Cập nhật MT_Procedural_Texture v2.2.2",
       "update_notice_en": "MT_Procedural_Texture v2.0.0 launched!",
       "changelog": [],
       "changelog_en": [],
