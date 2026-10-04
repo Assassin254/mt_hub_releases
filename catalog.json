@@ -29,11 +29,11 @@
             "module_name": "MT_PBR_Studio",
             "name": "MT_PBR Studio Pro",
             "icon": "MATERIAL",
-            "version": "v3.12.39",
+            "version": "v3.12.40",
             "version_tuple": [
                 3,
                 12,
-                39
+                40
             ],
             "desc_lines": [
                 "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -66,6 +66,7 @@
             "update_notice": "Bản cập nhật v3.12.16: BỔ SUNG HỌ TRANH ẢNH & SỬA LỖI SOLID VIEW. Đã thêm 7 preset mới cho hệ Vải, Thảm và Họ Tranh hoàn toàn mới. Đặc biệt thêm nút \"Trích Xuất / Bake Ảnh Solid View\" để chữa cháy triệt để lỗi vật liệu bị xám xịt trong View Solid (Hỗ trợ cả trích xuất ảnh bị giấu trong Node Group và tự động nướng vân Procedural).",
             "update_notice_en": "Update v3.12.16: ART FAMILY & SOLID VIEW FIX. Added 7 new presets for Fabric, Rug, and a completely new Art family. Introduced a new \"Extract/Bake Solid View Image\" button to instantly fix gray materials in Solid View (supports extracting images hidden in node groups and automatic procedural texture baking).",
             "changelog": [
+                "Sơn Tường Procedural UI Fix (v3.12.40): Thay đổi thuật toán trộn độ loang lổ sang Overlay để tạo tương phản mạnh, bổ sung Color Ramp kiểm soát hình dạng mảng loang, thêm bộ điều chỉnh HSV cho sơn tường.",
                 "Sơn Tường Procedural UI Fix (v3.12.39): Sửa lỗi sai tên Icon khiến toàn bộ bảng giao diện bị ẩn / crash.",
                 "Sơn Tường Procedural Hoàn Thiện (v3.12.38): Bắt buộc khởi động lại Blender sau khi cập nhật để nạp thuật toán mới (Patchiness - Độ Loang Lổ).",
                 "Sơn Tường Procedural: Thêm hệ thống \"Độ Loang Lổ (Patchiness)\". Sử dụng thuật toán nhân (Multiply) với nhiễu vĩ mô (Macro Noise) để tạo ra các vùng đậm nhạt, loang lổ ngẫu nhiên y như thợ sơn trát không đều tay, giúp bức tường chân thực và tự nhiên hơn gấp nhiều lần.",
@@ -124,6 +125,7 @@
                 "Liên kết trực tiếp với trạm điều hành MT_Hub Master"
             ],
             "changelog_en": [
+                "Procedural Plaster UI Fix (v3.12.40): Changed patchiness blend math to Overlay for stronger contrast, added Color Ramp to control patch shape, added HSV adjustment node.",
                 "Procedural Plaster UI Fix (v3.12.39): Fixed invalid icon name causing the entire UI panel to crash and hide controls.",
                 "Procedural Plaster Final (v3.12.38): Blender restart required after update to load the new Patchiness algorithm into memory.",
                 "Procedural Plaster Update: Added \"Patchiness\" system. Implemented a macro noise multiplication layer to simulate natural unevenness and patchy stucco strokes, greatly enhancing realism.",
@@ -186,7 +188,7 @@
             "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
             "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
             "buy_url": "",
-            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.39/MT_PBR_Studio.zip",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.40/MT_PBR_Studio.zip",
             "n_panel_tab": "MT_PBR Studio Pro",
             "is_available": true
         },
