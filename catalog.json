@@ -30,11 +30,11 @@
       "module_name": "MT_3D_Convert",
       "name": "MT 3D Convert",
       "icon": "FILE_3D",
-      "version": "v1.6.7",
+      "version": "v1.6.8",
       "version_tuple": [
         1,
         6,
-        7
+        8
       ],
       "desc_lines": [
         "📥 Kéo thả file ZIP/RAR trực tiếp vào 3D Viewport.",
@@ -48,7 +48,7 @@
       "price_vi": "MIỄN PHÍ",
       "price_en": "FREE",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_3D_Convert v1.6.7",
+      "update_notice": "Cập nhật MT_3D_Convert v1.6.8",
       "update_notice_en": "Initial release of MT 3D Convert!",
       "changelog": [
         "- Tự động import và setup vật liệu từ file ZIP/RAR"
