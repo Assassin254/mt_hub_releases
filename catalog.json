@@ -66,11 +66,11 @@
       "module_name": "MT_PBR_Studio",
       "name": "MT_PBR Studio Pro",
       "icon": "MATERIAL",
-      "version": "v3.12.53",
+      "version": "v3.13.0",
       "version_tuple": [
         3,
-        12,
-        53
+        13,
+        0
       ],
       "desc_lines": [
         "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -100,7 +100,7 @@
       "price_vi": "300.000đ",
       "price_en": "",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_PBR_Studio v3.12.53",
+      "update_notice": "Cập nhật MT_PBR_Studio v3.13.0",
       "update_notice_en": "Update v3.12.16: ART FAMILY & SOLID VIEW FIX. Added 7 new presets for Fabric, Rug, and a completely new Art family. Introduced a new \"Extract/Bake Solid View Image\" button to instantly fix gray materials in Solid View (supports extracting images hidden in node groups and automatic procedural texture baking).",
       "changelog": [
         "Sửa lỗi khởi tạo giao diện Mài Mòn (v3.12.51): Khắc phục lỗi nhầm lẫn cấu trúc dữ liệu Tuple trong quá trình tự động sinh Node, giúp tính năng Mài Mòn Cạnh hoạt động ổn định.",
