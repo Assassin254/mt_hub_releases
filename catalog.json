@@ -66,11 +66,11 @@
             "module_name": "MT_PBR_Studio",
             "name": "MT_PBR Studio Pro",
             "icon": "MATERIAL",
-            "version": "v3.12.53",
+            "version": "v3.12.54",
             "version_tuple": [
                 3,
                 12,
-                53
+                54
             ],
             "desc_lines": [
                 "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -103,6 +103,7 @@
             "update_notice": "Cập nhật MT_PBR_Studio v3.13.1",
             "update_notice_en": "Update v3.12.16: ART FAMILY & SOLID VIEW FIX. Added 7 new presets for Fabric, Rug, and a completely new Art family. Introduced a new \"Extract/Bake Solid View Image\" button to instantly fix gray materials in Solid View (supports extracting images hidden in node groups and automatic procedural texture baking).",
             "changelog": [
+                "Đại tu tối giản giao diện UI & Đồng bộ Solid Đa Chất Liệu (v3.12.54): Ẩn khối Khởi tạo đối tượng & Xem trước khỏi các tab chuyên sâu, chỉ hiện ở tab Tất Cả & Texture; Gộp tab Lồi Lõm (Displacement 3D) vào chung tab Thông Số PBR giúp rút gọn thanh điều hướng còn 6 tab tinh gọn; Đẩy nút ⚡ ĐỒNG BỘ HIỂN THỊ SOLID VIEW lên ngay đầu bảng điều khiển, tự động quét và đồng bộ chuẩn xác 100% màu sắc và texture cho toàn bộ các slot vật liệu của đối tượng (khắc phục lỗi tủ đỏ/chân nan khác màu); Hỗ trợ nướng (bake) cho vật thể chứa nhiều chất liệu.",
                 "Sửa lỗi màu tủ Solid & Bake vật liệu Procedural (v3.12.53): Khắc phục lỗi màu đơn sắc (như tủ đỏ đun hiển thị màu xanh ở Solid) bằng cách tự động đồng bộ Base Color sang Viewport Display. Sửa triệt để lỗi nướng (bake) vật liệu procedural ra màu đen xì do xung đột 2 node Material Output trong Cycles. Cả hai tính năng Đồng Bộ View và Bake Solid View giờ đây hoạt động hoàn hảo 100%.",
                 "Đồng bộ toàn diện UVW Solid & Material View (v3.12.52): Bổ sung tính năng ⚡ ĐỒNG BỘ SOLID & MATERIAL VIEW (Bake UVW sang Mesh). Khắc phục triệt để hiện tượng khung Solid và Material lệch tỉ lệ vân texture do cơ chế Workbench bỏ qua node Mapping. Tất cả thao tác Box Project, Planar Project, Tỉ lệ mm, Tỉ lệ nhanh x2 / ÷2 và Di chuyển UV giờ đây tự động cập nhật trực tiếp vào lưới Mesh UV, đảm bảo 100% hai khung nhìn luôn khớp nhau hoàn hảo.",
                 "Sửa lỗi khởi tạo giao diện Mài Mòn (v3.12.51): Khắc phục lỗi nhầm lẫn cấu trúc dữ liệu Tuple trong quá trình tự động sinh Node, giúp tính năng Mài Mòn Cạnh hoạt động ổn định.",
@@ -175,6 +176,7 @@
                 "Liên kết trực tiếp với trạm điều hành MT_Hub Master"
             ],
             "changelog_en": [
+                "Major UI Streamlining & Multi-Material Solid Sync (v3.12.54): Object/Material initialization & preview now only appear in All & Texture tabs; Merged Displace tab directly into PBR Settings reducing navigation to 6 clean tabs; Added prominent ⚡ SYNC SOLID VIEW DISPLAY button right under Viewport Sync to automatically harmonize all material slots for multi-material objects without altering render shaders; Enabled multi-material procedural baking.",
                 "Fix Solid View Color & Procedural Bake (v3.12.53): Fixed solid color mismatch in Solid View by auto-syncing Base Color to Viewport Display (diffuse_color). Completely resolved pitch-black procedural bake by properly re-routing the primary Material Output during Cycles EMIT bake.",
                 "Comprehensive UVW Solid & Material View Sync (v3.12.52): Added ⚡ SYNC SOLID & MATERIAL VIEW operator. Fully fixes viewport scale mismatch between Solid and Material Preview caused by Blender Workbench ignoring Shader Mapping nodes. Box/Planar projection, real-world sizing (mm), quick scale and UV translation now update Mesh UVs directly.",
                 "Edge Wear Generator Hotfix (v3.12.51): Fixed a critical Tuple assignment error in the automated node generation pipeline for Edge Wear.",
@@ -251,7 +253,7 @@
             "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
             "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
             "buy_url": "",
-            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.53/MT_PBR_Studio.zip",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.54/MT_PBR_Studio.zip",
             "n_panel_tab": "MT_PBR Studio Pro",
             "is_available": true
         },
