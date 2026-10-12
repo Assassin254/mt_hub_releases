@@ -1,260 +1,260 @@
 {
-    "hub_version": "1.1.11",
-    "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v1.1.11/MT_Hub.zip",
-    "hub_update_notice": "",
-    "hub_update_notice_en": "",
-    "hub_changelog": [],
-    "hub_changelog_en": [],
-    "products": [
-        {
-            "code": "MT_3D_Convert",
-            "module_name": "MT_3D_Convert",
-            "name": "MT 3D Convert",
-            "icon": "FILE_3D",
-            "version": "v1.0.0",
-            "version_tuple": [
-                1,
-                0,
-                0
-            ],
-            "desc_lines": [
-                "📥 Kéo thả file ZIP/RAR trực tiếp vào 3D Viewport.",
-                "🪄 Tự động giải nén, import FBX/OBJ và thiết lập vật liệu thông minh."
-            ],
-            "desc_lines_en": [
-                "📥 Drag & Drop ZIP/RAR files directly into 3D Viewport.",
-                "🪄 Auto-extract, import FBX/OBJ and setup smart materials."
-            ],
-            "price": "MIỄN PHÍ",
-            "price_vi": "MIỄN PHÍ",
-            "price_en": "FREE",
-            "update_recommend": true,
-            "update_notice": "Ra mắt MT 3D Convert!",
-            "update_notice_en": "Initial release of MT 3D Convert!",
-            "changelog": [
-                "- Tự động import và setup vật liệu từ file ZIP/RAR"
-            ],
-            "changelog_en": [
-                "- Auto import and setup materials from ZIP/RAR"
-            ],
-            "tutorial_url": "",
-            "buy_url": "",
-            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_3D_Convert.zip",
-            "is_available": true
-        },
-        {
-            "code": "MT_PBR_Studio",
-            "module_name": "MT_PBR_Studio",
-            "name": "MT_PBR Studio Pro",
-            "icon": "MATERIAL",
-            "version": "v3.12.57",
-            "version_tuple": [
-                3,
-                12,
-                57
-            ],
-            "desc_lines": [
-                "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
-                "✨ Tự động tạo PBR Maps (Normal, Bump, Rough, AO) 1-Click từ ảnh màu",
-                "⛰️ Nổi khối Hybrid 3D Relief & Bắt sáng Vải & Da (Sheen) khử hoàn toàn bóng nhựa",
-                "🪵 Căn vân gỗ thông minh theo thớ & Chiếu UV Box Mapping tự động",
-                "✂️ Cắt vùng Texture (Texture Crop chuẩn 3ds Max) & Kéo di chuyển trực quan 3D",
-                "🌊 Nước 3D Procedural & Sóng biển bọt trắng thời gian thực",
-                "🎯 Vết xước & Bụi bẩn với Gizmo di chuyển/xoay trực quan trong Viewport",
-                "🏛️ Tạo vệt bẩn ở khu vực giao hình khối (Dirt/AO) toàn bộ công trình",
-                "🖌️ Bút hút Eyedropper sao chép trọn bộ (Maps + Modifiers + Cài đặt)",
-                "🌅 Studio HDRI xoay góc sáng & Viewport siêu nhẹ tiết kiệm 99% VRAM",
-                "📦 Tự động đóng gói & Export toàn bộ texture chống mất file"
-            ],
-            "desc_lines_en": [
-                "⚡ 50 Advanced Architectural PBR Material Presets (10 Families)",
-                "✨ 1-Click PBR Maps (Normal, Bump, Rough, AO) from Color Image",
-                "⛰️ Hybrid 3D Relief & Fabric/Leather Micro-Sheen (zero synthetic shine)",
-                "🪵 Smart Wood Grain Alignment & Automatic Triplanar Box Mapping",
-                "✂️ Texture Crop (3ds Max Style) & Interactive 3D Surface Dragging",
-                "🌊 Procedural 3D Water & Real-time Ocean Foam Waves",
-                "🎯 Surface Imperfections & Scratches with Interactive Viewport Gizmo",
-                "🏛️ Geometric Intersection Crevice & Corner Grime (Dirt/AO)",
-                "🖌️ Eyedropper Material Cloner (Maps + Modifiers + Settings)",
-                "🌅 Studio HDRI Rotation & Lightweight Viewport Saving 99% VRAM",
-                "📦 Auto Collect & Package Complete Textures for Render Farms"
-            ],
-            "price": "300.000đ ($24)",
-            "price_vi": "300.000đ",
-            "price_en": "$24",
-            "update_recommend": true,
-            "update_notice": "Tác giả khuyến nghị cập nhật lên phiên bản mới nhất để tối ưu hiệu năng và sửa lỗi!",
-            "update_notice_en": "Recommended to update to the latest version for performance optimization and bug fixes!",
-            "changelog": [
-                "v3.12.57: Tích hợp công cụ Cắt Vùng Texture (Texture Crop chuẩn 3ds Max) trong tab UVW; Hỗ trợ kéo di chuyển trực quan 3D trên bề mặt vật thể; Mở cửa sổ khung viền đỏ 2D tương tác; Bổ sung các preset cắt nhanh 1/2 và 1/4; Tự động đồng bộ vùng crop sang Solid View khi ấn Đồng Bộ UVW.",
-                "v3.12.56: Live Sync thời gian thực màu gương, kim loại và sơn trơn sang Solid View; Bổ sung hộp Sửa Lỗi Hiển Thị Solid View cho toàn bộ các hệ vật liệu (Kim loại, Kính, Nước, Đèn, Sơn tường); Khắc phục xung đột tên ảnh Solid giữa các slot vật liệu."
-            ],
-            "changelog_en": [
-                "v3.12.57: Integrated Texture Crop tool (3ds Max Bitmap Crop style) in UVW tab; Interactive 3D Viewport drag & move on mesh surfaces; 2D interactive red bounding box viewer; Quick half and quarter crop presets; Auto-syncs cropped mapping to Solid View.",
-                "v3.12.56: Real-time Live Sync for mirror, metallic, and smooth materials to Solid View; Added Fix Solid View Display section to all material families (Metal, Glass, Water, Emission, Plaster); Resolved image naming collisions between multiple material slots."
-            ],
-            "tutorial_url": "https://assassin254.github.io/mt-studio-docs/",
-            "tutorial_url_en": "https://assassin254.github.io/mt-studio-docs/en.html",
-            "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
-            "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
-            "buy_url": "",
-            "download_url": "file:///d:/OneDrive/4.SHARING/5.GEMINI/1.BLENDER/MT_Hub/packages/MT_PBR_Studio.zip",
-            "youtube_url": "https://youtu.be/dummy",
-            "docs_url": "https://mt-studio.vn",
-            "n_panel_tab": "MT_PBR Studio Pro",
-            "is_available": true
-        },
-        {
-            "code": "MT_Procedural_Texture",
-            "module_name": "MT_Materials_Procedural",
-            "name": "MT Procedural Texture",
-            "icon": "MATERIAL",
-            "version": "v2.2.0",
-            "version_tuple": [
-                2,
-                2,
-                0
-            ],
-            "desc_lines": [
-                "Tạo vật liệu Procedural chuyên nghiệp bằng hệ thống Node."
-            ],
-            "desc_lines_en": [
-                "Create professional procedural materials."
-            ],
-            "price": "MIỄN PHÍ",
-            "price_vi": "MIỄN PHÍ",
-            "price_en": "FREE",
-            "update_recommend": false,
-            "update_notice": "Ra mắt MT Procedural Texture v2.0.0!",
-            "update_notice_en": "MT Procedural Texture v2.0.0 launched!",
-            "changelog": [],
-            "changelog_en": [],
-            "tutorial_url": "",
-            "buy_url": "",
-            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Procedural_Texture.zip",
-            "n_panel_tab": "MT_Materials",
-            "is_available": true
-        },
-        {
-            "code": "MT_SmartGroup",
-            "module_name": "MT_SmartGroup",
-            "name": "MT SmartGroup",
-            "icon": "GROUP",
-            "version": "v1.1.0",
-            "version_tuple": [
-                1,
-                1,
-                0
-            ],
-            "desc_lines": [
-                "📦 Gom nhóm toàn bộ object như 3ds Max / SketchUp",
-                "🚀 Mở / Đóng / Chỉnh sửa trực tiếp không rã Group",
-                "✨ Group lồng Group (Nested Groups) đa cấp độ"
-            ],
-            "desc_lines_en": [
-                "📦 Group objects exactly like 3ds Max / SketchUp",
-                "🚀 Open / Close / Edit directly without ungrouping",
-                "✨ Multi-level Nested Groups support"
-            ],
-            "price": "MIỄN PHÍ",
-            "price_vi": "MIỄN PHÍ",
-            "price_en": "FREE",
-            "update_recommend": false,
-            "update_notice": "",
-            "update_notice_en": "",
-            "changelog": [
-                "Phát hành bản Alpha 1.1.0"
-            ],
-            "changelog_en": [
-                "Alpha release 1.1.0"
-            ],
-            "tutorial_url": "",
-            "buy_url": "",
-            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.1/MT_SmartGroup.zip",
-            "n_panel_tab": "MT_SmartGroup",
-            "is_available": true
-        },
-        {
-            "code": "MT_Camera",
-            "module_name": "MT_Camera",
-            "name": "MT Camera",
-            "icon": "CAMERA_DATA",
-            "version": "v1.3.7",
-            "version_tuple": [
-                1,
-                3,
-                7
-            ],
-            "desc_lines": [
-                "🎥 Quản lý toàn bộ camera trong Scene nhanh chóng",
-                "🚶 Chế độ điều khiển Walk Navigation (WASD)",
-                "📏 Căn phẳng góc máy chuẩn kiến trúc 1-click",
-                "🖼️ Setup tỉ lệ khung hình chuẩn & tự tính độ phân giải",
-                "⚡ Render Batch (Viewport & Actual) tự động lưu file"
-            ],
-            "desc_lines_en": [
-                "🎥 Quick management for all cameras in the Scene",
-                "🚶 Walk Navigation mode (WASD)",
-                "📏 1-click straight camera alignment for archviz",
-                "🖼️ Standard aspect ratios & auto resolution calculation",
-                "⚡ Batch Render (Viewport & Actual) with auto-save"
-            ],
-            "price": "MIỄN PHÍ",
-            "price_vi": "MIỄN PHÍ",
-            "price_en": "FREE",
-            "update_recommend": false,
-            "update_notice": "",
-            "update_notice_en": "",
-            "changelog": [
-                "Phát hành bản 1.0.0"
-            ],
-            "changelog_en": [
-                "Initial release 1.0.0"
-            ],
-            "tutorial_url": "",
-            "buy_url": "",
-            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Camera.zip",
-            "n_panel_tab": "MT Camera",
-            "is_available": true
-        },
-        {
-            "code": "MT_Lightmix",
-            "module_name": "MT_Lightmix",
-            "name": "MT Lightmix",
-            "icon": "LIGHT",
-            "version": "v1.0.7",
-            "version_tuple": [
-                1,
-                0,
-                7
-            ],
-            "desc_lines": [
-                "💡 Đặt đèn LED, âm trần, đèn cửa sổ nhanh chóng",
-                "🎛️ Interactive LightMix giống hệt Corona",
-                "🌡️ Nhiệt độ màu vật lý chuẩn xác với Blackbody Node"
-            ],
-            "desc_lines_en": [
-                "💡 Place LED, downlight, and window lights quickly",
-                "🎛️ Interactive LightMix similar to Corona",
-                "🌡️ Accurate physical color temp with Blackbody Node"
-            ],
-            "price": "MIỄN PHÍ",
-            "price_vi": "MIỄN PHÍ",
-            "price_en": "FREE",
-            "update_recommend": false,
-            "update_notice": "",
-            "update_notice_en": "",
-            "changelog": [
-                "Phát hành bản 1.0.2 - Fix lỗi đèn và bổ sung UI"
-            ],
-            "changelog_en": [
-                "Release 1.0.2 - Bug fixes and UI improvements"
-            ],
-            "tutorial_url": "",
-            "buy_url": "",
-            "download_url": "",
-            "n_panel_tab": "MT Lightmix",
-            "is_available": true
-        }
-    ]
+  "hub_version": "1.1.11",
+  "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v1.1.11/MT_Hub.zip",
+  "hub_update_notice": "",
+  "hub_update_notice_en": "",
+  "hub_changelog": [],
+  "hub_changelog_en": [],
+  "products": [
+    {
+      "code": "MT_3D_Convert",
+      "module_name": "MT_3D_Convert",
+      "name": "MT 3D Convert",
+      "icon": "FILE_3D",
+      "version": "v1.7.4",
+      "version_tuple": [
+        1,
+        7,
+        4
+      ],
+      "desc_lines": [
+        "📥 Kéo thả file ZIP/RAR trực tiếp vào 3D Viewport.",
+        "🪄 Tự động giải nén, import FBX/OBJ và thiết lập vật liệu thông minh."
+      ],
+      "desc_lines_en": [
+        "📥 Drag & Drop ZIP/RAR files directly into 3D Viewport.",
+        "🪄 Auto-extract, import FBX/OBJ and setup smart materials."
+      ],
+      "price": "MIỄN PHÍ",
+      "price_vi": "MIỄN PHÍ",
+      "price_en": "FREE",
+      "update_recommend": true,
+      "update_notice": "Cập nhật MT_3D_Convert v1.7.4",
+      "update_notice_en": "Initial release of MT 3D Convert!",
+      "changelog": [
+        "- Tự động import và setup vật liệu từ file ZIP/RAR"
+      ],
+      "changelog_en": [
+        "- Auto import and setup materials from ZIP/RAR"
+      ],
+      "tutorial_url": "",
+      "buy_url": "",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_3D_Convert.zip",
+      "is_available": true
+    },
+    {
+      "code": "MT_PBR_Studio",
+      "module_name": "MT_PBR_Studio",
+      "name": "MT_PBR Studio Pro",
+      "icon": "MATERIAL",
+      "version": "v3.12.57",
+      "version_tuple": [
+        3,
+        12,
+        57
+      ],
+      "desc_lines": [
+        "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
+        "✨ Tự động tạo PBR Maps (Normal, Bump, Rough, AO) 1-Click từ ảnh màu",
+        "⛰️ Nổi khối Hybrid 3D Relief & Bắt sáng Vải & Da (Sheen) khử hoàn toàn bóng nhựa",
+        "🪵 Căn vân gỗ thông minh theo thớ & Chiếu UV Box Mapping tự động",
+        "✂️ Cắt vùng Texture (Texture Crop chuẩn 3ds Max) & Kéo di chuyển trực quan 3D",
+        "🌊 Nước 3D Procedural & Sóng biển bọt trắng thời gian thực",
+        "🎯 Vết xước & Bụi bẩn với Gizmo di chuyển/xoay trực quan trong Viewport",
+        "🏛️ Tạo vệt bẩn ở khu vực giao hình khối (Dirt/AO) toàn bộ công trình",
+        "🖌️ Bút hút Eyedropper sao chép trọn bộ (Maps + Modifiers + Cài đặt)",
+        "🌅 Studio HDRI xoay góc sáng & Viewport siêu nhẹ tiết kiệm 99% VRAM",
+        "📦 Tự động đóng gói & Export toàn bộ texture chống mất file"
+      ],
+      "desc_lines_en": [
+        "⚡ 50 Advanced Architectural PBR Material Presets (10 Families)",
+        "✨ 1-Click PBR Maps (Normal, Bump, Rough, AO) from Color Image",
+        "⛰️ Hybrid 3D Relief & Fabric/Leather Micro-Sheen (zero synthetic shine)",
+        "🪵 Smart Wood Grain Alignment & Automatic Triplanar Box Mapping",
+        "✂️ Texture Crop (3ds Max Style) & Interactive 3D Surface Dragging",
+        "🌊 Procedural 3D Water & Real-time Ocean Foam Waves",
+        "🎯 Surface Imperfections & Scratches with Interactive Viewport Gizmo",
+        "🏛️ Geometric Intersection Crevice & Corner Grime (Dirt/AO)",
+        "🖌️ Eyedropper Material Cloner (Maps + Modifiers + Settings)",
+        "🌅 Studio HDRI Rotation & Lightweight Viewport Saving 99% VRAM",
+        "📦 Auto Collect & Package Complete Textures for Render Farms"
+      ],
+      "price": "300.000đ ($24)",
+      "price_vi": "300.000đ",
+      "price_en": "$24",
+      "update_recommend": true,
+      "update_notice": "Tác giả khuyến nghị cập nhật lên phiên bản mới nhất để tối ưu hiệu năng và sửa lỗi!",
+      "update_notice_en": "Recommended to update to the latest version for performance optimization and bug fixes!",
+      "changelog": [
+        "v3.12.57: Tích hợp công cụ Cắt Vùng Texture (Texture Crop chuẩn 3ds Max) trong tab UVW; Hỗ trợ kéo di chuyển trực quan 3D trên bề mặt vật thể; Mở cửa sổ khung viền đỏ 2D tương tác; Bổ sung các preset cắt nhanh 1/2 và 1/4; Tự động đồng bộ vùng crop sang Solid View khi ấn Đồng Bộ UVW.",
+        "v3.12.56: Live Sync thời gian thực màu gương, kim loại và sơn trơn sang Solid View; Bổ sung hộp Sửa Lỗi Hiển Thị Solid View cho toàn bộ các hệ vật liệu (Kim loại, Kính, Nước, Đèn, Sơn tường); Khắc phục xung đột tên ảnh Solid giữa các slot vật liệu."
+      ],
+      "changelog_en": [
+        "v3.12.57: Integrated Texture Crop tool (3ds Max Bitmap Crop style) in UVW tab; Interactive 3D Viewport drag & move on mesh surfaces; 2D interactive red bounding box viewer; Quick half and quarter crop presets; Auto-syncs cropped mapping to Solid View.",
+        "v3.12.56: Real-time Live Sync for mirror, metallic, and smooth materials to Solid View; Added Fix Solid View Display section to all material families (Metal, Glass, Water, Emission, Plaster); Resolved image naming collisions between multiple material slots."
+      ],
+      "tutorial_url": "https://assassin254.github.io/mt-studio-docs/",
+      "tutorial_url_en": "https://assassin254.github.io/mt-studio-docs/en.html",
+      "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
+      "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
+      "buy_url": "",
+      "download_url": "file:///d:/OneDrive/4.SHARING/5.GEMINI/1.BLENDER/MT_Hub/packages/MT_PBR_Studio.zip",
+      "youtube_url": "https://youtu.be/dummy",
+      "docs_url": "https://mt-studio.vn",
+      "n_panel_tab": "MT_PBR Studio Pro",
+      "is_available": true
+    },
+    {
+      "code": "MT_Procedural_Texture",
+      "module_name": "MT_Materials_Procedural",
+      "name": "MT Procedural Texture",
+      "icon": "MATERIAL",
+      "version": "v2.4.0",
+      "version_tuple": [
+        2,
+        4,
+        0
+      ],
+      "desc_lines": [
+        "Tạo vật liệu Procedural chuyên nghiệp bằng hệ thống Node."
+      ],
+      "desc_lines_en": [
+        "Create professional procedural materials."
+      ],
+      "price": "MIỄN PHÍ",
+      "price_vi": "MIỄN PHÍ",
+      "price_en": "FREE",
+      "update_recommend": false,
+      "update_notice": "Cập nhật MT_Procedural_Texture v2.4.0",
+      "update_notice_en": "MT Procedural Texture v2.0.0 launched!",
+      "changelog": [],
+      "changelog_en": [],
+      "tutorial_url": "",
+      "buy_url": "",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Procedural_Texture.zip",
+      "n_panel_tab": "MT_Materials",
+      "is_available": true
+    },
+    {
+      "code": "MT_SmartGroup",
+      "module_name": "MT_SmartGroup",
+      "name": "MT SmartGroup",
+      "icon": "GROUP",
+      "version": "v1.1.0",
+      "version_tuple": [
+        1,
+        1,
+        0
+      ],
+      "desc_lines": [
+        "📦 Gom nhóm toàn bộ object như 3ds Max / SketchUp",
+        "🚀 Mở / Đóng / Chỉnh sửa trực tiếp không rã Group",
+        "✨ Group lồng Group (Nested Groups) đa cấp độ"
+      ],
+      "desc_lines_en": [
+        "📦 Group objects exactly like 3ds Max / SketchUp",
+        "🚀 Open / Close / Edit directly without ungrouping",
+        "✨ Multi-level Nested Groups support"
+      ],
+      "price": "MIỄN PHÍ",
+      "price_vi": "MIỄN PHÍ",
+      "price_en": "FREE",
+      "update_recommend": false,
+      "update_notice": "",
+      "update_notice_en": "",
+      "changelog": [
+        "Phát hành bản Alpha 1.1.0"
+      ],
+      "changelog_en": [
+        "Alpha release 1.1.0"
+      ],
+      "tutorial_url": "",
+      "buy_url": "",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.1/MT_SmartGroup.zip",
+      "n_panel_tab": "MT_SmartGroup",
+      "is_available": true
+    },
+    {
+      "code": "MT_Camera",
+      "module_name": "MT_Camera",
+      "name": "MT Camera",
+      "icon": "CAMERA_DATA",
+      "version": "v1.3.7",
+      "version_tuple": [
+        1,
+        3,
+        7
+      ],
+      "desc_lines": [
+        "🎥 Quản lý toàn bộ camera trong Scene nhanh chóng",
+        "🚶 Chế độ điều khiển Walk Navigation (WASD)",
+        "📏 Căn phẳng góc máy chuẩn kiến trúc 1-click",
+        "🖼️ Setup tỉ lệ khung hình chuẩn & tự tính độ phân giải",
+        "⚡ Render Batch (Viewport & Actual) tự động lưu file"
+      ],
+      "desc_lines_en": [
+        "🎥 Quick management for all cameras in the Scene",
+        "🚶 Walk Navigation mode (WASD)",
+        "📏 1-click straight camera alignment for archviz",
+        "🖼️ Standard aspect ratios & auto resolution calculation",
+        "⚡ Batch Render (Viewport & Actual) with auto-save"
+      ],
+      "price": "MIỄN PHÍ",
+      "price_vi": "MIỄN PHÍ",
+      "price_en": "FREE",
+      "update_recommend": false,
+      "update_notice": "",
+      "update_notice_en": "",
+      "changelog": [
+        "Phát hành bản 1.0.0"
+      ],
+      "changelog_en": [
+        "Initial release 1.0.0"
+      ],
+      "tutorial_url": "",
+      "buy_url": "",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Camera.zip",
+      "n_panel_tab": "MT Camera",
+      "is_available": true
+    },
+    {
+      "code": "MT_Lightmix",
+      "module_name": "MT_Lightmix",
+      "name": "MT Lightmix",
+      "icon": "LIGHT",
+      "version": "v1.0.47",
+      "version_tuple": [
+        1,
+        0,
+        47
+      ],
+      "desc_lines": [
+        "💡 Đặt đèn LED, âm trần, đèn cửa sổ nhanh chóng",
+        "🎛️ Interactive LightMix giống hệt Corona",
+        "🌡️ Nhiệt độ màu vật lý chuẩn xác với Blackbody Node"
+      ],
+      "desc_lines_en": [
+        "💡 Place LED, downlight, and window lights quickly",
+        "🎛️ Interactive LightMix similar to Corona",
+        "🌡️ Accurate physical color temp with Blackbody Node"
+      ],
+      "price": "MIỄN PHÍ",
+      "price_vi": "MIỄN PHÍ",
+      "price_en": "FREE",
+      "update_recommend": false,
+      "update_notice": "Cập nhật MT_Lightmix v1.0.47",
+      "update_notice_en": "",
+      "changelog": [
+        "Phát hành bản 1.0.2 - Fix lỗi đèn và bổ sung UI"
+      ],
+      "changelog_en": [
+        "Release 1.0.2 - Bug fixes and UI improvements"
+      ],
+      "tutorial_url": "",
+      "buy_url": "",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Lightmix.zip",
+      "n_panel_tab": "MT Lightmix",
+      "is_available": true
+    }
+  ]
 }
