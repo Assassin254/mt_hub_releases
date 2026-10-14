@@ -47,11 +47,11 @@
       "module_name": "MT_PBR_Studio",
       "name": "MT_PBR Studio Pro",
       "icon": "MATERIAL",
-      "version": "v3.12.63",
+      "version": "v3.12.64",
       "version_tuple": [
         3,
         12,
-        63
+        64
       ],
       "desc_lines": [
         "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -83,9 +83,10 @@
       "price_vi": "300.000đ",
       "price_en": "$24",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_PBR_Studio v3.12.63",
+      "update_notice": "Cập nhật MT_PBR_Studio v3.12.64",
       "update_notice_en": "Recommended to update to the latest version for performance optimization and bug fixes!",
       "changelog": [
+        "v3.12.64: Sửa triệt để lỗi Bút Hút Vật Liệu (Eyedropper) không làm mất vật liệu/UV của đối tượng nguồn hay đối tượng đích; Bổ sung thanh trượt và các nút dịch chuyển nhanh UVW Offset (U-, U+, V-, V+, Reset 0) đồng bộ 100% Solid View & Material View; Nâng cấp Bảng nổi Alt+V đầy đủ thông số bề mặt PBR (lược bỏ khung Cắt Crop và nút Thay Map theo đúng yêu cầu tinh giản); Hợp nhất Xem trước vật liệu và Nguồn texture ảnh ngoài trực tiếp vào Tab PBR; Tự động đồng bộ ảnh Base Color và bổ sung nút [X] gỡ bỏ map nhanh cho từng kênh PBR.",
         "v3.12.63: Tích hợp hệ thống Pie Menu (Alt+C) và Bảng nổi tinh chỉnh nhanh (Alt+V) ngay tại con trỏ chuột: Mở Pie 8 hướng chứa trọn bộ 10 nhóm họ vật liệu và 59 preset PBR chuẩn kiến trúc, di chuột xổ menu con và gán 1-click trực tiếp; Tự động cô lập slot mới cho các mặt đang chọn trong Edit Mode và gán toàn bộ đối tượng trong Object Mode; Phím tắt Alt+V mở bảng nổi Smart Tweak ngay dưới con trỏ chuột gồm đầy đủ điều khiển kích thước UVW (mm), xoay vân gỗ dài nhất, fit to face, box mapping, chỉnh màu Base Color, Roughness, Metallic, Normal và Crop 2D mà không cần mở bảng N-panel.",
         "v3.12.62: Nâng cấp toàn diện tính năng Cắt Vùng Texture (3ds Max Style): Tái cấu trúc shader MT_Texture_Crop kết hợp đồng bộ trực tiếp lưới Mesh UV của toàn bộ các chi tiết/vật thể cùng chia sẻ vật liệu (như tủ kệ, bàn ghế gồm hàng chục mesh); Chuẩn hóa tầng UV gốc MT_UV_Base triệt tiêu hoàn toàn hiện tượng cắt 2 lần (double-crop) giữa Solid View và Material/Render; Tự động kích hoạt hiển thị Texture trong Solid View; Cập nhật tức thì thời gian thực khi kéo chỉnh trên cửa sổ 2D Crop Canvas, thanh trượt hoặc Preset.",
         "v3.12.61: Nâng cấp Bút Hút Vật Liệu thông minh đa chế độ: Trong Edit Mode khi chọn đối tượng mặt sẽ hút chuẩn xác vật liệu và tự động trải phẳng UV không méo lệch theo vân vật liệu nguồn, tự động tạo và cô lập Material Slot mới cho các mặt được chọn, bảo tồn 100% vật liệu gốc của các mặt không chọn; Trong Object Mode đối với các vật thể có hình khối tương đồng, tự động hút toàn bộ các Material Slots, map chuẩn vị trí từng cụm polygon và đồng bộ UV texture; Cho phép hút vật liệu giữa các mặt trong cùng một vật thể ở Edit Mode.",
@@ -95,6 +96,7 @@
         "v3.12.57: Tích hợp công cụ Cắt Vùng Texture (Texture Crop chuẩn 3ds Max) trong tab UVW; Hỗ trợ kéo di chuyển trực quan 3D trên bề mặt vật thể; Mở cửa sổ khung viền đỏ 2D tương tác; Bổ sung các preset cắt nhanh 1/2 và 1/4; Tự động đồng bộ vùng crop sang Solid View khi ấn Đồng Bộ UVW."
       ],
       "changelog_en": [
+        "v3.12.64: Fully fixed Eyedropper Material Picker bug ensuring non-destructive transfer without altering or clearing source or target materials/UVs; Added precise numeric sliders and step shift buttons for UVW Offset (U-, U+, V-, V+, Reset 0) with 100% Solid & Material View synchronization; Enhanced Alt+V quick popup with comprehensive PBR surface tuning (omitting 2D crop and replace buttons); Unified Material Preview and External Texture Source directly into PBR tab; Auto-syncs Base Color image and adds 1-click [X] map removal button to each PBR channel.",
         "v3.12.63: Integrated Native Radial Pie Menu (Alt+C) & Floating Smart Tweak Popup (Alt+V) directly at cursor: 8-direction radial pie menu containing all 10 architectural material families and 59 PBR presets with cascading submenus for 1-click assignment; Automatically creates isolated material slots for selected faces in Edit Mode and assigns all objects in Object Mode; Alt+V opens floating smart tweak popup right under the mouse cursor with real-world UVW mm sizing, grain alignment, fit to face, box mapping, PBR color/roughness/metallic/normal sliders, and 2D Texture Crop without needing the N-panel.",
         "v3.12.62: Complete Texture Cropping Architecture Upgrade (3ds Max Style): Redesigned shader MT_Texture_Crop combined with multi-mesh UV synchronization across all objects sharing the material (such as multi-part cabinets and furniture); Dual-UV architecture with MT_UV_Base completely eliminating double-cropping between Solid View and Material/Render; Auto-enables Texture color shading in Solid View; Instant real-time updates across 2D Crop Canvas, sliders, and presets.",
         "v3.12.61: Smart Multi-Mode Eyedropper Material Picker Upgrade: In Edit Mode when picking materials for selected faces, accurately samples material and automatically projects orthonormal planar UVs matching source texel density without distortion, automatically isolates and creates dedicated Material Slots for selected faces while preserving 100% of original materials on unselected faces; In Object Mode on similar/matching geometry, automatically clones all Material Slots, assigns them to corresponding polygon regions via topology/spatial BVH matching, and syncs UV texture maps; Supports picking between faces of the same mesh in Edit Mode.",
@@ -108,7 +110,7 @@
       "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
       "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
       "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.63/MT_PBR_Studio.zip",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.64/MT_PBR_Studio.zip",
       "youtube_url": "https://youtu.be/dummy",
       "docs_url": "https://mt-studio.vn",
       "n_panel_tab": "MT_PBR Studio Pro",
