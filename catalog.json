@@ -47,11 +47,11 @@
       "module_name": "MT_PBR_Studio",
       "name": "MT_PBR Studio Pro",
       "icon": "MATERIAL",
-      "version": "v3.12.66",
+      "version": "v3.12.67",
       "version_tuple": [
         3,
         12,
-        66
+        67
       ],
       "desc_lines": [
         "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -83,9 +83,10 @@
       "price_vi": "300.000đ",
       "price_en": "$24",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_PBR_Studio v3.12.66",
+      "update_notice": "Cập nhật MT_PBR_Studio v3.12.67",
       "update_notice_en": "Recommended to update to the latest version for performance optimization and bug fixes!",
       "changelog": [
+        "v3.12.67: Khắc phục triệt để lỗi Kéo Di Chuột Trong Viewport (3D Interactive Drag): Chuyển sang cơ chế Giữ Chuột Trái (Hold LMB) để kéo trực tiếp, triệt tiêu 100% hiện tượng texture bị văng/nhảy khi di chuột từ N-Panel vào Viewport; Không bị thoát lệnh đột ngột khi click chuột; Đảo chiều vector kéo mượt mà tự nhiên theo đúng hướng tay người dùng; Bổ sung khung HUD Mini hiển thị trạng thái và thông số tọa độ thời gian thực trên 3D Viewport.",
         "v3.12.66: Tối ưu hóa tính năng Tịnh Tiến UVW Texture: Thay thế toàn bộ cụm nút bấm +/- rườm rà bằng thanh trượt trực quan (slider=True) cho phép kéo thả trị số U và V siêu mượt với độ chính xác cao và nút [↺ Reset]; Nâng cấp toàn diện công cụ Kéo Chuột Tự Do Trong Viewport (3D Interactive Drag) cập nhật trực tiếp lưới UV mesh theo thời gian thực (60 FPS), hiển thị tức thì trên cả Solid View và Material/Render View, hỗ trợ giữ Shift để vi chỉnh cực nhạy.",
         "v3.12.65: Sửa dứt điểm 100% lỗi Bút Hút Vật Liệu (Eyedropper): Khắc phục lỗi crash NameError is_multi_slot, loại bỏ hoàn toàn các lỗi AttributeError do gọi sai thuộc tính; Đảm bảo cơ chế gán vật liệu và Box Mapping UV thông minh, hiển thị đầy đủ maps ngay lập tức trên cả Solid View và Material View mà không gây mất mát vật liệu hay méo lệch UV của đối tượng nguồn và đích.",
         "v3.12.64: Sửa triệt để lỗi Bút Hút Vật Liệu (Eyedropper) không làm mất vật liệu/UV của đối tượng nguồn hay đối tượng đích; Bổ sung thanh trượt và các nút dịch chuyển nhanh UVW Offset (U-, U+, V-, V+, Reset 0) đồng bộ 100% Solid View & Material View; Nâng cấp Bảng nổi Alt+V đầy đủ thông số bề mặt PBR (lược bỏ khung Cắt Crop và nút Thay Map theo đúng yêu cầu tinh giản); Hợp nhất Xem trước vật liệu và Nguồn texture ảnh ngoài trực tiếp vào Tab PBR; Tự động đồng bộ ảnh Base Color và bổ sung nút [X] gỡ bỏ map nhanh cho từng kênh PBR.",
@@ -98,6 +99,7 @@
         "v3.12.57: Tích hợp công cụ Cắt Vùng Texture (Texture Crop chuẩn 3ds Max) trong tab UVW; Hỗ trợ kéo di chuyển trực quan 3D trên bề mặt vật thể; Mở cửa sổ khung viền đỏ 2D tương tác; Bổ sung các preset cắt nhanh 1/2 và 1/4; Tự động đồng bộ vùng crop sang Solid View khi ấn Đồng Bộ UVW."
       ],
       "changelog_en": [
+        "v3.12.67: Fully resolved Viewport Mouse Drag issues (3D Interactive Drag): Re-engineered with Hold-to-Drag (Hold LMB) mechanics, completely eliminating accidental texture jumps when moving the mouse from N-panel into 3D Viewport; Prevents accidental termination on mouse click; Properly aligned drag direction with natural hand movement; Added on-screen 3D Viewport HUD showing live status and coordinates.",
         "v3.12.66: Optimized Texture UVW Translation (Offset): Replaced cluttered +/- step buttons with intuitive continuous sliders (slider=True) for smooth, high-precision U and V dragging with a clean [↺ Reset] button; Overhauled Free Mouse Drag in Viewport (3D Interactive Drag) to modify mesh UV loops directly in real-time (60 FPS) across both Solid View and Material/Render Views with Shift precision micro-tuning.",
         "v3.12.65: 100% fixed Eyedropper Material Picker: Resolved NameError is_multi_slot crash, eliminated internal AttributeError exceptions during property sync; Ensured reliable single/multi-object material transfer with intelligent Box Mapping UV fallback, immediately displaying full textures on both Solid View and Material View without altering source objects or losing textures.",
         "v3.12.64: Fully fixed Eyedropper Material Picker bug ensuring non-destructive transfer without altering or clearing source or target materials/UVs; Added precise numeric sliders and step shift buttons for UVW Offset (U-, U+, V-, V+, Reset 0) with 100% Solid & Material View synchronization; Enhanced Alt+V quick popup with comprehensive PBR surface tuning (omitting 2D crop and replace buttons); Unified Material Preview and External Texture Source directly into PBR tab; Auto-syncs Base Color image and adds 1-click [X] map removal button to each PBR channel.",
@@ -114,7 +116,7 @@
       "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
       "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
       "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.66/MT_PBR_Studio.zip",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.67/MT_PBR_Studio.zip",
       "youtube_url": "https://youtu.be/dummy",
       "docs_url": "https://mt-studio.vn",
       "n_panel_tab": "MT_PBR Studio Pro",
