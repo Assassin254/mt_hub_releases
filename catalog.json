@@ -11,11 +11,11 @@
       "module_name": "MT_3D_Convert",
       "name": "MT 3D Convert",
       "icon": "FILE_3D",
-      "version": "v1.8.3",
+      "version": "v1.8.4",
       "version_tuple": [
         1,
         8,
-        3
+        4
       ],
       "desc_lines": [
         "📥 Kéo thả file ZIP/RAR trực tiếp vào 3D Viewport.",
@@ -29,7 +29,7 @@
       "price_vi": "MIỄN PHÍ",
       "price_en": "FREE",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_3D_Convert v1.8.3",
+      "update_notice": "Cập nhật MT_3D_Convert v1.8.4",
       "update_notice_en": "Initial release of MT 3D Convert!",
       "changelog": [
         "- Tự động import và setup vật liệu từ file ZIP/RAR"
@@ -47,11 +47,11 @@
       "module_name": "MT_PBR_Studio",
       "name": "MT_PBR Studio Pro",
       "icon": "MATERIAL",
-      "version": "v3.12.69",
+      "version": "v3.12.70",
       "version_tuple": [
         3,
         12,
-        69
+        70
       ],
       "desc_lines": [
         "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -83,7 +83,7 @@
       "price_vi": "300.000đ",
       "price_en": "$24",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_PBR_Studio v3.12.69",
+      "update_notice": "Cập nhật MT_PBR_Studio v3.12.70",
       "update_notice_en": "Recommended to update to the latest version for performance optimization and bug fixes!",
       "changelog": [
         "v3.12.69: Lược bỏ hoàn toàn dòng thông tin phiên bản cũ ở đáy bảng điều khiển theo yêu cầu tinh giản giao diện.",
@@ -120,7 +120,7 @@
       "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
       "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
       "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.69/MT_PBR_Studio.zip",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.70/MT_PBR_Studio.zip",
       "youtube_url": "https://youtu.be/dummy",
       "docs_url": "https://mt-studio.vn",
       "n_panel_tab": "MT_PBR Studio Pro",
