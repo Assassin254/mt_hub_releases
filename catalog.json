@@ -1,6 +1,6 @@
 {
-  "hub_version": "1.1.11",
-  "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v1.1.11/MT_Hub.zip",
+  "hub_version": "1.1.13",
+  "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Hub.zip",
   "hub_update_notice": "",
   "hub_update_notice_en": "",
   "hub_changelog": [],
@@ -151,10 +151,10 @@
       "module_name": "MT_Materials_Procedural",
       "name": "MT Procedural Texture",
       "icon": "MATERIAL",
-      "version": "v2.2.0",
+      "version": "v2.4.0",
       "version_tuple": [
         2,
-        2,
+        4,
         0
       ],
       "desc_lines": [
@@ -167,7 +167,7 @@
       "price_vi": "MIỄN PHÍ",
       "price_en": "FREE",
       "update_recommend": false,
-      "update_notice": "Ra mắt MT Procedural Texture v2.0.0!",
+      "update_notice": "Cập nhật MT_Procedural_Texture v2.4.0",
       "update_notice_en": "MT Procedural Texture v2.0.0 launched!",
       "changelog": [],
       "changelog_en": [],
@@ -221,11 +221,11 @@
       "module_name": "MT_Camera",
       "name": "MT Camera",
       "icon": "CAMERA_DATA",
-      "version": "v1.3.7",
+      "version": "v1.4.0",
       "version_tuple": [
         1,
-        3,
-        7
+        4,
+        0
       ],
       "desc_lines": [
         "🎥 Quản lý toàn bộ camera trong Scene nhanh chóng",
@@ -245,7 +245,7 @@
       "price_vi": "MIỄN PHÍ",
       "price_en": "FREE",
       "update_recommend": false,
-      "update_notice": "",
+      "update_notice": "Cập nhật MT_Camera v1.4.0",
       "update_notice_en": "",
       "changelog": [
         "Phát hành bản 1.0.0"
@@ -264,11 +264,11 @@
       "module_name": "MT_Lightmix",
       "name": "MT Lightmix",
       "icon": "LIGHT",
-      "version": "v1.0.7",
+      "version": "v1.0.57",
       "version_tuple": [
         1,
         0,
-        7
+        57
       ],
       "desc_lines": [
         "💡 Đặt đèn LED, âm trần, đèn cửa sổ nhanh chóng",
@@ -284,7 +284,7 @@
       "price_vi": "MIỄN PHÍ",
       "price_en": "FREE",
       "update_recommend": false,
-      "update_notice": "",
+      "update_notice": "Cập nhật MT_Lightmix v1.0.57",
       "update_notice_en": "",
       "changelog": [
         "Phát hành bản 1.0.2 - Fix lỗi đèn và bổ sung UI"
