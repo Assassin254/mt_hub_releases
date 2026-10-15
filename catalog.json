@@ -61,11 +61,11 @@
       "module_name": "MT_PBR_Studio",
       "name": "MT_PBR Studio Pro",
       "icon": "MATERIAL",
-      "version": "v3.12.70",
+      "version": "v3.12.71",
       "version_tuple": [
         3,
         12,
-        70
+        71
       ],
       "desc_lines": [
         "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -97,9 +97,11 @@
       "price_vi": "300.000đ",
       "price_en": "$24",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_PBR_Studio v3.12.70",
+      "update_notice": "Cập nhật MT_PBR_Studio v3.12.71",
       "update_notice_en": "Recommended to update to the latest version for performance optimization and bug fixes!",
       "changelog": [
+        "v3.12.71: Nâng cấp toàn diện công cụ UVW Mapping: 1) Tích hợp nút '🔗 Kết Nối UVW Vào Vật Liệu' (Use UV Map on Active Material) tương đương 100% add-on APA UVW Map, tự động kiểm tra và nối Texture Coordinate & UV Mapping vào toàn bộ texture image của vật liệu; 2) Tự động kích hoạt liên kết UV mỗi khi bấm chiếu Box, Planar, Sphere, Cylinder, Fit to Face hoặc Căn vân gỗ, triệt tiêu 100% hiện tượng texture bị trôi màu hoặc trơn tuột; 3) Chuẩn hóa tỉ lệ Box Mapping và Planar Mapping theo mm thực tế thế giới (World/Unit Scale), xử lý triệt để file import từ 3ds Max/CAD bị scale 0.001 hoặc tọa độ mm gây lặp 2000x làm mờ đục vân texture; 4) Bổ sung công cụ '📐 Khớp Kích Thước Vào Khối' (Fit Size to Object) tự động lấy kích thước bounding box mm của vật thể gán vào UVW; 5) Đồng bộ song song tầng UV MT_UV_Base khi crop texture; 6) Tích hợp nút kết nối UVW và khớp khối trực tiếp trên bảng nổi Alt+V.",
+        "v3.12.70: Đại tu toàn diện Bút Hút Vật Liệu (Eyedropper) và Chọn Vật Thể: 1) Hỗ trợ sao chép toàn bộ vật liệu (Multi-material transfer) giữa 2 đối tượng hình khối tương đương (như cửa sổ gồm khung gỗ và kính elip), tự động phân tích và gán chuẩn xác từng vùng vật liệu mà không xóa mất các slot khác; 2) Cơ chế raycast 4 tầng đánh giá depsgraph mesh và BMesh chính xác 100%, triệt tiêu hoàn toàn lỗi hút kính đen tự tạo Wall_Paint; 3) Khắc phục triệt để Bút Hút trong bảng Alt+V ở Edit Mode, hỗ trợ chọn mặt hút và gán vật liệu riêng cho từng mặt được chọn; 4) Bảng Alt+V hiển thị và tinh chỉnh trực tiếp vật liệu của mặt đang chọn trong Edit Mode; 5) Đồng bộ Solid View tức thì cho tất cả material slots trên đối tượng.",
         "v3.12.69: Lược bỏ hoàn toàn dòng thông tin phiên bản cũ ở đáy bảng điều khiển theo yêu cầu tinh giản giao diện.",
         "v3.12.68: Tối ưu UI Tab PBR dài rộng rõ chữ, lược bỏ Tab Texture theo yêu cầu tinh giản; Đồng bộ Viewport Shading toàn diện qua mọi Workspace (Modeling, Shading, Layout...) đảm bảo vật liệu Solid Texture luôn hiển thị đồng nhất; Bổ sung tính năng Alpha xuyên thấu cho Kính kiến trúc (Clear, Frosted, Smoked, Fluted) và Rèm Voan (Sheer) hiển thị trong suốt hoàn hảo trên cả Solid View và Render.",
         "v3.12.67: Khắc phục triệt để lỗi Kéo Di Chuột Trong Viewport (3D Interactive Drag): Chuyển sang cơ chế Giữ Chuột Trái (Hold LMB) để kéo trực tiếp, triệt tiêu 100% hiện tượng texture bị văng/nhảy khi di chuột từ N-Panel vào Viewport; Không bị thoát lệnh đột ngột khi click chuột; Đảo chiều vector kéo mượt mà tự nhiên theo đúng hướng tay người dùng; Bổ sung khung HUD Mini hiển thị trạng thái và thông số tọa độ thời gian thực trên 3D Viewport.",
@@ -115,6 +117,8 @@
         "v3.12.57: Tích hợp công cụ Cắt Vùng Texture (Texture Crop chuẩn 3ds Max) trong tab UVW; Hỗ trợ kéo di chuyển trực quan 3D trên bề mặt vật thể; Mở cửa sổ khung viền đỏ 2D tương tác; Bổ sung các preset cắt nhanh 1/2 và 1/4; Tự động đồng bộ vùng crop sang Solid View khi ấn Đồng Bộ UVW."
       ],
       "changelog_en": [
+        "v3.12.71: Comprehensive UVW Mapping upgrade: 1) Added 1-Click '🔗 Link UVW to Material' (Use UV Map on Active Material) replacing external add-on APA UVW Map, auto-connecting Texture Coordinate & UV Mapping across all image texture nodes; 2) Automatic UV pipeline auto-linking on all projection operators (Box, Planar, Sphere, Cylinder, Fit to Face, Align Grain), permanently eliminating flat/smooth untextured surfaces; 3) Normalized real-world millimeter scale for Box & Planar projections, fully handling 3ds Max/CAD millimeter imports and unapplied scales to eliminate 2000x micro-tiling blur; 4) Added '📐 Fit Size to Object' auto-measuring mesh bounding dimensions (mm); 5) Synchronous MT_UV_Base layer updates for crop synchronization; 6) Direct Link UV and Fit Size controls in Alt+V popup.",
+        "v3.12.70: Comprehensive overhaul of Eyedropper & Object Material Picker: 1) Full multi-material transfer between matching/similar objects (e.g. windows with wood frame and oval glass) preserving all slots; 2) 4-tier evaluated depsgraph raycast and BMesh picking, completely fixing black glass picking Wall_Paint; 3) Fully fixed Alt+V eyedropper in Edit Mode with reliable face-level picking & assignment; 4) Alt+V popup directly inspects and tweaks selected face material in Edit Mode; 5) Live Solid View sync across all material slots concurrently.",
         "v3.12.69: Removed outdated version footer text at the bottom of the panel for a cleaner UI.",
         "v3.12.68: Optimized Task Tabs toolbar by widening PBR tab and removing redundant Texture tab; Comprehensive multi-workspace Viewport Solid shading synchronization across all tabs; Added Alpha transparency support for Glass and Sheer Curtains in both Solid View and Render.",
         "v3.12.67: Fully resolved Viewport Mouse Drag issues (3D Interactive Drag): Re-engineered with Hold-to-Drag (Hold LMB) mechanics, completely eliminating accidental texture jumps when moving the mouse from N-panel into 3D Viewport; Prevents accidental termination on mouse click; Properly aligned drag direction with natural hand movement; Added on-screen 3D Viewport HUD showing live status and coordinates.",
@@ -134,7 +138,7 @@
       "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
       "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
       "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.70/MT_PBR_Studio.zip",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.71/MT_PBR_Studio.zip",
       "youtube_url": "https://youtu.be/dummy",
       "docs_url": "https://mt-studio.vn",
       "n_panel_tab": "MT_PBR Studio Pro",
