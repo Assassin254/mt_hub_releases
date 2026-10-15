@@ -11,31 +11,45 @@
       "module_name": "MT_3D_Convert",
       "name": "MT 3D Convert",
       "icon": "FILE_3D",
-      "version": "v1.8.4",
+      "version": "v1.8.5",
       "version_tuple": [
         1,
         8,
-        4
+        5
       ],
       "desc_lines": [
         "📥 Kéo thả file ZIP/RAR trực tiếp vào 3D Viewport.",
-        "🪄 Tự động giải nén, import FBX/OBJ và thiết lập vật liệu thông minh."
+        "⚡ Tối ưu tốc độ import cực nhanh qua FBX C++ (nhanh gấp 25-30 lần so với MAX).",
+        "💎 Công thức vật liệu chuẩn PBR tự động: phục hồi hoàn hảo thân Kính trong suốt, chất lỏng hổ phách (Whiskey/Rượu), nhãn mác thương hiệu (Alpha Mask) và khử triệt để tình trạng gán nhầm texture gỗ rác.",
+        "🎨 Hiển thị màu sắc vật liệu chân thực, trực quan ngay trong Solid Viewport."
       ],
       "desc_lines_en": [
         "📥 Drag & Drop ZIP/RAR files directly into 3D Viewport.",
-        "🪄 Auto-extract, import FBX/OBJ and setup smart materials."
+        "⚡ Lightning fast import via native FBX C++ (25-30x faster than MAX).",
+        "💎 Universal PBR material formula: restores transparent glass, amber liquids, brand labels with alpha masks, and strictly prevents unused texture pollution.",
+        "🎨 Vibrant, intuitive material colors in Solid Viewport mode."
       ],
       "price": "MIỄN PHÍ",
       "price_vi": "MIỄN PHÍ",
       "price_en": "FREE",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_3D_Convert v1.8.4",
+      "update_notice": "Cập nhật MT_3D_Convert v1.8.5",
       "update_notice_en": "Initial release of MT 3D Convert!",
       "changelog": [
-        "- Tự động import và setup vật liệu từ file ZIP/RAR"
+        "- Tối ưu tốc độ merge: ưu tiên FBX C++ native (<1s) thay vì MAX OLE parser (20s+)",
+        "- Công thức vật liệu chung: tự động nhận diện thân kính qua Bounding Box Volume 3D",
+        "- Tự động khôi phục chất lỏng hổ phách (Transmission=1.0, Roughness=0.02, IOR=1.33)",
+        "- Nhận diện và gán nhãn mác thương hiệu theo tên đối tượng kèm Alpha Mask chuẩn HASHED",
+        "- Khóa triệt để việc gán nhầm texture rác (gỗ/bụi bẩn) vào các vật liệu procedural",
+        "- Đồng bộ màu hiển thị trực quan trong chế độ Solid Viewport"
       ],
       "changelog_en": [
-        "- Auto import and setup materials from ZIP/RAR"
+        "- High-speed merge: prioritize native C++ FBX (<1s) over raw MAX parsing (20s+)",
+        "- Universal material formula: 3D bounding box volume detection for glass bodies",
+        "- Auto restoration of amber liquids (Transmission=1.0, Roughness=0.02, IOR=1.33)",
+        "- Object-aware brand label assignment with hashed alpha mask transparency",
+        "- Strict anti-pollution: prevents unused textures from stealing procedural slots",
+        "- Vibrant Viewport display colors for Solid mode"
       ],
       "tutorial_url": "",
       "buy_url": "",
