@@ -11,11 +11,11 @@
       "module_name": "MT_3D_Convert",
       "name": "MT 3D Convert",
       "icon": "FILE_3D",
-      "version": "v1.8.2",
+      "version": "v1.8.3",
       "version_tuple": [
         1,
         8,
-        2
+        3
       ],
       "desc_lines": [
         "📥 Kéo thả file ZIP/RAR trực tiếp vào 3D Viewport.",
@@ -29,7 +29,7 @@
       "price_vi": "MIỄN PHÍ",
       "price_en": "FREE",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_3D_Convert v1.8.2",
+      "update_notice": "Cập nhật MT_3D_Convert v1.8.3",
       "update_notice_en": "Initial release of MT 3D Convert!",
       "changelog": [
         "- Tự động import và setup vật liệu từ file ZIP/RAR"
@@ -245,11 +245,11 @@
       "module_name": "MT_Lightmix",
       "name": "MT Lightmix",
       "icon": "LIGHT",
-      "version": "v1.0.55",
+      "version": "v1.0.56",
       "version_tuple": [
         1,
         0,
-        55
+        56
       ],
       "desc_lines": [
         "💡 Đặt đèn LED, âm trần, đèn cửa sổ nhanh chóng",
@@ -265,7 +265,7 @@
       "price_vi": "MIỄN PHÍ",
       "price_en": "FREE",
       "update_recommend": false,
-      "update_notice": "Cập nhật MT_Lightmix v1.0.55",
+      "update_notice": "Cập nhật MT_Lightmix v1.0.56",
       "update_notice_en": "",
       "changelog": [
         "Phát hành bản 1.0.2 - Fix lỗi đèn và bổ sung UI"
