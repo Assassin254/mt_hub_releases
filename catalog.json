@@ -1,6 +1,6 @@
 {
-  "hub_version": "1.1.13",
-  "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Hub.zip",
+  "hub_version": "1.1.11",
+  "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v1.1.11/MT_Hub.zip",
   "hub_update_notice": "",
   "hub_update_notice_en": "",
   "hub_changelog": [],
@@ -11,45 +11,47 @@
       "module_name": "MT_3D_Convert",
       "name": "MT 3D Convert",
       "icon": "FILE_3D",
-      "version": "v1.8.5",
+      "version": "v1.8.6",
       "version_tuple": [
         1,
         8,
-        5
+        6
       ],
       "desc_lines": [
         "📥 Kéo thả file ZIP/RAR trực tiếp vào 3D Viewport.",
-        "⚡ Tối ưu tốc độ import cực nhanh qua FBX C++ (nhanh gấp 25-30 lần so với MAX).",
-        "💎 Công thức vật liệu chuẩn PBR tự động: phục hồi hoàn hảo thân Kính trong suốt, chất lỏng hổ phách (Whiskey/Rượu), nhãn mác thương hiệu (Alpha Mask) và khử triệt để tình trạng gán nhầm texture gỗ rác.",
-        "🎨 Hiển thị màu sắc vật liệu chân thực, trực quan ngay trong Solid Viewport."
+        "⚡ Tối ưu tốc độ import cực nhanh qua FBX & OBJ C++ sạch modifier, khắc phục triệt để lỗi tranh bị thu nhỏ.",
+        "🛡️ Thuật toán quét và khử sạch texture rác FBX (Map #...), triệt tiêu hoàn toàn lỗi vật liệu hồng tím (Missing Textures).",
+        "💎 Phục hồi hoàn hảo bộ sưu tập Thủy tinh màu (Smoke, Fungi, Nomad...) & Nước trong suốt chuẩn khúc xạ PBR.",
+        "🎨 Tự động phân bổ độc lập bộ texture (gỗ, da, vải, bấc...) cho từng vật liệu & đồng bộ Solid Viewport rực rỡ."
       ],
       "desc_lines_en": [
         "📥 Drag & Drop ZIP/RAR files directly into 3D Viewport.",
-        "⚡ Lightning fast import via native FBX C++ (25-30x faster than MAX).",
-        "💎 Universal PBR material formula: restores transparent glass, amber liquids, brand labels with alpha masks, and strictly prevents unused texture pollution.",
-        "🎨 Vibrant, intuitive material colors in Solid Viewport mode."
+        "⚡ Lightning fast import via FBX & OBJ (baked modifiers, fixes shrunken painting frames).",
+        "🛡️ FBX dummy texture node purge: completely eliminates magenta/pink missing texture errors.",
+        "💎 Restores tinted glass collections (Smoke, Fungi, Nomad...) & crystal clear water PBR.",
+        "🎨 Intelligent category texture set allocation (wood, cork, fabric...) & vibrant Solid Viewport sync."
       ],
       "price": "MIỄN PHÍ",
       "price_vi": "MIỄN PHÍ",
       "price_en": "FREE",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_3D_Convert v1.8.5",
-      "update_notice_en": "Initial release of MT 3D Convert!",
+      "update_notice": "Khử triệt để lỗi hồng tím, phục hồi khay gỗ/nắp bấc, tranh thu nhỏ & thủy tinh màu v1.8.6",
+      "update_notice_en": "Fixed magenta textures, wood trays, cork caps, shrunken art & tinted glass v1.8.6",
       "changelog": [
-        "- Tối ưu tốc độ merge: ưu tiên FBX C++ native (<1s) thay vì MAX OLE parser (20s+)",
-        "- Công thức vật liệu chung: tự động nhận diện thân kính qua Bounding Box Volume 3D",
-        "- Tự động khôi phục chất lỏng hổ phách (Transmission=1.0, Roughness=0.02, IOR=1.33)",
-        "- Nhận diện và gán nhãn mác thương hiệu theo tên đối tượng kèm Alpha Mask chuẩn HASHED",
-        "- Khóa triệt để việc gán nhầm texture rác (gỗ/bụi bẩn) vào các vật liệu procedural",
-        "- Đồng bộ màu hiển thị trực quan trong chế độ Solid Viewport"
+        "- Khắc phục lỗi tranh bị co nhỏ: ưu tiên OBJ/FBX đã bake modifier của 3ds Max thay vì đọc raw MAX",
+        "- Khử triệt để lỗi mất vật liệu/hồng tím (Magenta): tự động quét và bóc tách các node dummy rác 'Map #...' từ FBX",
+        "- Phục hồi chuẩn xác bộ màu thủy tinh màu: Smoke, Fungi, Nomad, Amber, Olive... không bị xóa trắng",
+        "- Khôi phục chất lỏng nước trong vắt (Water PBR: Base Color sáng trong, Roughness 0.01, IOR 1.33)",
+        "- Thuật toán phân bổ texture theo nhóm danh mục: tự động ghép đủ bộ Diffuse, Roughness, Normal cho khay gỗ, nắp bấc",
+        "- Tách độc lập vật liệu dùng chung (de-duplicate shared materials) cho các mesh có texture riêng"
       ],
       "changelog_en": [
-        "- High-speed merge: prioritize native C++ FBX (<1s) over raw MAX parsing (20s+)",
-        "- Universal material formula: 3D bounding box volume detection for glass bodies",
-        "- Auto restoration of amber liquids (Transmission=1.0, Roughness=0.02, IOR=1.33)",
-        "- Object-aware brand label assignment with hashed alpha mask transparency",
-        "- Strict anti-pollution: prevents unused textures from stealing procedural slots",
-        "- Vibrant Viewport display colors for Solid mode"
+        "- Fixed shrunken artwork: prioritized OBJ/FBX with baked modifiers from 3ds Max over raw MAX files",
+        "- Completely eliminated magenta/pink missing materials: auto-sanitizes broken FBX dummy nodes ('Map #...')",
+        "- Restored tinted glass palette: Smoke, Fungi, Nomad, Amber, Olive preserved accurately",
+        "- Crystal clear water PBR restoration (clean base color, Roughness 0.01, IOR 1.33)",
+        "- Category-aware texture distribution: auto-pairs Diffuse, Roughness, Normal for wood trays, corks, fabrics",
+        "- Auto de-duplicates shared materials for meshes with distinct individual textures"
       ],
       "tutorial_url": "",
       "buy_url": "",
@@ -97,7 +99,7 @@
       "price_vi": "300.000đ",
       "price_en": "$24",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_PBR_Studio v3.12.71",
+      "update_notice": "Tác giả khuyến nghị cập nhật lên phiên bản mới nhất để tối ưu hiệu năng và sửa lỗi!",
       "update_notice_en": "Recommended to update to the latest version for performance optimization and bug fixes!",
       "changelog": [
         "v3.12.71: Nâng cấp toàn diện công cụ UVW Mapping: 1) Tích hợp nút '🔗 Kết Nối UVW Vào Vật Liệu' (Use UV Map on Active Material) tương đương 100% add-on APA UVW Map, tự động kiểm tra và nối Texture Coordinate & UV Mapping vào toàn bộ texture image của vật liệu; 2) Tự động kích hoạt liên kết UV mỗi khi bấm chiếu Box, Planar, Sphere, Cylinder, Fit to Face hoặc Căn vân gỗ, triệt tiêu 100% hiện tượng texture bị trôi màu hoặc trơn tuột; 3) Chuẩn hóa tỉ lệ Box Mapping và Planar Mapping theo mm thực tế thế giới (World/Unit Scale), xử lý triệt để file import từ 3ds Max/CAD bị scale 0.001 hoặc tọa độ mm gây lặp 2000x làm mờ đục vân texture; 4) Bổ sung công cụ '📐 Khớp Kích Thước Vào Khối' (Fit Size to Object) tự động lấy kích thước bounding box mm của vật thể gán vào UVW; 5) Đồng bộ song song tầng UV MT_UV_Base khi crop texture; 6) Tích hợp nút kết nối UVW và khớp khối trực tiếp trên bảng nổi Alt+V.",
@@ -149,10 +151,10 @@
       "module_name": "MT_Materials_Procedural",
       "name": "MT Procedural Texture",
       "icon": "MATERIAL",
-      "version": "v2.4.0",
+      "version": "v2.2.0",
       "version_tuple": [
         2,
-        4,
+        2,
         0
       ],
       "desc_lines": [
@@ -165,7 +167,7 @@
       "price_vi": "MIỄN PHÍ",
       "price_en": "FREE",
       "update_recommend": false,
-      "update_notice": "Cập nhật MT_Procedural_Texture v2.4.0",
+      "update_notice": "Ra mắt MT Procedural Texture v2.0.0!",
       "update_notice_en": "MT Procedural Texture v2.0.0 launched!",
       "changelog": [],
       "changelog_en": [],
@@ -219,11 +221,11 @@
       "module_name": "MT_Camera",
       "name": "MT Camera",
       "icon": "CAMERA_DATA",
-      "version": "v1.4.0",
+      "version": "v1.3.7",
       "version_tuple": [
         1,
-        4,
-        0
+        3,
+        7
       ],
       "desc_lines": [
         "🎥 Quản lý toàn bộ camera trong Scene nhanh chóng",
@@ -243,10 +245,9 @@
       "price_vi": "MIỄN PHÍ",
       "price_en": "FREE",
       "update_recommend": false,
-      "update_notice": "Cập nhật MT_Camera v1.3.9",
+      "update_notice": "",
       "update_notice_en": "",
       "changelog": [
-        "Nâng cấp thuật toán Auto H-Shift: Tự động bắn tia Raycast bắt mặt tường/trục chính để căn vuông góc, làm phẳng thẳng tắp các cạnh ngang (1-point perspective) và bù trừ Shift X giữ nguyên 100% khung hình.",
         "Phát hành bản 1.0.0"
       ],
       "changelog_en": [
@@ -263,11 +264,11 @@
       "module_name": "MT_Lightmix",
       "name": "MT Lightmix",
       "icon": "LIGHT",
-      "version": "v1.0.56",
+      "version": "v1.0.7",
       "version_tuple": [
         1,
         0,
-        56
+        7
       ],
       "desc_lines": [
         "💡 Đặt đèn LED, âm trần, đèn cửa sổ nhanh chóng",
@@ -283,7 +284,7 @@
       "price_vi": "MIỄN PHÍ",
       "price_en": "FREE",
       "update_recommend": false,
-      "update_notice": "Cập nhật MT_Lightmix v1.0.56",
+      "update_notice": "",
       "update_notice_en": "",
       "changelog": [
         "Phát hành bản 1.0.2 - Fix lỗi đèn và bổ sung UI"
