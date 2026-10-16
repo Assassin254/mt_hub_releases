@@ -63,11 +63,11 @@
       "module_name": "MT_PBR_Studio",
       "name": "MT_PBR Studio Pro",
       "icon": "MATERIAL",
-      "version": "v3.12.73",
+      "version": "v3.12.74",
       "version_tuple": [
         3,
         12,
-        73
+        74
       ],
       "desc_lines": [
         "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -99,9 +99,10 @@
       "price_vi": "300.000đ",
       "price_en": "$24",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_PBR_Studio v3.12.73",
+      "update_notice": "Cập nhật MT_PBR_Studio v3.12.74",
       "update_notice_en": "Recommended to update to the latest version for performance optimization and bug fixes!",
       "changelog": [
+        "v3.12.74: Sửa triệt để lỗi phím tắt Alt+V trong Edit Mode (đăng ký chuẩn Mesh keymap, triệt tiêu lỗi Cannot rip faces); Khắc phục hoàn toàn lỗi UVW Box và Khớp Vừa Khối 1:1 không đồng bộ cạnh bên (tự động phân loại 3D Box chiếu đủ 3 hướng X, Y, Z, không bao giờ ép bẹp cạnh mỏng); Đồng bộ toàn diện trục Cao / Z (mm) trong bảng kích thước và tỷ lệ thực tế vào UV mesh.",
         "v3.12.73: Khôi phục và nâng cấp vị trí tính năng 'Bake Material sang Solid View' & 'Đồng Bộ UV Mesh (Bake UVW)': 1) Đưa nút '📸 Bake Material Sang Solid View' và '⚡ Đồng Bộ UV Mesh' trực tiếp lên Header thẻ vật liệu chính (box_obj) - luôn hiển thị ngay khi chọn đối tượng; 2) Bổ sung hàng nút Bake Solid & Đồng Bộ UV Mesh ngay trong tab UVW Mapping dưới hàng Căn Vân Dài; 3) Tích hợp phím tắt nhanh Bake Solid và Đồng Bộ UV vào popup Alt+V; 4) Tự động kích hoạt hiển thị Texture trong Solid View và bảo toàn nguyên vẹn UV map hiện có khi bake procedural materials; 5) Sửa triệt để lỗi biến mat_targets khi xử lý vật liệu có độ trong suốt (kính, rèm voan, nước).",
         "v3.12.72: Đột phá UVW Mapping & Hút Vật Liệu: 1) Tích hợp nút 1-Click '📐 KHỚP VỪA KHỐI (FIT TEXTURE 1:1)' kéo phẳng texture vừa khít 100% toàn bộ đối tượng hoặc bề mặt chọn mà không chia nhỏ lặp vụn từng mặt polygon, tự động đo đạc và cập nhật ngay kích thước thực tế (mm) vào UI; 2) Tinh gọn giao diện UVW Mapping chỉ còn 5 nút cốt lõi (Khớp Vừa Khối 1:1, Chiếu Hộp, Chiếu Phẳng, Căn Vân Dài, Khôi Phục UV) loại bỏ toàn bộ nút rườm rà; 3) Sửa triệt để tính năng Hút Vật Liệu (Alt+V) trong Edit Mode với thuật toán raycast BVHTree chính xác 100%, triệt tiêu hoàn toàn lỗi hút nhầm Wall_Paint trên các chi tiết có modifier (cửa sổ elip, nẹp chỉ); 4) Bổ sung cơ chế chống nuốt click / raycast sớm khi bấm nút Hút Vật Liệu trong bảng nổi Alt+V; 5) Tự động kết nối UV và Mapping node sau khi hút gán vật liệu mới.",
         "v3.12.71: Nâng cấp toàn diện công cụ UVW Mapping: 1) Tích hợp nút '🔗 Kết Nối UVW Vào Vật Liệu' (Use UV Map on Active Material) tương đương 100% add-on APA UVW Map, tự động kiểm tra và nối Texture Coordinate & UV Mapping vào toàn bộ texture image của vật liệu; 2) Tự động kích hoạt liên kết UV mỗi khi bấm chiếu Box, Planar, Sphere, Cylinder, Fit to Face hoặc Căn vân gỗ, triệt tiêu 100% hiện tượng texture bị trôi màu hoặc trơn tuột; 3) Chuẩn hóa tỉ lệ Box Mapping và Planar Mapping theo mm thực tế thế giới (World/Unit Scale), xử lý triệt để file import từ 3ds Max/CAD bị scale 0.001 hoặc tọa độ mm gây lặp 2000x làm mờ đục vân texture; 4) Bổ sung công cụ '📐 Khớp Kích Thước Vào Khối' (Fit Size to Object) tự động lấy kích thước bounding box mm của vật thể gán vào UVW; 5) Đồng bộ song song tầng UV MT_UV_Base khi crop texture; 6) Tích hợp nút kết nối UVW và khớp khối trực tiếp trên bảng nổi Alt+V.",
@@ -143,7 +144,7 @@
       "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
       "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
       "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.73/MT_PBR_Studio.zip",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.74/MT_PBR_Studio.zip",
       "youtube_url": "https://youtu.be/dummy",
       "docs_url": "https://mt-studio.vn",
       "n_panel_tab": "MT_PBR Studio Pro",
