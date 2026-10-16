@@ -221,11 +221,11 @@
             "module_name": "MT_Camera",
             "name": "MT Camera",
             "icon": "CAMERA_DATA",
-            "version": "v1.4.1",
+            "version": "v1.4.2",
             "version_tuple": [
                 1,
                 4,
-                1
+                2
             ],
             "desc_lines": [
                 "🎥 Quản lý toàn bộ camera trong Scene nhanh chóng",
@@ -248,6 +248,7 @@
             "update_notice": "Cập nhật MT_Camera v1.4.0",
             "update_notice_en": "",
             "changelog": [
+                "v1.4.2: Tối ưu di chuyển thứ tự camera: Tự động bắt đúng camera đang được tích chọn (hoặc active) khi bấm nút Lên/Xuống ở trên thanh công cụ; cho phép bấm liên tục không bị nhảy đảo chiều; bỏ các nút mũi tên thừa ở từng camera để giao diện gọn gàng.",
                 "v1.4.1: Bổ sung hiển thị trạng thái kích hoạt và số phiên bản ở đầu và cuối panel. Thêm nút di chuyển thứ tự camera lên và xuống (trên thanh điều hướng và từng camera trong danh sách). Thêm ô sắp xếp camera tự động theo tên A-Z.",
                 "Phát hành bản 1.0.0"
             ],
