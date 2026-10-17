@@ -158,11 +158,11 @@
       "module_name": "MT_SmartGroup",
       "name": "MT SmartGroup",
       "icon": "GROUP",
-      "version": "v1.4.5",
+      "version": "v1.5.0",
       "version_tuple": [
         1,
-        4,
-        5
+        5,
+        0
       ],
       "desc_lines": [
         "📦 Gom nhóm toàn bộ object như 3ds Max / SketchUp",
@@ -178,7 +178,7 @@
       "price_vi": "200.000đ",
       "price_en": "$16",
       "update_recommend": false,
-      "update_notice": "Cập nhật MT_SmartGroup v1.4.5",
+      "update_notice": "Cập nhật MT_SmartGroup v1.5.0",
       "update_notice_en": "",
       "changelog": [
         "Phát hành bản Alpha 1.1.0"
