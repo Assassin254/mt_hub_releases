@@ -1,5 +1,5 @@
 {
-  "hub_version": "1.1.13",
+  "hub_version": "1.1.14",
   "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Hub.zip",
   "hub_update_notice": "",
   "hub_update_notice_en": "",
@@ -31,9 +31,9 @@
         "💎 Restores tinted glass collections (Smoke, Fungi, Nomad...) & crystal clear water PBR.",
         "🎨 Intelligent category texture set allocation (wood, cork, fabric...) & vibrant Solid Viewport sync."
       ],
-      "price": "MIỄN PHÍ",
-      "price_vi": "MIỄN PHÍ",
-      "price_en": "FREE",
+      "price": "480.000đ ($38)",
+      "price_vi": "480.000đ",
+      "price_en": "$38",
       "update_recommend": true,
       "update_notice": "Cập nhật MT_3D_Convert v1.8.8",
       "update_notice_en": "Fixed magenta textures, wood trays, cork caps, shrunken art & tinted glass v1.8.6",
@@ -95,9 +95,9 @@
         "🌅 Studio HDRI Rotation & Lightweight Viewport Saving 99% VRAM",
         "📦 Auto Collect & Package Complete Textures for Render Farms"
       ],
-      "price": "300.000đ ($24)",
-      "price_vi": "300.000đ",
-      "price_en": "$24",
+      "price": "350.000đ ($28)",
+      "price_vi": "350.000đ",
+      "price_en": "$28",
       "update_recommend": true,
       "update_notice": "Cập nhật MT_PBR_Studio v3.12.75",
       "update_notice_en": "Recommended to update to the latest version for performance optimization and bug fixes!",
@@ -154,37 +154,6 @@
       "is_available": true
     },
     {
-      "code": "MT_Procedural_Texture",
-      "module_name": "MT_Materials_Procedural",
-      "name": "MT Procedural Texture",
-      "icon": "MATERIAL",
-      "version": "v2.4.0",
-      "version_tuple": [
-        2,
-        4,
-        0
-      ],
-      "desc_lines": [
-        "Tạo vật liệu Procedural chuyên nghiệp bằng hệ thống Node."
-      ],
-      "desc_lines_en": [
-        "Create professional procedural materials."
-      ],
-      "price": "MIỄN PHÍ",
-      "price_vi": "MIỄN PHÍ",
-      "price_en": "FREE",
-      "update_recommend": false,
-      "update_notice": "Cập nhật MT_Procedural_Texture v2.4.0",
-      "update_notice_en": "MT Procedural Texture v2.0.0 launched!",
-      "changelog": [],
-      "changelog_en": [],
-      "tutorial_url": "",
-      "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Procedural_Texture.zip",
-      "n_panel_tab": "MT_Materials",
-      "is_available": true
-    },
-    {
       "code": "MT_SmartGroup",
       "module_name": "MT_SmartGroup",
       "name": "MT SmartGroup",
@@ -205,9 +174,9 @@
         "🚀 Open / Close / Edit directly without ungrouping",
         "✨ Multi-level Nested Groups support"
       ],
-      "price": "MIỄN PHÍ",
-      "price_vi": "MIỄN PHÍ",
-      "price_en": "FREE",
+      "price": "200.000đ ($16)",
+      "price_vi": "200.000đ",
+      "price_en": "$16",
       "update_recommend": false,
       "update_notice": "Cập nhật MT_SmartGroup v1.4.4",
       "update_notice_en": "",
@@ -248,9 +217,9 @@
         "🖼️ Standard aspect ratios & auto resolution calculation",
         "⚡ Batch Render (Viewport & Actual) with auto-save"
       ],
-      "price": "MIỄN PHÍ",
-      "price_vi": "MIỄN PHÍ",
-      "price_en": "FREE",
+      "price": "200.000đ ($16)",
+      "price_vi": "200.000đ",
+      "price_en": "$16",
       "update_recommend": false,
       "update_notice": "Cập nhật MT_Camera v1.4.0",
       "update_notice_en": "",
@@ -289,9 +258,9 @@
         "🎛️ Interactive LightMix similar to Corona",
         "🌡️ Accurate physical color temp with Blackbody Node"
       ],
-      "price": "MIỄN PHÍ",
-      "price_vi": "MIỄN PHÍ",
-      "price_en": "FREE",
+      "price": "250.000đ ($20)",
+      "price_vi": "250.000đ",
+      "price_en": "$20",
       "update_recommend": false,
       "update_notice": "Cập nhật MT_Lightmix v1.0.57",
       "update_notice_en": "",
