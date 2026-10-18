@@ -63,11 +63,11 @@
       "module_name": "MT_PBR_Studio",
       "name": "MT_PBR Studio Pro",
       "icon": "MATERIAL",
-      "version": "v3.12.79",
+      "version": "v3.12.80",
       "version_tuple": [
         3,
         12,
-        79
+        80
       ],
       "desc_lines": [
         "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -99,9 +99,10 @@
       "price_vi": "350.000đ",
       "price_en": "$28",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_PBR_Studio v3.12.79",
+      "update_notice": "Cập nhật MT_PBR_Studio v3.12.80",
       "update_notice_en": "Recommended to update to the latest version for performance optimization and bug fixes!",
       "changelog": [
+        "v3.12.80: Đại tu toàn diện UVW Mapping & Đồng Bộ Viewport chuẩn 3ds Max: 1) Sửa lỗi đồng bộ Viewport: Hiển thị danh sách các Tab làm việc (Workspace) thực tế người dùng thấy ở thanh tiêu đề trên (Modeling, Material - UVMaps, Shading, Asset Library...), loại bỏ hoàn toàn các tên nội bộ bí ẩn như Layout.001; 2) Tinh chỉnh thanh trượt Tịnh tiến U/V: Giới hạn soft [-1.0, 1.0], bước trượt 1% (step=1) siêu mượt, rê chuột chậm rãi dễ căn chỉnh, không bị văng texture; 3) Chuẩn hóa quy tắc thớ vân gỗ kiến trúc cho '🌲 Căn Vân Dài': Mọi đợt ngang/nóc tủ/đáy tủ vân gỗ luôn chạy dọc theo chiều dài chính của tủ (trục X), mọi vách đứng/hồi tủ/nan cong vân luôn chạy dọc thẳng đứng (trục Z), không bao giờ bị cắt ngang thớ; 4) Tỉ lệ kích thước X, Y, Z chuẩn 3ds Max: Trị số càng to thì vân càng to và dài (nghịch đảo tỷ lệ UV), chuẩn tham chiếu ván gỗ công nghiệp 2.4m x 1.2m hiển thị vân tự nhiên tuyệt đối ở tỉ lệ 1.0 mà không cần hạ xuống 0.1; 5) Sửa triệt để lỗi xoay UV 90 độ bị khóa cứng trên một số mặt (tự động unwrap planar khi gặp UV collapsed và xoay theo từng cụm mặt tại chỗ quanh trọng tâm riêng).",
         "v3.12.79: Đại tu UVW Mapping và Sửa Lỗi Hút Vật Liệu (Eyedropper): 1) Sửa triệt để lỗi Bút Hút hút nhầm sàn/vật thể ẩn sau khi bật Local View (/) nhờ lọc chuẩn xác visible_get(viewport=space_3d), xuyên thấu kính trong suốt và bổ sung khung HUD Preview thời gian thực dưới chân trỏ chuột; 2) Tính năng Khớp Vừa Khối 1:1 chuẩn 3ds Max Fit Box bao quanh vật thể theo kích thước lớn nhất L_max, không gây méo lệch vân; 3) Thuật toán '🌲 Căn Vân Dài' tự động phân rã Connected Islands dò tìm cạnh/trục dài nhất của từng khối ván rời trong tủ/kệ/đồ nội thất để xoay hướng vân theo chiều dài nhất với tỉ lệ thế giới 1:1 đồng nhất; 4) Thay thế kích thước mm ảo bằng bảng Tỉ Lệ Tương Đối (Scale Ratios X, Y, Z mặc định 1.0) có nút khóa liên kết 🔗, ô nhập số tự do và hàng nút Nhân/Chia theo hệ số tùy chọn kèm nút [↺ 1.00] đặt lại; 5) Tinh giản toàn diện giao diện UVW Mapping (lược bỏ các nút thừa rườm rà Box, Planar, Restore, Sync UV, Hold LMB theo ảnh yêu cầu); 6) Chuyển nút Bake Material sang Solid View vào nhóm Thông Số Bề Mặt PBR; 7) Sửa lỗi xoay texture trong Edit Mode chuẩn xác 100% quanh trọng tâm UV các mặt được chọn.",
         "v3.12.78: Nâng cấp toàn diện công thức Hút Vật Liệu (Eyedropper): 1) Cho phép hút ngay trên đối tượng đang chọn (hỗ trợ nhấp vào bề mặt bất kỳ để gán đồng nhất cho toàn bộ vật thể, bãi bỏ hoàn toàn điều kiện chặn tự hút); 2) Triệt tiêu 100% texture và slot vật liệu rác trong Mesh (tự động xóa toàn bộ slot cũ, đưa polygon về slot 0, dọn sạch hoàn toàn các phần bị trắng tinh như đệm sofa); 3) Tự động kích hoạt node Base Color/Diffuse cho Viewport Solid Shading hiển thị ảnh vân tức thì mà không cần chuyển sang Material Preview.",
         "v3.12.77: Sửa 3 lỗi trọng yếu: 1) Khôi phục toàn bộ giao diện '🧵 Bắt Sáng Vải & Rèm (Fabric & Sheen)' trong bảng N-Panel (sửa triệt để NameError cur_preset, hiển thị đầy đủ thanh trượt Bắt Sáng Sheen, Độ Nhám Sheen, Màu Ánh Sắc Tint, Phản Xạ Kim Loại & Độ Trong Suốt Alpha); 2) Bảo toàn 100% Shader Nodes của vật liệu Procedural gốc khi ấn '📸 Bake Material Sang Solid View' (triệt tiêu việc can thiệp hay reset Scale của Mapping node, phân tích đa nhánh Color Ramp/Mix/Wave để tổng hợp vân Solid siêu nét mà không làm mất vằn vằn gốc); 3) Nâng cấp toàn diện tính năng '🔄 Đồng Bộ Các Góc Nhìn Viewport' với hộp thoại tương tác chọn tab trực quan 2 chiều (Lấy góc nhìn từ tab bất kỳ như Modeling về tab Shading, hoặc Đẩy góc nhìn từ tab hiện tại sang tất cả/từng tab khác; hỗ trợ đầy đủ chế độ Camera và góc nhìn tự do).",
@@ -154,7 +155,7 @@
       "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
       "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
       "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.79/MT_PBR_Studio.zip",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.80/MT_PBR_Studio.zip",
       "youtube_url": "https://youtu.be/dummy",
       "docs_url": "https://mt-studio.vn",
       "n_panel_tab": "MT_PBR Studio Pro",
