@@ -63,11 +63,11 @@
       "module_name": "MT_PBR_Studio",
       "name": "MT_PBR Studio Pro",
       "icon": "MATERIAL",
-      "version": "v3.12.77",
+      "version": "v3.12.78",
       "version_tuple": [
         3,
         12,
-        77
+        78
       ],
       "desc_lines": [
         "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
@@ -99,9 +99,10 @@
       "price_vi": "350.000đ",
       "price_en": "$28",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_PBR_Studio v3.12.77",
+      "update_notice": "Cập nhật MT_PBR_Studio v3.12.78",
       "update_notice_en": "Recommended to update to the latest version for performance optimization and bug fixes!",
       "changelog": [
+        "v3.12.78: Nâng cấp toàn diện công thức Hút Vật Liệu (Eyedropper): 1) Cho phép hút ngay trên đối tượng đang chọn (hỗ trợ nhấp vào bề mặt bất kỳ để gán đồng nhất cho toàn bộ vật thể, bãi bỏ hoàn toàn điều kiện chặn tự hút); 2) Triệt tiêu 100% texture và slot vật liệu rác trong Mesh (tự động xóa toàn bộ slot cũ, đưa polygon về slot 0, dọn sạch hoàn toàn các phần bị trắng tinh như đệm sofa); 3) Tự động kích hoạt node Base Color/Diffuse cho Viewport Solid Shading hiển thị ảnh vân tức thì mà không cần chuyển sang Material Preview.",
         "v3.12.77: Sửa 3 lỗi trọng yếu: 1) Khôi phục toàn bộ giao diện '🧵 Bắt Sáng Vải & Rèm (Fabric & Sheen)' trong bảng N-Panel (sửa triệt để NameError cur_preset, hiển thị đầy đủ thanh trượt Bắt Sáng Sheen, Độ Nhám Sheen, Màu Ánh Sắc Tint, Phản Xạ Kim Loại & Độ Trong Suốt Alpha); 2) Bảo toàn 100% Shader Nodes của vật liệu Procedural gốc khi ấn '📸 Bake Material Sang Solid View' (triệt tiêu việc can thiệp hay reset Scale của Mapping node, phân tích đa nhánh Color Ramp/Mix/Wave để tổng hợp vân Solid siêu nét mà không làm mất vằn vằn gốc); 3) Nâng cấp toàn diện tính năng '🔄 Đồng Bộ Các Góc Nhìn Viewport' với hộp thoại tương tác chọn tab trực quan 2 chiều (Lấy góc nhìn từ tab bất kỳ như Modeling về tab Shading, hoặc Đẩy góc nhìn từ tab hiện tại sang tất cả/từng tab khác; hỗ trợ đầy đủ chế độ Camera và góc nhìn tự do).",
         "v3.12.76: Khắc phục triệt để lỗi Bút Hút Vật Liệu (Eyedropper) và Nâng Cấp Hệ Thống Smart Wear: 1) Bảo toàn 100% Shader Nodes của mọi vật liệu Procedural (RGB Curves, Custom Textures, Bump...) khi dùng Bút Hút gán sang đối tượng khác; 2) Tự động cô lập Mesh data và dọn sạch slot rác trên đối tượng đích trong Object Mode, đảm bảo gán phủ toàn bộ đa giác mặt mà không bị đè slot ẩn; 3) Sửa lỗi nuốt click chuột ban đầu khi bật Bút Hút trong Viewport; 4) Nối trực tiếp toàn bộ kênh Smart Wear (Bụi bẩn Grunge & Xước dăm Scratch) vào Base Color, Roughness, Normal và bổ sung node Math Opacity giúp thanh trượt Độ Hiện Màu (Opacity) hoạt động mượt mà thời gian thực.",
         "v3.12.75: Tối ưu hóa siêu tốc tính năng Bake Material Sang Solid View (<15ms qua NumPy, triệt tiêu hoàn toàn hiện tượng đơ máy Cycles và lỗi màn hình đen xì trên vật liệu Procedural như Nan gỗ, Lam sóng, Checker, Brick, Noise, Voronoi); Khắc phục triệt để lỗi tọa độ UV ngoài khoảng [0, 1] khi chiếu Box/Planar bị nướng đen; Bảo toàn nguyên vẹn tọa độ và tỉ lệ UVW khi xem trong Solid View.",
@@ -125,6 +126,7 @@
         "v3.12.57: Tích hợp công cụ Cắt Vùng Texture (Texture Crop chuẩn 3ds Max) trong tab UVW; Hỗ trợ kéo di chuyển trực quan 3D trên bề mặt vật thể; Mở cửa sổ khung viền đỏ 2D tương tác; Bổ sung các preset cắt nhanh 1/2 và 1/4; Tự động đồng bộ vùng crop sang Solid View khi ấn Đồng Bộ UVW."
       ],
       "changelog_en": [
+        "v3.12.78: Comprehensive upgrade of Eyedropper Material Picker: 1) Allows picking directly on the active/selected object (sample any face to uniformly apply material to the entire object, eliminating the self-object blocking check); 2) 100% cleans stale textures and unused material slots in the Mesh (clears old slots, maps all polygon indices to slot 0, completely resolving flat white surfaces like sofa cushions); 3) Automatically activates Base Color/Diffuse image texture node for instant texture display in Viewport Solid Shading without needing to switch to Material Preview.",
         "v3.12.77: Fixed 3 critical issues: 1) Restored '🧵 Fabric & Sheen' panel section in N-Panel (fixed NameError cur_preset, displaying full controls for Sheen Weight, Sheen Roughness, Sheen Tint, Specular & Alpha); 2) 100% preserves original procedural material shader nodes when clicking '📸 Bake Material to Solid View' (eliminated unwanted Mapping node scale reset, preserving procedural wave/stripes and synthesizing sharp Solid View preview without corrupting original materials); 3) Overhauled '🔄 Sync Viewport Views' with interactive 2-way workspace selector popup (Pull view from any workspace e.g. Modeling into Shading, or Push current view to all/selected workspaces, with full Camera and perspective support).",
         "v3.12.76: Fixed Eyedropper Material Picker and Upgraded Smart Wear System: 1) 100% preserves custom Shader Nodes of Procedural materials (RGB Curves, Custom Textures, Bump...) when picked and transferred to other meshes; 2) Auto-isolates mesh data (users > 1) and completely cleans stale slots on destination objects in Object Mode, mapping all face polygons directly to the picked material; 3) Fixed initial mouse click suppression in Viewport Eyedropper modal; 4) Connected complete Smart Wear pipeline (Grunge & Scratch) into Base Color, Roughness, Normal, and added Math Opacity nodes for live Opacity slider control.",
         "v3.12.75: Ultra-fast Procedural Material Bake to Solid View (<15ms via NumPy procedural texture synthesis): 1) Completely eliminated heavy Cycles scene baking, OptiX 7804 kernel compile freezes, and BVH stalls; 2) Fully fixed the [0, 1] UV space rasterization bug where Box/Planar projected meshes baked completely pitch black in Solid View; 3) Procedural Wave/Stripes (Nan gỗ / Lam sóng), Checker, Brick, Noise, Voronoi, Gradient, and ColorRamps are rendered instantly with high fidelity in Solid View; 4) Bulletproof black-screen safeguard guaranteeing meshes never turn black; 5) Preserves UV mapping orientation and scale.",
@@ -151,7 +153,7 @@
       "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
       "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
       "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.77/MT_PBR_Studio.zip",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.78/MT_PBR_Studio.zip",
       "youtube_url": "https://youtu.be/dummy",
       "docs_url": "https://mt-studio.vn",
       "n_panel_tab": "MT_PBR Studio Pro",
