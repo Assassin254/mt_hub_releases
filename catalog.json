@@ -279,6 +279,51 @@
       "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Lightmix.zip",
       "n_panel_tab": "MT Lightmix",
       "is_available": true
+    },
+    {
+      "code": "MT_Sweep_Profile",
+      "module_name": "MT_Sweep_Profile",
+      "name": "MT_Sweep Profile Pro",
+      "icon": "MOD_CURVE",
+      "version": "v1.0.0",
+      "version_tuple": [
+        1,
+        0,
+        0
+      ],
+      "desc_lines": [
+        "🏛️ Thư viện 40 mặt cắt phào chỉ kiến trúc chuẩn Kstudio (Trần, Len chân tường, Chỉ tường, Khung tranh, Khe hắt LED, Tay vịn) với ảnh 3D Isometric.",
+        "📐 Ma trận 9 điểm tâm (9-Point Pivot Alignment) & Khóa tỉ lệ kích thước thực tế (mm) chuẩn xác 100%.",
+        "✨ Lõi Geometry Nodes Even-Thickness 3D Miter chống móp góc vuông 90° trên cả 3 trục X/Y/Z, sạch Outliner.",
+        "✂️ Trích xuất phào chỉ trực tiếp từ cạnh tường chọn trong Edit Mode (Use Selected Edges) & Tạo Ô Chỉ Tường Boiserie 1-Click.",
+        "🪵 Trải sẵn Real-World UVW dọc theo chiều dài phào (UVMap + MT_UV_Base), tương thích 100% với MT_PBR Studio Pro.",
+        "➕ Lấy mặt cắt tùy chỉnh từ Scene (Add from Scene) kèm bộ Render Thumbnail Studio 3D tự động."
+      ],
+      "desc_lines_en": [
+        "🏛️ 40 Kstudio-standard Architectural Molding Profiles (Crown, Baseboard, Wainscoting, Picture Frame, LED Cove, Handrail) with 3D Studio Thumbnails.",
+        "📐 9-Point Pivot Alignment Grid & Real-World millimeter (mm) dimensions with Aspect Ratio Lock.",
+        "✨ Geometry Nodes 3D Even-Thickness Miter solver preventing 90° corner pinching across X/Y/Z with zero Outliner clutter.",
+        "✂️ Extract Sweep directly from Selected Mesh Edges in Edit Mode & 1-Click Auto Wainscoting/Boiserie generator.",
+        "🪵 Real-World continuous UVW mapping along molding length (UVMap + MT_UV_Base), 100% compatible with MT_PBR Studio Pro.",
+        "➕ Add Custom Profile from Scene with automatic 3D Isometric Studio Thumbnail renderer."
+      ],
+      "price": "300.000đ ($24)",
+      "price_vi": "300.000đ",
+      "price_en": "$24",
+      "update_recommend": true,
+      "update_notice": "Ra mắt MT_Sweep Profile Pro v1.0.0 - Giải pháp chạy phào chỉ kiến trúc chuyên sâu!",
+      "update_notice_en": "Initial release of MT_Sweep Profile Pro v1.0.0 - Professional Architectural Molding Suite!",
+      "changelog": [
+        "v1.0.0: Phát hành chính thức MT_Sweep Profile Pro tích hợp 40 mặt cắt kiến trúc Kstudio, Ma trận 9 điểm tâm, Trích xuất cạnh Edit Mode, Tự động chia ô phào chỉ tường (Wainscoting) và đồng bộ 100% UVW thực tế với MT_PBR Studio Pro."
+      ],
+      "changelog_en": [
+        "v1.0.0: Official release of MT_Sweep Profile Pro featuring 40 Kstudio architectural profiles, 9-point pivot alignment, Edit Mode edge extraction, Auto Wainscoting generator, and 100% real-world UVW sync with MT_PBR Studio Pro."
+      ],
+      "tutorial_url": "",
+      "buy_url": "",
+      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Sweep_Profile.zip",
+      "n_panel_tab": "MT_Sweep Profile",
+      "is_available": true
     }
   ]
 }
