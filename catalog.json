@@ -295,10 +295,10 @@
       "module_name": "MT_Sweep_Profile",
       "name": "MT_Sweep Profile Pro",
       "icon": "MOD_CURVE",
-      "version": "v2.4.0",
+      "version": "v2.5.0",
       "version_tuple": [
         2,
-        4,
+        5,
         0
       ],
       "desc_lines": [
@@ -321,7 +321,7 @@
       "price_vi": "300.000đ",
       "price_en": "$24",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_Sweep_Profile v2.4.0",
+      "update_notice": "Cập nhật MT_Sweep_Profile v2.5.0",
       "update_notice_en": "Initial release of MT_Sweep Profile Pro v1.0.0 - Professional Architectural Molding Suite!",
       "changelog": [
         "v1.0.0: Phát hành chính thức MT_Sweep Profile Pro tích hợp 40 mặt cắt kiến trúc Kstudio, Ma trận 9 điểm tâm, Trích xuất cạnh Edit Mode, Tự động chia ô phào chỉ tường (Wainscoting) và đồng bộ 100% UVW thực tế với MT_PBR Studio Pro."
