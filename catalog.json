@@ -171,11 +171,11 @@
       "module_name": "MT_SmartGroup",
       "name": "MT SmartGroup",
       "icon": "GROUP",
-      "version": "v1.5.1",
+      "version": "v1.5.2",
       "version_tuple": [
         1,
         5,
-        1
+        2
       ],
       "desc_lines": [
         "📦 Gom nhóm toàn bộ object như 3ds Max / SketchUp",
@@ -191,13 +191,15 @@
       "price_vi": "200.000đ",
       "price_en": "$16",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_SmartGroup v1.5.1: Phân tách rõ ràng Archive & Relink thư viện theo chuẩn 3ds Max, lưu trữ vĩnh viễn danh sách đường dẫn (Persistent JSON), hỗ trợ quét đệ quy subfolder, gom phả hệ Root & Con, bung đơn Collection.",
-      "update_notice_en": "Update MT_SmartGroup v1.5.1: Separate Archive & Relink (3ds Max style), persistent search paths, recursive subfolder scanning, full Root-Child hierarchy selection, single collection expansion.",
+      "update_notice": "Cập nhật MT_SmartGroup v1.5.2: Động cơ Auto Relink thông minh: tự động dò tìm thư mục dự án gốc từ Recent Files khi mở file AutoSave/Temp/Recover, tự sửa lệch ổ đĩa, làm sạch đuôi ảnh Blender (.001/[data]), ép reload shader và khử triệt để viewport màu hồng.",
+      "update_notice_en": "Update MT_SmartGroup v1.5.2: Smart Auto Relink engine: auto-traces real project folder from Recent Files when opening AutoSave/Temp/Recover files, resolves drive mismatches, cleans Blender suffixes (.001/[data]), tags material shaders, and clears pink viewport.",
       "changelog": [
+        "v1.5.2: Nâng cấp Auto Relink thông minh: tự động truy vết dự án gốc từ Recent Files khi mở file AutoSave trong Temp, xử lý sai khác ký tự ổ đĩa (G: sang D:/C:), lọc sạch định dạng .001/[data], ép reload toàn bộ shader và làm mới Viewport 3D hết màu hồng.",
         "v1.5.1: Phân tách riêng biệt Thư mục Lưu Trữ (Archive Output) và Danh sách Thư mục Relink (Search Paths lưu vĩnh viễn kiểu 3ds Max); hỗ trợ quét thư mục con; bổ sung chọn toàn bộ phả hệ Root-Con và mở bung duy nhất 1 Collection.",
         "Phát hành bản Alpha 1.1.0"
       ],
       "changelog_en": [
+        "v1.5.2: Smart Auto Relink upgrade: auto-traces original project from Recent Files for AutoSave files in Temp, solves drive letter mismatches, cleans .001/[data] suffixes, refreshes all GPU material shaders and eliminates pink viewport.",
         "v1.5.1: Separated Archive Output and Persistent Relink Search Paths (3ds Max style); recursive subfolder scanning; Root & Descendants full hierarchy selection; single active Collection expansion.",
         "Alpha release 1.1.0"
       ],
