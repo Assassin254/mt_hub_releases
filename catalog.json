@@ -295,11 +295,11 @@
       "module_name": "MT_Sweep_Profile",
       "name": "MT_Sweep Profile Pro",
       "icon": "MOD_CURVE",
-      "version": "v2.2.3",
+      "version": "v2.3.0",
       "version_tuple": [
         2,
-        2,
-        3
+        3,
+        0
       ],
       "desc_lines": [
         "🏛️ Thư viện 40 mặt cắt phào chỉ kiến trúc chuẩn Kstudio (Trần, Len chân tường, Chỉ tường, Khung tranh, Khe hắt LED, Tay vịn) với ảnh 3D Isometric.",
@@ -321,7 +321,7 @@
       "price_vi": "300.000đ",
       "price_en": "$24",
       "update_recommend": true,
-      "update_notice": "Cập nhật MT_Sweep_Profile v2.2.3",
+      "update_notice": "Cập nhật MT_Sweep_Profile v2.3.0",
       "update_notice_en": "Initial release of MT_Sweep Profile Pro v1.0.0 - Professional Architectural Molding Suite!",
       "changelog": [
         "v1.0.0: Phát hành chính thức MT_Sweep Profile Pro tích hợp 40 mặt cắt kiến trúc Kstudio, Ma trận 9 điểm tâm, Trích xuất cạnh Edit Mode, Tự động chia ô phào chỉ tường (Wainscoting) và đồng bộ 100% UVW thực tế với MT_PBR Studio Pro."
