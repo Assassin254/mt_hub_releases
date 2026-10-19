@@ -1,343 +1,345 @@
 {
-  "hub_version": "1.2.2",
-  "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Hub.zip",
-  "hub_update_notice": "",
-  "hub_update_notice_en": "",
-  "hub_changelog": [],
-  "hub_changelog_en": [],
-  "products": [
-    {
-      "code": "MT_3D_Convert",
-      "module_name": "MT_3D_Convert",
-      "name": "MT 3D Convert",
-      "icon": "FILE_3D",
-      "version": "v1.9.4",
-      "version_tuple": [
-        1,
-        9,
-        4
-      ],
-      "desc_lines": [
-        "📥 Kéo thả file ZIP/RAR trực tiếp vào 3D Viewport.",
-        "⚡ Tối ưu tốc độ import cực nhanh qua FBX & OBJ C++ sạch modifier, khắc phục triệt để lỗi tranh bị thu nhỏ.",
-        "🛡️ Thuật toán quét và khử sạch texture rác FBX (Map #...), triệt tiêu hoàn toàn lỗi vật liệu hồng tím (Missing Textures).",
-        "💎 Phục hồi hoàn hảo bộ sưu tập Thủy tinh màu (Smoke, Fungi, Nomad...) & Nước trong suốt chuẩn khúc xạ PBR.",
-        "🎨 Tự động phân bổ độc lập bộ texture (gỗ, da, vải, bấc...) cho từng vật liệu & đồng bộ Solid Viewport rực rỡ."
-      ],
-      "desc_lines_en": [
-        "📥 Drag & Drop ZIP/RAR files directly into 3D Viewport.",
-        "⚡ Lightning fast import via FBX & OBJ (baked modifiers, fixes shrunken painting frames).",
-        "🛡️ FBX dummy texture node purge: completely eliminates magenta/pink missing texture errors.",
-        "💎 Restores tinted glass collections (Smoke, Fungi, Nomad...) & crystal clear water PBR.",
-        "🎨 Intelligent category texture set allocation (wood, cork, fabric...) & vibrant Solid Viewport sync."
-      ],
-      "price": "480.000đ ($38)",
-      "price_vi": "480.000đ",
-      "price_en": "$38",
-      "update_recommend": true,
-      "update_notice": "Cập nhật MT_3D_Convert v1.9.4",
-      "update_notice_en": "Fixed magenta textures, wood trays, cork caps, shrunken art & tinted glass v1.8.6",
-      "changelog": [
-        "- Thiết lập công thức PBR toán học tổng thể chuyển đổi V-Ray/Corona Mtl sang Principled BSDF",
-        "- Tích hợp bộ giải XForm modifier tự động, xử lý triệt để tranh bị co nhỏ trong khung",
-        "- Hỗ trợ toàn diện Multi/Sub-Object, VRayBlendMtl, CoronaLayeredMtl, VRayBitmap và FileAssetMetaData3",
-        "- Tự động đảo ngược Reflection Glossiness sang Roughness (Invert Node) và chuyển Bump sang Normal/Bump chuẩn",
-        "- Khôi phục 100% độ khúc xạ, màu Fog tint và nắp bấc/khay gỗ nguyên bản của 3ds Max",
-        "- Tối ưu tốc độ cache O(1) vật liệu và đường dẫn ảnh khi merge thư viện"
-      ],
-      "changelog_en": [
-        "- Established universal mathematical PBR formulas mapping V-Ray & Corona Mtl to Principled BSDF",
-        "- Integrated automatic XForm modifier stack solver, completely fixing shrunken paintings",
-        "- Comprehensive support for Multi/Sub-Object, VRayBlendMtl, CoronaLayeredMtl, VRayBitmap & FileAssetMetaData3",
-        "- Auto Invert node for Reflection Glossiness to Roughness, and smart Bump vs Normal node routing",
-        "- Restored 100% refraction transmission, Fog tint color, and wood tray textures from native 3ds Max",
-        "- Fast O(1) material and texture caching for instantaneous library merging"
-      ],
-      "tutorial_url": "",
-      "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_3D_Convert.zip",
-      "is_available": true
-    },
-    {
-      "code": "MT_PBR_Studio",
-      "module_name": "MT_PBR_Studio",
-      "name": "MT_PBR Studio Pro",
-      "icon": "MATERIAL",
-      "version": "v3.12.87",
-      "version_tuple": [
-        3,
-        12,
-        87
-      ],
-      "desc_lines": [
-        "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
-        "✨ Tự động tạo PBR Maps (Normal, Bump, Rough, AO) 1-Click từ ảnh màu",
-        "⛰️ Nổi khối Hybrid 3D Relief & Bắt sáng Vải & Da (Sheen) khử hoàn toàn bóng nhựa",
-        "🪵 Căn vân gỗ thông minh theo thớ & Chiếu UV Box Mapping tự động",
-        "✂️ Cắt vùng Texture (Texture Crop chuẩn 3ds Max) & Kéo di chuyển trực quan 3D",
-        "🌊 Nước 3D Procedural & Sóng biển bọt trắng thời gian thực",
-        "🎯 Vết xước & Bụi bẩn với Gizmo di chuyển/xoay trực quan trong Viewport",
-        "🏛️ Tạo vệt bẩn ở khu vực giao hình khối (Dirt/AO) toàn bộ công trình",
-        "🖌️ Bút hút Eyedropper sao chép trọn bộ (Maps + Modifiers + Cài đặt)",
-        "🌅 Studio HDRI xoay góc sáng & Viewport siêu nhẹ tiết kiệm 99% VRAM",
-        "📦 Tự động đóng gói & Export toàn bộ texture chống mất file"
-      ],
-      "desc_lines_en": [
-        "⚡ 50 Advanced Architectural PBR Material Presets (10 Families)",
-        "✨ 1-Click PBR Maps (Normal, Bump, Rough, AO) from Color Image",
-        "⛰️ Hybrid 3D Relief & Fabric/Leather Micro-Sheen (zero synthetic shine)",
-        "🪵 Smart Wood Grain Alignment & Automatic Triplanar Box Mapping",
-        "✂️ Texture Crop (3ds Max Style) & Interactive 3D Surface Dragging",
-        "🌊 Procedural 3D Water & Real-time Ocean Foam Waves",
-        "🎯 Surface Imperfections & Scratches with Interactive Viewport Gizmo",
-        "🏛️ Geometric Intersection Crevice & Corner Grime (Dirt/AO)",
-        "🖌️ Eyedropper Material Cloner (Maps + Modifiers + Settings)",
-        "🌅 Studio HDRI Rotation & Lightweight Viewport Saving 99% VRAM",
-        "📦 Auto Collect & Package Complete Textures for Render Farms"
-      ],
-      "price": "350.000đ ($28)",
-      "price_vi": "350.000đ",
-      "price_en": "$28",
-      "update_recommend": true,
-      "update_notice": "Cập nhật MT_PBR_Studio v3.12.87",
-      "update_notice_en": "Recommended to update to the latest version for performance optimization and bug fixes!",
-      "changelog": [
-        "v3.12.86: Sửa triệt để lỗi sọc vân/1D collapse khi bấm 'Khớp vừa khối (FIT TEXTURE 1:1)' hoặc 'Căn vân dài' trên đối tượng xoay, tranh treo tường; chuẩn hóa hệ vector pháp tuyến World Normal (trục U/V trực giao) phủ kín 100% bề mặt không bị co rút.",
-        "v3.12.83: 1) Thêm nút '👁️ Xem Trước Hoa Văn & Bump' (Đen Trắng & Khối Nổi) trực tiếp trên bề mặt kính để căn chỉnh map, UV, độ nổi chìm chuẩn xác tức thì mà không bị chói kính; 2) Bổ sung thanh trượt Tương phản (Contrast) và Bù trừ sáng (Brightness) cho Texture Base; 3) Thêm công cụ 1-Click '⚡ Làm Nổi Bật Vân Texture Base' giúp xử lý triệt để ảnh chụp bị sáng lóa/trắng bợt trên vải, thảm, gỗ, da khi render Cycles/EEVEE.",
-        "v3.12.82: 1) Sửa triệt để bộ chỉnh màu Hue/Saturation/Curves tác động tức thì vào Texture Base Color đa tầng; 2) Thêm tính năng 1-Click Rà soát & Chuẩn hóa toàn bộ vật liệu trong bài sang chuẩn PBR Studio (chuyển đổi vật liệu 3ds Max, VRay, Corona sang Principled BSDF, UV Mapping, HSV & Curves); 3) Sửa triệt để lỗi crash Blender khi gỡ bỏ Texture Base Color; 4) Lược bỏ hoàn toàn tính năng đồng bộ góc nhìn theo yêu cầu.",
-        "v3.12.81: Nâng cấp Nhận Diện Texture, Kính Nghệ Thuật & Sửa Đồng Bộ Viewport: 1) Tự động phát hiện Texture Base Color trên vật thể Import (FBX/OBJ/CAD) qua đệ quy shader links, hiển thị tức thì khe chọn ảnh trên N-Panel và cho phép tạo ngay bộ maps PBR (Normal, Bump, Roughness, AO); 2) Thêm kênh đưa ảnh Texture cho họ Kim Loại (Metal) giữ nguyên Metallic, hỗ trợ tạo đủ kênh PBR; 3) Họ Kính (Glass) bổ sung kênh Texture cùng 2 nút 1-Click: '🎨 Tạo Tranh Kính (Stained Glass)' và '🪟 Kính Hoa Văn Chìm / Phun Cát (Etched Glass)' kèm thanh trượt điều chỉnh độ mờ đục (Opacity), độ nhám hoa văn (Frost Roughness), độ khắc nổi chìm (Etch Depth) và đảo ngược hoa văn thời gian thực; 4) Sửa triệt để lỗi Đồng Bộ Góc Nhìn Viewport: Gỡ bỏ gán view_matrix làm lệch tâm tọa độ, loại bỏ modal popup gây đè ghi sai lầm, đồng bộ chính xác 100% vị trí, khoảng cách, góc quay và camera theo đúng tên Tabs Workspace Blender.",
-        "v3.12.80: Đại tu toàn diện UVW Mapping & Đồng Bộ Viewport chuẩn 3ds Max: 1) Sửa lỗi đồng bộ Viewport: Hiển thị danh sách các Tab làm việc (Workspace) thực tế người dùng thấy ở thanh tiêu đề trên (Modeling, Material - UVMaps, Shading, Asset Library...), loại bỏ hoàn toàn các tên nội bộ bí ẩn như Layout.001; 2) Tinh chỉnh thanh trượt Tịnh tiến U/V: Giới hạn soft [-1.0, 1.0], bước trượt 1% (step=1) siêu mượt, rê chuột chậm rãi dễ căn chỉnh, không bị văng texture; 3) Chuẩn hóa quy tắc thớ vân gỗ kiến trúc cho '🌲 Căn Vân Dài': Mọi đợt ngang/nóc tủ/đáy tủ vân gỗ luôn chạy dọc theo chiều dài chính của tủ (trục X), mọi vách đứng/hồi tủ/nan cong vân luôn chạy dọc thẳng đứng (trục Z), không bao giờ bị cắt ngang thớ; 4) Tỉ lệ kích thước X, Y, Z chuẩn 3ds Max: Trị số càng to thì vân càng to và dài (nghịch đảo tỷ lệ UV), chuẩn tham chiếu ván gỗ công nghiệp 2.4m x 1.2m hiển thị vân tự nhiên tuyệt đối ở tỉ lệ 1.0 mà không cần hạ xuống 0.1; 5) Sửa triệt để lỗi xoay UV 90 độ bị khóa cứng trên một số mặt (tự động unwrap planar khi gặp UV collapsed và xoay theo từng cụm mặt tại chỗ quanh trọng tâm riêng).",
-        "v3.12.79: Đại tu UVW Mapping và Sửa Lỗi Hút Vật Liệu (Eyedropper): 1) Sửa triệt để lỗi Bút Hút hút nhầm sàn/vật thể ẩn sau khi bật Local View (/) nhờ lọc chuẩn xác visible_get(viewport=space_3d), xuyên thấu kính trong suốt và bổ sung khung HUD Preview thời gian thực dưới chân trỏ chuột; 2) Tính năng Khớp Vừa Khối 1:1 chuẩn 3ds Max Fit Box bao quanh vật thể theo kích thước lớn nhất L_max, không gây méo lệch vân; 3) Thuật toán '🌲 Căn Vân Dài' tự động phân rã Connected Islands dò tìm cạnh/trục dài nhất của từng khối ván rời trong tủ/kệ/đồ nội thất để xoay hướng vân theo chiều dài nhất với tỉ lệ thế giới 1:1 đồng nhất; 4) Thay thế kích thước mm ảo bằng bảng Tỉ Lệ Tương Đối (Scale Ratios X, Y, Z mặc định 1.0) có nút khóa liên kết 🔗, ô nhập số tự do và hàng nút Nhân/Chia theo hệ số tùy chọn kèm nút [↺ 1.00] đặt lại; 5) Tinh giản toàn diện giao diện UVW Mapping (lược bỏ các nút thừa rườm rà Box, Planar, Restore, Sync UV, Hold LMB theo ảnh yêu cầu); 6) Chuyển nút Bake Material sang Solid View vào nhóm Thông Số Bề Mặt PBR; 7) Sửa lỗi xoay texture trong Edit Mode chuẩn xác 100% quanh trọng tâm UV các mặt được chọn.",
-        "v3.12.78: Nâng cấp toàn diện công thức Hút Vật Liệu (Eyedropper): 1) Cho phép hút ngay trên đối tượng đang chọn (hỗ trợ nhấp vào bề mặt bất kỳ để gán đồng nhất cho toàn bộ vật thể, bãi bỏ hoàn toàn điều kiện chặn tự hút); 2) Triệt tiêu 100% texture và slot vật liệu rác trong Mesh (tự động xóa toàn bộ slot cũ, đưa polygon về slot 0, dọn sạch hoàn toàn các phần bị trắng tinh như đệm sofa); 3) Tự động kích hoạt node Base Color/Diffuse cho Viewport Solid Shading hiển thị ảnh vân tức thì mà không cần chuyển sang Material Preview.",
-        "v3.12.77: Sửa 3 lỗi trọng yếu: 1) Khôi phục toàn bộ giao diện '🧵 Bắt Sáng Vải & Rèm (Fabric & Sheen)' trong bảng N-Panel (sửa triệt để NameError cur_preset, hiển thị đầy đủ thanh trượt Bắt Sáng Sheen, Độ Nhám Sheen, Màu Ánh Sắc Tint, Phản Xạ Kim Loại & Độ Trong Suốt Alpha); 2) Bảo toàn 100% Shader Nodes của vật liệu Procedural gốc khi ấn '📸 Bake Material Sang Solid View' (triệt tiêu việc can thiệp hay reset Scale của Mapping node, phân tích đa nhánh Color Ramp/Mix/Wave để tổng hợp vân Solid siêu nét mà không làm mất vằn vằn gốc); 3) Nâng cấp toàn diện tính năng '🔄 Đồng Bộ Các Góc Nhìn Viewport' với hộp thoại tương tác chọn tab trực quan 2 chiều (Lấy góc nhìn từ tab bất kỳ như Modeling về tab Shading, hoặc Đẩy góc nhìn từ tab hiện tại sang tất cả/từng tab khác; hỗ trợ đầy đủ chế độ Camera và góc nhìn tự do).",
-        "v3.12.76: Khắc phục triệt để lỗi Bút Hút Vật Liệu (Eyedropper) và Nâng Cấp Hệ Thống Smart Wear: 1) Bảo toàn 100% Shader Nodes của mọi vật liệu Procedural (RGB Curves, Custom Textures, Bump...) khi dùng Bút Hút gán sang đối tượng khác; 2) Tự động cô lập Mesh data và dọn sạch slot rác trên đối tượng đích trong Object Mode, đảm bảo gán phủ toàn bộ đa giác mặt mà không bị đè slot ẩn; 3) Sửa lỗi nuốt click chuột ban đầu khi bật Bút Hút trong Viewport; 4) Nối trực tiếp toàn bộ kênh Smart Wear (Bụi bẩn Grunge & Xước dăm Scratch) vào Base Color, Roughness, Normal và bổ sung node Math Opacity giúp thanh trượt Độ Hiện Màu (Opacity) hoạt động mượt mà thời gian thực.",
-        "v3.12.75: Tối ưu hóa siêu tốc tính năng Bake Material Sang Solid View (<15ms qua NumPy, triệt tiêu hoàn toàn hiện tượng đơ máy Cycles và lỗi màn hình đen xì trên vật liệu Procedural như Nan gỗ, Lam sóng, Checker, Brick, Noise, Voronoi); Khắc phục triệt để lỗi tọa độ UV ngoài khoảng [0, 1] khi chiếu Box/Planar bị nướng đen; Bảo toàn nguyên vẹn tọa độ và tỉ lệ UVW khi xem trong Solid View.",
-        "v3.12.74: Sửa triệt để lỗi phím tắt Alt+V trong Edit Mode (đăng ký chuẩn Mesh keymap, triệt tiêu lỗi Cannot rip faces); Khắc phục hoàn toàn lỗi UVW Box và Khớp Vừa Khối 1:1 không đồng bộ cạnh bên (tự động phân loại 3D Box chiếu đủ 3 hướng X, Y, Z, không bao giờ ép bẹp cạnh mỏng); Đồng bộ toàn diện trục Cao / Z (mm) trong bảng kích thước và tỷ lệ thực tế vào UV mesh.",
-        "v3.12.73: Khôi phục và nâng cấp vị trí tính năng 'Bake Material sang Solid View' & 'Đồng Bộ UV Mesh (Bake UVW)': 1) Đưa nút '📸 Bake Material Sang Solid View' và '⚡ Đồng Bộ UV Mesh' trực tiếp lên Header thẻ vật liệu chính (box_obj) - luôn hiển thị ngay khi chọn đối tượng; 2) Bổ sung hàng nút Bake Solid & Đồng Bộ UV Mesh ngay trong tab UVW Mapping dưới hàng Căn Vân Dài; 3) Tích hợp phím tắt nhanh Bake Solid và Đồng Bộ UV vào popup Alt+V; 4) Tự động kích hoạt hiển thị Texture trong Solid View và bảo toàn nguyên vẹn UV map hiện có khi bake procedural materials; 5) Sửa triệt để lỗi biến mat_targets khi xử lý vật liệu có độ trong suốt (kính, rèm voan, nước).",
-        "v3.12.72: Đột phá UVW Mapping & Hút Vật Liệu: 1) Tích hợp nút 1-Click '📐 KHỚP VỪA KHỐI (FIT TEXTURE 1:1)' kéo phẳng texture vừa khít 100% toàn bộ đối tượng hoặc bề mặt chọn mà không chia nhỏ lặp vụn từng mặt polygon, tự động đo đạc và cập nhật ngay kích thước thực tế (mm) vào UI; 2) Tinh gọn giao diện UVW Mapping chỉ còn 5 nút cốt lõi (Khớp Vừa Khối 1:1, Chiếu Hộp, Chiếu Phẳng, Căn Vân Dài, Khôi Phục UV) loại bỏ toàn bộ nút rườm rà; 3) Sửa triệt để tính năng Hút Vật Liệu (Alt+V) trong Edit Mode với thuật toán raycast BVHTree chính xác 100%, triệt tiêu hoàn toàn lỗi hút nhầm Wall_Paint trên các chi tiết có modifier (cửa sổ elip, nẹp chỉ); 4) Bổ sung cơ chế chống nuốt click / raycast sớm khi bấm nút Hút Vật Liệu trong bảng nổi Alt+V; 5) Tự động kết nối UV và Mapping node sau khi hút gán vật liệu mới.",
-        "v3.12.71: Nâng cấp toàn diện công cụ UVW Mapping: 1) Tích hợp nút '🔗 Kết Nối UVW Vào Vật Liệu' (Use UV Map on Active Material) tương đương 100% add-on APA UVW Map, tự động kiểm tra và nối Texture Coordinate & UV Mapping vào toàn bộ texture image của vật liệu; 2) Tự động kích hoạt liên kết UV mỗi khi bấm chiếu Box, Planar, Sphere, Cylinder, Fit to Face hoặc Căn vân gỗ, triệt tiêu 100% hiện tượng texture bị trôi màu hoặc trơn tuột; 3) Chuẩn hóa tỉ lệ Box Mapping và Planar Mapping theo mm thực tế thế giới (World/Unit Scale), xử lý triệt để file import từ 3ds Max/CAD bị scale 0.001 hoặc tọa độ mm gây lặp 2000x làm mờ đục vân texture; 4) Bổ sung công cụ '📐 Khớp Kích Thước Vào Khối' (Fit Size to Object) tự động lấy kích thước bounding box mm của vật thể gán vào UVW; 5) Đồng bộ song song tầng UV MT_UV_Base khi crop texture; 6) Tích hợp nút kết nối UVW và khớp khối trực tiếp trên bảng nổi Alt+V.",
-        "v3.12.70: Đại tu toàn diện Bút Hút Vật Liệu (Eyedropper) và Chọn Vật Thể: 1) Hỗ trợ sao chép toàn bộ vật liệu (Multi-material transfer) giữa 2 đối tượng hình khối tương đương (như cửa sổ gồm khung gỗ và kính elip), tự động phân tích và gán chuẩn xác từng vùng vật liệu mà không xóa mất các slot khác; 2) Cơ chế raycast 4 tầng đánh giá depsgraph mesh và BMesh chính xác 100%, triệt tiêu hoàn toàn lỗi hút kính đen tự tạo Wall_Paint; 3) Khắc phục triệt để Bút Hút trong bảng Alt+V ở Edit Mode, hỗ trợ chọn mặt hút và gán vật liệu riêng cho từng mặt được chọn; 4) Bảng Alt+V hiển thị và tinh chỉnh trực tiếp vật liệu của mặt đang chọn trong Edit Mode; 5) Đồng bộ Solid View tức thì cho tất cả material slots trên đối tượng.",
-        "v3.12.69: Lược bỏ hoàn toàn dòng thông tin phiên bản cũ ở đáy bảng điều khiển theo yêu cầu tinh giản giao diện.",
-        "v3.12.68: Tối ưu UI Tab PBR dài rộng rõ chữ, lược bỏ Tab Texture theo yêu cầu tinh giản; Đồng bộ Viewport Shading toàn diện qua mọi Workspace (Modeling, Shading, Layout...) đảm bảo vật liệu Solid Texture luôn hiển thị đồng nhất; Bổ sung tính năng Alpha xuyên thấu cho Kính kiến trúc (Clear, Frosted, Smoked, Fluted) và Rèm Voan (Sheer) hiển thị trong suốt hoàn hảo trên cả Solid View và Render.",
-        "v3.12.67: Khắc phục triệt để lỗi Kéo Di Chuột Trong Viewport (3D Interactive Drag): Chuyển sang cơ chế Giữ Chuột Trái (Hold LMB) để kéo trực tiếp, triệt tiêu 100% hiện tượng texture bị văng/nhảy khi di chuột từ N-Panel vào Viewport; Không bị thoát lệnh đột ngột khi click chuột; Đảo chiều vector kéo mượt mà tự nhiên theo đúng hướng tay người dùng; Bổ sung khung HUD Mini hiển thị trạng thái và thông số tọa độ thời gian thực trên 3D Viewport.",
-        "v3.12.66: Tối ưu hóa tính năng Tịnh Tiến UVW Texture: Thay thế toàn bộ cụm nút bấm +/- rườm rà bằng thanh trượt trực quan (slider=True) cho phép kéo thả trị số U và V siêu mượt với độ chính xác cao và nút [↺ Reset]; Nâng cấp toàn diện công cụ Kéo Chuột Tự Do Trong Viewport (3D Interactive Drag) cập nhật trực tiếp lưới UV mesh theo thời gian thực (60 FPS), hiển thị tức thì trên cả Solid View và Material/Render View, hỗ trợ giữ Shift để vi chỉnh cực nhạy.",
-        "v3.12.65: Sửa dứt điểm 100% lỗi Bút Hút Vật Liệu (Eyedropper): Khắc phục lỗi crash NameError is_multi_slot, loại bỏ hoàn toàn các lỗi AttributeError do gọi sai thuộc tính; Đảm bảo cơ chế gán vật liệu và Box Mapping UV thông minh, hiển thị đầy đủ maps ngay lập tức trên cả Solid View và Material View mà không gây mất mát vật liệu hay méo lệch UV của đối tượng nguồn và đích.",
-        "v3.12.64: Sửa triệt để lỗi Bút Hút Vật Liệu (Eyedropper) không làm mất vật liệu/UV của đối tượng nguồn hay đối tượng đích; Bổ sung thanh trượt và các nút dịch chuyển nhanh UVW Offset (U-, U+, V-, V+, Reset 0) đồng bộ 100% Solid View & Material View; Nâng cấp Bảng nổi Alt+V đầy đủ thông số bề mặt PBR (lược bỏ khung Cắt Crop và nút Thay Map theo đúng yêu cầu tinh giản); Hợp nhất Xem trước vật liệu và Nguồn texture ảnh ngoài trực tiếp vào Tab PBR; Tự động đồng bộ ảnh Base Color và bổ sung nút [X] gỡ bỏ map nhanh cho từng kênh PBR.",
-        "v3.12.63: Tích hợp hệ thống Pie Menu (Alt+C) và Bảng nổi tinh chỉnh nhanh (Alt+V) ngay tại con trỏ chuột: Mở Pie 8 hướng chứa trọn bộ 10 nhóm họ vật liệu và 59 preset PBR chuẩn kiến trúc, di chuột xổ menu con và gán 1-click trực tiếp; Tự động cô lập slot mới cho các mặt đang chọn trong Edit Mode và gán toàn bộ đối tượng trong Object Mode; Phím tắt Alt+V mở bảng nổi Smart Tweak ngay dưới con trỏ chuột gồm đầy đủ điều khiển kích thước UVW (mm), xoay vân gỗ dài nhất, fit to face, box mapping, chỉnh màu Base Color, Roughness, Metallic, Normal và Crop 2D mà không cần mở bảng N-panel.",
-        "v3.12.62: Nâng cấp toàn diện tính năng Cắt Vùng Texture (3ds Max Style): Tái cấu trúc shader MT_Texture_Crop kết hợp đồng bộ trực tiếp lưới Mesh UV của toàn bộ các chi tiết/vật thể cùng chia sẻ vật liệu (như tủ kệ, bàn ghế gồm hàng chục mesh); Chuẩn hóa tầng UV gốc MT_UV_Base triệt tiêu hoàn toàn hiện tượng cắt 2 lần (double-crop) giữa Solid View và Material/Render; Tự động kích hoạt hiển thị Texture trong Solid View; Cập nhật tức thì thời gian thực khi kéo chỉnh trên cửa sổ 2D Crop Canvas, thanh trượt hoặc Preset.",
-        "v3.12.61: Nâng cấp Bút Hút Vật Liệu thông minh đa chế độ: Trong Edit Mode khi chọn đối tượng mặt sẽ hút chuẩn xác vật liệu và tự động trải phẳng UV không méo lệch theo vân vật liệu nguồn, tự động tạo và cô lập Material Slot mới cho các mặt được chọn, bảo tồn 100% vật liệu gốc của các mặt không chọn; Trong Object Mode đối với các vật thể có hình khối tương đồng, tự động hút toàn bộ các Material Slots, map chuẩn vị trí từng cụm polygon và đồng bộ UV texture; Cho phép hút vật liệu giữa các mặt trong cùng một vật thể ở Edit Mode.",
-        "v3.12.60: Khắc phục triệt để lỗi Cắt Texture không ăn trên vật thể, đồng bộ tức thì lưới Mesh UV hiển thị chuẩn 100% trên cả Solid View và Material/Render; Bổ sung nút [⚡ Áp Dụng Cắt Vào Vật Thể]; Đẩy Bút Hút Vật Liệu ra khung nhìn Header chính hiển thị ở mọi tab và sửa lỗi hút vật liệu khi chọn nhiều đối tượng; Mở rộng thanh trượt HDRI Strength lên 80+ (tối đa 500); Giữ nguyên chế độ hiển thị Viewport Shading (Solid/Render) khi tạo hoặc gán vật liệu mới; Tối giản giao diện Header không bị hộp MT_Hub thừa.",
-        "v3.12.59: Tính năng 1-Click Trải Phẳng Khớp Mặt (Fit to Face) co dãn texture vừa khít 100% cạnh mặt phẳng; Khắc phục triệt để lỗi căn vân gỗ theo cạnh dài nhất (hỗ trợ cả Edit Mode và Object Mode, tính toán không gian thực tế World Space); Sửa lỗi kích thước texture (mm) không ăn trên Solid View, đồng bộ tức thì lưới Mesh UV với Material View; Nút Cắt 2D & hướng dẫn trực quan trên Mini-Map HUD.",
-        "v3.12.58: Cửa sổ Cắt Texture 2D trực quan chuẩn 3ds Max View Image hiển thị toàn bộ ảnh và vùng cắt; 8 tay nắm co giãn & di chuyển vùng cắt trực quan trên ảnh; Mini-Map HUD Viewport hiển thị góc màn hình thời gian thực khi kéo di trên 3D mesh.",
-        "v3.12.57: Tích hợp công cụ Cắt Vùng Texture (Texture Crop chuẩn 3ds Max) trong tab UVW; Hỗ trợ kéo di chuyển trực quan 3D trên bề mặt vật thể; Mở cửa sổ khung viền đỏ 2D tương tác; Bổ sung các preset cắt nhanh 1/2 và 1/4; Tự động đồng bộ vùng crop sang Solid View khi ấn Đồng Bộ UVW."
-      ],
-      "changelog_en": [
-        "v3.12.83: 1) Added '👁️ Preview Pattern & Bump' toggle directly on glass surfaces to accurately calibrate map scale, UV position, and etch depth without reflections/refraction interference; 2) Added Contrast and Brightness Offset sliders for Base Color texture; 3) Added 1-Click '⚡ Boost Base Texture Contrast' solving washed-out/overexposed textures on rugs, fabrics, wood, and leather under strong Cycles/EEVEE lighting.",
-        "v3.12.82: 1) Thoroughly fixed Base Color Hue/Saturation/Curves sliders immediately affecting textures via multi-tier shader pipeline; 2) Added 1-Click Standardize All Scene Materials operator scanning and converting 3ds Max/VRay/Corona shaders to Principled BSDF with UV mapping, HSV & Curves; 3) Fixed Blender crash when removing Base Color texture by re-fetching valid BSDF references post-deletion; 4) Completely removed Viewport synchronization per user request.",
-        "v3.12.81: Texture Detection, Art & Etched Glass, and Viewport Sync Fix: 1) Auto-detects Base Color textures on imported FBX/OBJ/CAD meshes via recursive shader node link traversal, displaying the texture slot in N-Panel and enabling instant 1-Click PBR Map generation; 2) Added Texture input for Metal materials while preserving metallic properties and supporting full PBR channels; 3) Glass family adds texture input and two 1-Click buttons: '🎨 Create Stained Glass Art' and '🪟 Create Etched/Frosted Pattern Glass' with live sliders for pattern opacity, frost roughness, etch relief depth, and pattern inversion; 4) Permanently fixed Viewport Synchronization: eliminated view_matrix assignment position shift, replaced modal dialog with clean popup, achieving 100% exact mathematical sync across Blender workspace tabs.",
-        "v3.12.80: Comprehensive UVW Mapping & Viewport Sync Overhaul (3ds Max Standard): 1) Fixed Viewport Sync: Displays actual Blender Workspace tabs from the top header bar (Modeling, Material - UVMaps, Shading, Asset Library...), eliminating internal names like Layout.001; 2) Smooth U/V Translation sliders: Soft bounds [-1.0, 1.0], 1% fine step for smooth non-flying dragging; 3) Architectural wood grain rules for '🌲 Align Long Grain': horizontal cabinet shelves/lids/bases always run along cabinet length (X axis), vertical side panels and slats always run vertically (Z axis); 4) 3ds Max standard X,Y,Z scaling ratios: higher values mean larger/longer grain, standardized to 2.4m industrial panels for 1.0 default ratio; 5) Fixed 90-degree UV rotation lockup on all face clusters.",
-        "v3.12.79: Comprehensive UVW Mapping overhaul and Eyedropper fixes: 1) 100% fixed Eyedropper sampling floor/hidden objects in Local View (/) with accurate visible_get(viewport=space_3d) checks, see-through glass, and live HUD cursor preview; 2) 3ds Max 1:1 Fit Box stretching texture across mesh bounding box without distortion; 3) '🌲 Align Long Grain' auto-decomposing connected islands to orient grain along the longest edge with uniform 1:1 world scale; 4) Relative scale ratio controls (X, Y, Z defaults 1.0) with lock link 🔗, direct input, and multiplier buttons with [↺ 1.00] reset; 5) Streamlined UVW Mapping UI; 6) Moved Bake Material to Solid View into PBR Surface Parameters; 7) 100% accurate UV rotation in Edit Mode around selected face UV medians.",
-        "v3.12.77: Fixed 3 critical issues: 1) Restored '🧵 Fabric & Sheen' panel section in N-Panel (fixed NameError cur_preset, displaying full controls for Sheen Weight, Sheen Roughness, Sheen Tint, Specular & Alpha); 2) 100% preserves original procedural material shader nodes when clicking '📸 Bake Material to Solid View' (eliminated unwanted Mapping node scale reset, preserving procedural wave/stripes and synthesizing sharp Solid View preview without corrupting original materials); 3) Overhauled '🔄 Sync Viewport Views' with interactive 2-way workspace selector popup (Pull view from any workspace e.g. Modeling into Shading, or Push current view to all/selected workspaces, with full Camera and perspective support).",
-        "v3.12.76: Fixed Eyedropper Material Picker and Upgraded Smart Wear System: 1) 100% preserves custom Shader Nodes of Procedural materials (RGB Curves, Custom Textures, Bump...) when picked and transferred to other meshes; 2) Auto-isolates mesh data (users > 1) and completely cleans stale slots on destination objects in Object Mode, mapping all face polygons directly to the picked material; 3) Fixed initial mouse click suppression in Viewport Eyedropper modal; 4) Connected complete Smart Wear pipeline (Grunge & Scratch) into Base Color, Roughness, Normal, and added Math Opacity nodes for live Opacity slider control.",
-        "v3.12.75: Ultra-fast Procedural Material Bake to Solid View (<15ms via NumPy procedural texture synthesis): 1) Completely eliminated heavy Cycles scene baking, OptiX 7804 kernel compile freezes, and BVH stalls; 2) Fully fixed the [0, 1] UV space rasterization bug where Box/Planar projected meshes baked completely pitch black in Solid View; 3) Procedural Wave/Stripes (Nan gỗ / Lam sóng), Checker, Brick, Noise, Voronoi, Gradient, and ColorRamps are rendered instantly with high fidelity in Solid View; 4) Bulletproof black-screen safeguard guaranteeing meshes never turn black; 5) Preserves UV mapping orientation and scale.",
-        "v3.12.74: Fixed Alt+V in Edit Mode by registering into KeyMap('Mesh') to override default mesh.rip_fill ('Cannot rip faces'); Overhauled 3D Box UV classification with multi-axis orientation counting (active_axes >= 2) eliminating slab collapse; Added full support for Cao / Z (mm) co-scaling across X/Y/Z face normals in update_uv_size_mm.",
-        "v3.12.72: Breakthrough UVW Mapping & Eyedropper upgrades: 1) Added 1-Click '📐 FIT TEXTURE TO MESH (1:1)' stretching texture 100% across the whole mesh or selected surface without per-face subdivision/tiling, automatically measuring and updating real-world physical dimensions (mm) in the UI; 2) Radically streamlined UVW Mapping interface down to 5 essential tools (Fit 1:1, Box, Planar, Align Long Grain, Restore UV) eliminating all cluttered buttons; 3) Fully fixed Alt+V Eyedropper Material Picker in Edit Mode using 100% accurate BVHTree raycast sampling, eliminating wrong material (Wall_Paint) selection on modified geometry (curved windows, moldings); 4) Fixed mouse release protection to prevent click swallowing/accidental clicks when invoking Eyedropper from Alt+V popup; 5) Auto-connects UV Mapping node pipeline on newly picked material.",
-        "v3.12.71: Comprehensive UVW Mapping upgrade: 1) Added 1-Click '🔗 Link UVW to Material' (Use UV Map on Active Material) replacing external add-on APA UVW Map, auto-connecting Texture Coordinate & UV Mapping across all image texture nodes; 2) Automatic UV pipeline auto-linking on all projection operators (Box, Planar, Sphere, Cylinder, Fit to Face, Align Grain), permanently eliminating flat/smooth untextured surfaces; 3) Normalized real-world millimeter scale for Box & Planar projections, fully handling 3ds Max/CAD millimeter imports and unapplied scales to eliminate 2000x micro-tiling blur; 4) Added '📐 Fit Size to Object' auto-measuring mesh bounding dimensions (mm); 5) Synchronous MT_UV_Base layer updates for crop synchronization; 6) Direct Link UV and Fit Size controls in Alt+V popup.",
-        "v3.12.70: Comprehensive overhaul of Eyedropper & Object Material Picker: 1) Full multi-material transfer between matching/similar objects (e.g. windows with wood frame and oval glass) preserving all slots; 2) 4-tier evaluated depsgraph raycast and BMesh picking, completely fixing black glass picking Wall_Paint; 3) Fully fixed Alt+V eyedropper in Edit Mode with reliable face-level picking & assignment; 4) Alt+V popup directly inspects and tweaks selected face material in Edit Mode; 5) Live Solid View sync across all material slots concurrently.",
-        "v3.12.69: Removed outdated version footer text at the bottom of the panel for a cleaner UI.",
-        "v3.12.68: Optimized Task Tabs toolbar by widening PBR tab and removing redundant Texture tab; Comprehensive multi-workspace Viewport Solid shading synchronization across all tabs; Added Alpha transparency support for Glass and Sheer Curtains in both Solid View and Render.",
-        "v3.12.67: Fully resolved Viewport Mouse Drag issues (3D Interactive Drag): Re-engineered with Hold-to-Drag (Hold LMB) mechanics, completely eliminating accidental texture jumps when moving the mouse from N-panel into 3D Viewport; Prevents accidental termination on mouse click; Properly aligned drag direction with natural hand movement; Added on-screen 3D Viewport HUD showing live status and coordinates.",
-        "v3.12.66: Optimized Texture UVW Translation (Offset): Replaced cluttered +/- step buttons with intuitive continuous sliders (slider=True) for smooth, high-precision U and V dragging with a clean [↺ Reset] button; Overhauled Free Mouse Drag in Viewport (3D Interactive Drag) to modify mesh UV loops directly in real-time (60 FPS) across both Solid View and Material/Render Views with Shift precision micro-tuning.",
-        "v3.12.65: 100% fixed Eyedropper Material Picker: Resolved NameError is_multi_slot crash, eliminated internal AttributeError exceptions during property sync; Ensured reliable single/multi-object material transfer with intelligent Box Mapping UV fallback, immediately displaying full textures on both Solid View and Material View without altering source objects or losing textures.",
-        "v3.12.64: Fully fixed Eyedropper Material Picker bug ensuring non-destructive transfer without altering or clearing source or target materials/UVs; Added precise numeric sliders and step shift buttons for UVW Offset (U-, U+, V-, V+, Reset 0) with 100% Solid & Material View synchronization; Enhanced Alt+V quick popup with comprehensive PBR surface tuning (omitting 2D crop and replace buttons); Unified Material Preview and External Texture Source directly into PBR tab; Auto-syncs Base Color image and adds 1-click [X] map removal button to each PBR channel.",
-        "v3.12.63: Integrated Native Radial Pie Menu (Alt+C) & Floating Smart Tweak Popup (Alt+V) directly at cursor: 8-direction radial pie menu containing all 10 architectural material families and 59 PBR presets with cascading submenus for 1-click assignment; Automatically creates isolated material slots for selected faces in Edit Mode and assigns all objects in Object Mode; Alt+V opens floating smart tweak popup right under the mouse cursor with real-world UVW mm sizing, grain alignment, fit to face, box mapping, PBR color/roughness/metallic/normal sliders, and 2D Texture Crop without needing the N-panel.",
-        "v3.12.62: Complete Texture Cropping Architecture Upgrade (3ds Max Style): Redesigned shader MT_Texture_Crop combined with multi-mesh UV synchronization across all objects sharing the material (such as multi-part cabinets and furniture); Dual-UV architecture with MT_UV_Base completely eliminating double-cropping between Solid View and Material/Render; Auto-enables Texture color shading in Solid View; Instant real-time updates across 2D Crop Canvas, sliders, and presets.",
-        "v3.12.61: Smart Multi-Mode Eyedropper Material Picker Upgrade: In Edit Mode when picking materials for selected faces, accurately samples material and automatically projects orthonormal planar UVs matching source texel density without distortion, automatically isolates and creates dedicated Material Slots for selected faces while preserving 100% of original materials on unselected faces; In Object Mode on similar/matching geometry, automatically clones all Material Slots, assigns them to corresponding polygon regions via topology/spatial BVH matching, and syncs UV texture maps; Supports picking between faces of the same mesh in Edit Mode.",
-        "v3.12.60: Fully resolved Texture Crop having no effect by syncing directly to Mesh UV layer (100% identical in Solid View and Material/Render); Added [⚡ Apply Crop to Mesh] button; Moved Eyedropper Material Picker to Global Header visible across all tabs and fixed multi-selection assignment; Expanded HDRI Strength slider up to 80+ (max 500); Preserved active Viewport Shading (Solid/Rendered) when creating/assigning materials; Cleaned up redundant MT_Hub header banner.",
-        "v3.12.59: 1-Click Fit Texture to Face fitting texture boundaries exactly 100% across geometry faces; Fully fixed Align Wood Grain to Longest Edge (supporting both Edit Mode and Object Mode with World Space precision); Fixed texture dimension (mm) updates in Solid View by directly scaling Mesh UV loops in real-time; Prominent 2D Crop button and helpful hint on Viewport Mini-Map HUD.",
-        "v3.12.58: 2D Interactive Texture Crop Dialog (3ds Max View Image style) displaying full bitmap and crop box; 8 resize handles & direct drag on image; Viewport Mini-Map HUD real-time thumbnail during 3D surface dragging.",
-        "v3.12.57: Integrated Texture Crop tool (3ds Max Bitmap Crop style) in UVW tab; Interactive 3D Viewport drag & move on mesh surfaces; 2D interactive red bounding box viewer; Quick half and quarter crop presets; Auto-syncs cropped mapping to Solid View."
-      ],
-      "tutorial_url": "https://assassin254.github.io/mt-studio-docs/",
-      "tutorial_url_en": "https://assassin254.github.io/mt-studio-docs/en.html",
-      "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
-      "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
-      "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.87/MT_PBR_Studio.zip",
-      "youtube_url": "https://youtu.be/dummy",
-      "docs_url": "https://mt-studio.vn",
-      "n_panel_tab": "MT_PBR Studio Pro",
-      "is_available": true
-    },
-    {
-      "code": "MT_SmartGroup",
-      "module_name": "MT_SmartGroup",
-      "name": "MT SmartGroup",
-      "icon": "GROUP",
-      "version": "v1.6.1",
-      "version_tuple": [
-        1,
-        6,
-        1
-      ],
-      "desc_lines": [
-        "📦 Gom nhóm toàn bộ object như 3ds Max / SketchUp",
-        "🚀 Mở / Đóng / Chỉnh sửa trực tiếp không rã Group",
-        "✨ Group lồng Group (Nested Groups) đa cấp độ"
-      ],
-      "desc_lines_en": [
-        "📦 Group objects exactly like 3ds Max / SketchUp",
-        "🚀 Open / Close / Edit directly without ungrouping",
-        "✨ Multi-level Nested Groups support"
-      ],
-      "price": "200.000đ ($16)",
-      "price_vi": "200.000đ",
-      "price_en": "$16",
-      "update_recommend": true,
-      "update_notice": "v1.6.1: Sửa triệt để lỗi chọn Group (hiển thị chọn toàn bộ nhóm trực quan ngay khi gom nhóm hoặc click chuột); Tái cấu trúc Hệ thống Component chuẩn SketchUp trực tiếp trong Viewport (triệt tiêu 100% hiện tượng văng lệch tọa độ, sửa tại chỗ, rã component bảo toàn vị trí).",
-      "update_notice_en": "v1.6.1: Fixed group selection (visual highlight of full group on create and click); Re-architected SketchUp-style Linked Component directly in Viewport (zero jumping, in-place editing, clean explode).",
-      "changelog": [
-        "v1.6.1: 1) Sửa triệt để lỗi chọn Group: Khi gom nhóm hoặc click bất kỳ chi tiết con nào trong Viewport, toàn bộ nhóm được chọn và làm nổi bật lập tức, Empty đại diện làm tâm pivot, di chuyển/xoay mượt mà 120 FPS; 2) Đại tu toàn diện Hệ thống Component theo kiến trúc Linked Hierarchy trực tiếp: Loại bỏ hoàn toàn Collection Instance và Collection ẩn (nguyên nhân gây bay lệch tọa độ), sửa chi tiết ngay tại chỗ trong Viewport, tự động đồng bộ biến đổi sang các bản sao chị em khi Đóng Component, hỗ trợ Rã Component (Explode) giữ nguyên 100% vị trí.",
-        "v1.6.0: 1) Khắc phục triệt để hiện tượng giật lag khi đóng Group: Tối ưu hóa timer ngầm (0% CPU khi không đổi chọn), chỉ chọn duy nhất Empty Group gốc thay vì quét chọn hàng chục đối tượng con, triệt tiêu 100% vẽ quan hệ nặng nề; 2) Đại tu toàn diện Tạo/Gỡ Parent: Bảo toàn 100% ma trận vị trí (C engine Keep Transform), bổ sung nút '🎯 Tạo Parent Vào Empty Mới' tính toán tâm đáy OBB chuẩn xác không bay lệch vật thể; 3) Tích hợp Hệ Thống Component Liên Kết Chuẩn SketchUp: Tạo Component thông minh, nhân bản Alt+D đồng bộ thời gian thực khi di chuyển hoặc sửa hình học, hỗ trợ Mở/Đóng sửa tại chỗ và Tách độc lập (Make Unique).",
-        "Phát hành bản Alpha 1.1.0"
-      ],
-      "changelog_en": [
-        "v1.6.1: 1) Fully fixed group selection: clicking any child part selects and highlights the entire group immediately with root empty as active pivot; 2) Overhauled Component system using direct Linked Hierarchy: completely removed collection instances and hidden libraries, eliminating position jumps, supporting in-place editing and 100% position-preserving Explode.",
-        "v1.6.0: 1) Fixed group closing lag: optimized background selection timer (0% CPU idle), selects only root empty instead of heavy child selection; 2) Overhauled Parenting: 100% native keep transform, added 'Parent to New Empty' at bottom center OBB; 3) SketchUp-style Linked Component system: Alt+D live synced instances, edit-in-place Open/Close, and Make Unique.",
-        "Alpha release 1.1.0"
-      ],
-      "tutorial_url": "",
-      "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_SmartGroup.zip",
-      "n_panel_tab": "MT_SmartGroup",
-      "is_available": true
-    },
-    {
-      "code": "MT_Camera",
-      "module_name": "MT_Camera",
-      "name": "MT Camera",
-      "icon": "CAMERA_DATA",
-      "version": "v1.4.6",
-      "version_tuple": [
-        1,
-        4,
-        6
-      ],
-      "desc_lines": [
-        "🎥 Quản lý toàn bộ camera trong Scene nhanh chóng",
-        "🚶 Chế độ điều khiển Walk Navigation (WASD)",
-        "📏 Căn phẳng góc máy chuẩn kiến trúc 1-click",
-        "🖼️ Setup tỉ lệ khung hình chuẩn & tự tính độ phân giải",
-        "⚡ Render Batch (Viewport & Actual) tự động lưu file"
-      ],
-      "desc_lines_en": [
-        "🎥 Quick management for all cameras in the Scene",
-        "🚶 Walk Navigation mode (WASD)",
-        "📏 1-click straight camera alignment for archviz",
-        "🖼️ Standard aspect ratios & auto resolution calculation",
-        "⚡ Batch Render (Viewport & Actual) with auto-save"
-      ],
-      "price": "200.000đ ($16)",
-      "price_vi": "200.000đ",
-      "price_en": "$16",
-      "update_recommend": false,
-      "update_notice": "Cập nhật MT_Camera v1.4.6",
-      "update_notice_en": "",
-      "changelog": [
-        "Phát hành bản 1.0.0"
-      ],
-      "changelog_en": [
-        "Initial release 1.0.0"
-      ],
-      "tutorial_url": "",
-      "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Camera.zip",
-      "n_panel_tab": "MT Camera",
-      "is_available": true
-    },
-    {
-      "code": "MT_Lightmix",
-      "module_name": "MT_Lightmix",
-      "name": "MT Lightmix",
-      "icon": "LIGHT",
-      "version": "v1.0.62",
-      "version_tuple": [
-        1,
-        0,
-        62
-      ],
-      "desc_lines": [
-        "💡 Đặt đèn LED, âm trần, đèn cửa sổ nhanh chóng",
-        "🎛️ Interactive LightMix giống hệt Corona",
-        "🌡️ Nhiệt độ màu vật lý chuẩn xác với Blackbody Node"
-      ],
-      "desc_lines_en": [
-        "💡 Place LED, downlight, and window lights quickly",
-        "🎛️ Interactive LightMix similar to Corona",
-        "🌡️ Accurate physical color temp with Blackbody Node"
-      ],
-      "price": "250.000đ ($20)",
-      "price_vi": "250.000đ",
-      "price_en": "$20",
-      "update_recommend": false,
-      "update_notice": "Cập nhật MT_Lightmix v1.0.62",
-      "update_notice_en": "",
-      "changelog": [
-        "Phát hành bản 1.0.2 - Fix lỗi đèn và bổ sung UI"
-      ],
-      "changelog_en": [
-        "Release 1.0.2 - Bug fixes and UI improvements"
-      ],
-      "tutorial_url": "",
-      "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Lightmix.zip",
-      "n_panel_tab": "MT Lightmix",
-      "is_available": true
-    },
-    {
-      "code": "MT_Sweep_Profile",
-      "module_name": "MT_Sweep_Profile",
-      "name": "MT_Sweep Profile Pro",
-      "icon": "MOD_CURVE",
-      "version": "v2.7.0",
-      "version_tuple": [
-        2,
-        7,
-        0
-      ],
-      "desc_lines": [
-        "🏛️ Thư viện 40 mặt cắt phào chỉ kiến trúc chuẩn Kstudio (Trần, Len chân tường, Chỉ tường, Khung tranh, Khe hắt LED, Tay vịn) với ảnh 3D Isometric.",
-        "📐 Ma trận 9 điểm tâm (9-Point Pivot Alignment) & Khóa tỉ lệ kích thước thực tế (mm) chuẩn xác 100%.",
-        "✨ Lõi Geometry Nodes Even-Thickness 3D Miter chống móp góc vuông 90° trên cả 3 trục X/Y/Z, sạch Outliner.",
-        "✂️ Trích xuất phào chỉ trực tiếp từ cạnh tường chọn trong Edit Mode (Use Selected Edges) & Tạo Ô Chỉ Tường Boiserie 1-Click.",
-        "🪵 Trải sẵn Real-World UVW dọc theo chiều dài phào (UVMap + MT_UV_Base), tương thích 100% với MT_PBR Studio Pro.",
-        "➕ Lấy mặt cắt tùy chỉnh từ Scene (Add from Scene) kèm bộ Render Thumbnail Studio 3D tự động."
-      ],
-      "desc_lines_en": [
-        "🏛️ 40 Kstudio-standard Architectural Molding Profiles (Crown, Baseboard, Wainscoting, Picture Frame, LED Cove, Handrail) with 3D Studio Thumbnails.",
-        "📐 9-Point Pivot Alignment Grid & Real-World millimeter (mm) dimensions with Aspect Ratio Lock.",
-        "✨ Geometry Nodes 3D Even-Thickness Miter solver preventing 90° corner pinching across X/Y/Z with zero Outliner clutter.",
-        "✂️ Extract Sweep directly from Selected Mesh Edges in Edit Mode & 1-Click Auto Wainscoting/Boiserie generator.",
-        "🪵 Real-World continuous UVW mapping along molding length (UVMap + MT_UV_Base), 100% compatible with MT_PBR Studio Pro.",
-        "➕ Add Custom Profile from Scene with automatic 3D Isometric Studio Thumbnail renderer."
-      ],
-      "price": "300.000đ ($24)",
-      "price_vi": "300.000đ",
-      "price_en": "$24",
-      "update_recommend": true,
-      "update_notice": "Cập nhật MT_Sweep_Profile v2.7.0",
-      "update_notice_en": "Initial release of MT_Sweep Profile Pro v1.0.0 - Professional Architectural Molding Suite!",
-      "changelog": [
-        "v1.0.0: Phát hành chính thức MT_Sweep Profile Pro tích hợp 40 mặt cắt kiến trúc Kstudio, Ma trận 9 điểm tâm, Trích xuất cạnh Edit Mode, Tự động chia ô phào chỉ tường (Wainscoting) và đồng bộ 100% UVW thực tế với MT_PBR Studio Pro."
-      ],
-      "changelog_en": [
-        "v1.0.0: Official release of MT_Sweep Profile Pro featuring 40 Kstudio architectural profiles, 9-point pivot alignment, Edit Mode edge extraction, Auto Wainscoting generator, and 100% real-world UVW sync with MT_PBR Studio Pro."
-      ],
-      "tutorial_url": "",
-      "buy_url": "",
-      "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Sweep_Profile.zip",
-      "n_panel_tab": "MT_Sweep Profile",
-      "is_available": true
-    }
-  ]
+    "hub_version": "1.2.2",
+    "hub_download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Hub.zip",
+    "hub_update_notice": "",
+    "hub_update_notice_en": "",
+    "hub_changelog": [],
+    "hub_changelog_en": [],
+    "products": [
+        {
+            "code": "MT_3D_Convert",
+            "module_name": "MT_3D_Convert",
+            "name": "MT 3D Convert",
+            "icon": "FILE_3D",
+            "version": "v1.9.4",
+            "version_tuple": [
+                1,
+                9,
+                4
+            ],
+            "desc_lines": [
+                "📥 Kéo thả file ZIP/RAR trực tiếp vào 3D Viewport.",
+                "⚡ Tối ưu tốc độ import cực nhanh qua FBX & OBJ C++ sạch modifier, khắc phục triệt để lỗi tranh bị thu nhỏ.",
+                "🛡️ Thuật toán quét và khử sạch texture rác FBX (Map #...), triệt tiêu hoàn toàn lỗi vật liệu hồng tím (Missing Textures).",
+                "💎 Phục hồi hoàn hảo bộ sưu tập Thủy tinh màu (Smoke, Fungi, Nomad...) & Nước trong suốt chuẩn khúc xạ PBR.",
+                "🎨 Tự động phân bổ độc lập bộ texture (gỗ, da, vải, bấc...) cho từng vật liệu & đồng bộ Solid Viewport rực rỡ."
+            ],
+            "desc_lines_en": [
+                "📥 Drag & Drop ZIP/RAR files directly into 3D Viewport.",
+                "⚡ Lightning fast import via FBX & OBJ (baked modifiers, fixes shrunken painting frames).",
+                "🛡️ FBX dummy texture node purge: completely eliminates magenta/pink missing texture errors.",
+                "💎 Restores tinted glass collections (Smoke, Fungi, Nomad...) & crystal clear water PBR.",
+                "🎨 Intelligent category texture set allocation (wood, cork, fabric...) & vibrant Solid Viewport sync."
+            ],
+            "price": "480.000đ ($38)",
+            "price_vi": "480.000đ",
+            "price_en": "$38",
+            "update_recommend": true,
+            "update_notice": "Cập nhật MT_3D_Convert v1.9.4",
+            "update_notice_en": "Fixed magenta textures, wood trays, cork caps, shrunken art & tinted glass v1.8.6",
+            "changelog": [
+                "- Thiết lập công thức PBR toán học tổng thể chuyển đổi V-Ray/Corona Mtl sang Principled BSDF",
+                "- Tích hợp bộ giải XForm modifier tự động, xử lý triệt để tranh bị co nhỏ trong khung",
+                "- Hỗ trợ toàn diện Multi/Sub-Object, VRayBlendMtl, CoronaLayeredMtl, VRayBitmap và FileAssetMetaData3",
+                "- Tự động đảo ngược Reflection Glossiness sang Roughness (Invert Node) và chuyển Bump sang Normal/Bump chuẩn",
+                "- Khôi phục 100% độ khúc xạ, màu Fog tint và nắp bấc/khay gỗ nguyên bản của 3ds Max",
+                "- Tối ưu tốc độ cache O(1) vật liệu và đường dẫn ảnh khi merge thư viện"
+            ],
+            "changelog_en": [
+                "- Established universal mathematical PBR formulas mapping V-Ray & Corona Mtl to Principled BSDF",
+                "- Integrated automatic XForm modifier stack solver, completely fixing shrunken paintings",
+                "- Comprehensive support for Multi/Sub-Object, VRayBlendMtl, CoronaLayeredMtl, VRayBitmap & FileAssetMetaData3",
+                "- Auto Invert node for Reflection Glossiness to Roughness, and smart Bump vs Normal node routing",
+                "- Restored 100% refraction transmission, Fog tint color, and wood tray textures from native 3ds Max",
+                "- Fast O(1) material and texture caching for instantaneous library merging"
+            ],
+            "tutorial_url": "",
+            "buy_url": "",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_3D_Convert.zip",
+            "is_available": true
+        },
+        {
+            "code": "MT_PBR_Studio",
+            "module_name": "MT_PBR_Studio",
+            "name": "MT_PBR Studio Pro",
+            "icon": "MATERIAL",
+            "version": "v3.12.87",
+            "version_tuple": [
+                3,
+                12,
+                87
+            ],
+            "desc_lines": [
+                "⚡ Kho 50 Preset Vật Liệu PBR Đỉnh Cao (10 Họ Vật Liệu Chuẩn Kiến Trúc)",
+                "✨ Tự động tạo PBR Maps (Normal, Bump, Rough, AO) 1-Click từ ảnh màu",
+                "⛰️ Nổi khối Hybrid 3D Relief & Bắt sáng Vải & Da (Sheen) khử hoàn toàn bóng nhựa",
+                "🪵 Căn vân gỗ thông minh theo thớ & Chiếu UV Box Mapping tự động",
+                "✂️ Cắt vùng Texture (Texture Crop chuẩn 3ds Max) & Kéo di chuyển trực quan 3D",
+                "🌊 Nước 3D Procedural & Sóng biển bọt trắng thời gian thực",
+                "🎯 Vết xước & Bụi bẩn với Gizmo di chuyển/xoay trực quan trong Viewport",
+                "🏛️ Tạo vệt bẩn ở khu vực giao hình khối (Dirt/AO) toàn bộ công trình",
+                "🖌️ Bút hút Eyedropper sao chép trọn bộ (Maps + Modifiers + Cài đặt)",
+                "🌅 Studio HDRI xoay góc sáng & Viewport siêu nhẹ tiết kiệm 99% VRAM",
+                "📦 Tự động đóng gói & Export toàn bộ texture chống mất file"
+            ],
+            "desc_lines_en": [
+                "⚡ 50 Advanced Architectural PBR Material Presets (10 Families)",
+                "✨ 1-Click PBR Maps (Normal, Bump, Rough, AO) from Color Image",
+                "⛰️ Hybrid 3D Relief & Fabric/Leather Micro-Sheen (zero synthetic shine)",
+                "🪵 Smart Wood Grain Alignment & Automatic Triplanar Box Mapping",
+                "✂️ Texture Crop (3ds Max Style) & Interactive 3D Surface Dragging",
+                "🌊 Procedural 3D Water & Real-time Ocean Foam Waves",
+                "🎯 Surface Imperfections & Scratches with Interactive Viewport Gizmo",
+                "🏛️ Geometric Intersection Crevice & Corner Grime (Dirt/AO)",
+                "🖌️ Eyedropper Material Cloner (Maps + Modifiers + Settings)",
+                "🌅 Studio HDRI Rotation & Lightweight Viewport Saving 99% VRAM",
+                "📦 Auto Collect & Package Complete Textures for Render Farms"
+            ],
+            "price": "350.000đ ($28)",
+            "price_vi": "350.000đ",
+            "price_en": "$28",
+            "update_recommend": true,
+            "update_notice": "Cập nhật MT_PBR_Studio v3.12.87",
+            "update_notice_en": "Recommended to update to the latest version for performance optimization and bug fixes!",
+            "changelog": [
+                "v3.12.86: Sửa triệt để lỗi sọc vân/1D collapse khi bấm 'Khớp vừa khối (FIT TEXTURE 1:1)' hoặc 'Căn vân dài' trên đối tượng xoay, tranh treo tường; chuẩn hóa hệ vector pháp tuyến World Normal (trục U/V trực giao) phủ kín 100% bề mặt không bị co rút.",
+                "v3.12.83: 1) Thêm nút '👁️ Xem Trước Hoa Văn & Bump' (Đen Trắng & Khối Nổi) trực tiếp trên bề mặt kính để căn chỉnh map, UV, độ nổi chìm chuẩn xác tức thì mà không bị chói kính; 2) Bổ sung thanh trượt Tương phản (Contrast) và Bù trừ sáng (Brightness) cho Texture Base; 3) Thêm công cụ 1-Click '⚡ Làm Nổi Bật Vân Texture Base' giúp xử lý triệt để ảnh chụp bị sáng lóa/trắng bợt trên vải, thảm, gỗ, da khi render Cycles/EEVEE.",
+                "v3.12.82: 1) Sửa triệt để bộ chỉnh màu Hue/Saturation/Curves tác động tức thì vào Texture Base Color đa tầng; 2) Thêm tính năng 1-Click Rà soát & Chuẩn hóa toàn bộ vật liệu trong bài sang chuẩn PBR Studio (chuyển đổi vật liệu 3ds Max, VRay, Corona sang Principled BSDF, UV Mapping, HSV & Curves); 3) Sửa triệt để lỗi crash Blender khi gỡ bỏ Texture Base Color; 4) Lược bỏ hoàn toàn tính năng đồng bộ góc nhìn theo yêu cầu.",
+                "v3.12.81: Nâng cấp Nhận Diện Texture, Kính Nghệ Thuật & Sửa Đồng Bộ Viewport: 1) Tự động phát hiện Texture Base Color trên vật thể Import (FBX/OBJ/CAD) qua đệ quy shader links, hiển thị tức thì khe chọn ảnh trên N-Panel và cho phép tạo ngay bộ maps PBR (Normal, Bump, Roughness, AO); 2) Thêm kênh đưa ảnh Texture cho họ Kim Loại (Metal) giữ nguyên Metallic, hỗ trợ tạo đủ kênh PBR; 3) Họ Kính (Glass) bổ sung kênh Texture cùng 2 nút 1-Click: '🎨 Tạo Tranh Kính (Stained Glass)' và '🪟 Kính Hoa Văn Chìm / Phun Cát (Etched Glass)' kèm thanh trượt điều chỉnh độ mờ đục (Opacity), độ nhám hoa văn (Frost Roughness), độ khắc nổi chìm (Etch Depth) và đảo ngược hoa văn thời gian thực; 4) Sửa triệt để lỗi Đồng Bộ Góc Nhìn Viewport: Gỡ bỏ gán view_matrix làm lệch tâm tọa độ, loại bỏ modal popup gây đè ghi sai lầm, đồng bộ chính xác 100% vị trí, khoảng cách, góc quay và camera theo đúng tên Tabs Workspace Blender.",
+                "v3.12.80: Đại tu toàn diện UVW Mapping & Đồng Bộ Viewport chuẩn 3ds Max: 1) Sửa lỗi đồng bộ Viewport: Hiển thị danh sách các Tab làm việc (Workspace) thực tế người dùng thấy ở thanh tiêu đề trên (Modeling, Material - UVMaps, Shading, Asset Library...), loại bỏ hoàn toàn các tên nội bộ bí ẩn như Layout.001; 2) Tinh chỉnh thanh trượt Tịnh tiến U/V: Giới hạn soft [-1.0, 1.0], bước trượt 1% (step=1) siêu mượt, rê chuột chậm rãi dễ căn chỉnh, không bị văng texture; 3) Chuẩn hóa quy tắc thớ vân gỗ kiến trúc cho '🌲 Căn Vân Dài': Mọi đợt ngang/nóc tủ/đáy tủ vân gỗ luôn chạy dọc theo chiều dài chính của tủ (trục X), mọi vách đứng/hồi tủ/nan cong vân luôn chạy dọc thẳng đứng (trục Z), không bao giờ bị cắt ngang thớ; 4) Tỉ lệ kích thước X, Y, Z chuẩn 3ds Max: Trị số càng to thì vân càng to và dài (nghịch đảo tỷ lệ UV), chuẩn tham chiếu ván gỗ công nghiệp 2.4m x 1.2m hiển thị vân tự nhiên tuyệt đối ở tỉ lệ 1.0 mà không cần hạ xuống 0.1; 5) Sửa triệt để lỗi xoay UV 90 độ bị khóa cứng trên một số mặt (tự động unwrap planar khi gặp UV collapsed và xoay theo từng cụm mặt tại chỗ quanh trọng tâm riêng).",
+                "v3.12.79: Đại tu UVW Mapping và Sửa Lỗi Hút Vật Liệu (Eyedropper): 1) Sửa triệt để lỗi Bút Hút hút nhầm sàn/vật thể ẩn sau khi bật Local View (/) nhờ lọc chuẩn xác visible_get(viewport=space_3d), xuyên thấu kính trong suốt và bổ sung khung HUD Preview thời gian thực dưới chân trỏ chuột; 2) Tính năng Khớp Vừa Khối 1:1 chuẩn 3ds Max Fit Box bao quanh vật thể theo kích thước lớn nhất L_max, không gây méo lệch vân; 3) Thuật toán '🌲 Căn Vân Dài' tự động phân rã Connected Islands dò tìm cạnh/trục dài nhất của từng khối ván rời trong tủ/kệ/đồ nội thất để xoay hướng vân theo chiều dài nhất với tỉ lệ thế giới 1:1 đồng nhất; 4) Thay thế kích thước mm ảo bằng bảng Tỉ Lệ Tương Đối (Scale Ratios X, Y, Z mặc định 1.0) có nút khóa liên kết 🔗, ô nhập số tự do và hàng nút Nhân/Chia theo hệ số tùy chọn kèm nút [↺ 1.00] đặt lại; 5) Tinh giản toàn diện giao diện UVW Mapping (lược bỏ các nút thừa rườm rà Box, Planar, Restore, Sync UV, Hold LMB theo ảnh yêu cầu); 6) Chuyển nút Bake Material sang Solid View vào nhóm Thông Số Bề Mặt PBR; 7) Sửa lỗi xoay texture trong Edit Mode chuẩn xác 100% quanh trọng tâm UV các mặt được chọn.",
+                "v3.12.78: Nâng cấp toàn diện công thức Hút Vật Liệu (Eyedropper): 1) Cho phép hút ngay trên đối tượng đang chọn (hỗ trợ nhấp vào bề mặt bất kỳ để gán đồng nhất cho toàn bộ vật thể, bãi bỏ hoàn toàn điều kiện chặn tự hút); 2) Triệt tiêu 100% texture và slot vật liệu rác trong Mesh (tự động xóa toàn bộ slot cũ, đưa polygon về slot 0, dọn sạch hoàn toàn các phần bị trắng tinh như đệm sofa); 3) Tự động kích hoạt node Base Color/Diffuse cho Viewport Solid Shading hiển thị ảnh vân tức thì mà không cần chuyển sang Material Preview.",
+                "v3.12.77: Sửa 3 lỗi trọng yếu: 1) Khôi phục toàn bộ giao diện '🧵 Bắt Sáng Vải & Rèm (Fabric & Sheen)' trong bảng N-Panel (sửa triệt để NameError cur_preset, hiển thị đầy đủ thanh trượt Bắt Sáng Sheen, Độ Nhám Sheen, Màu Ánh Sắc Tint, Phản Xạ Kim Loại & Độ Trong Suốt Alpha); 2) Bảo toàn 100% Shader Nodes của vật liệu Procedural gốc khi ấn '📸 Bake Material Sang Solid View' (triệt tiêu việc can thiệp hay reset Scale của Mapping node, phân tích đa nhánh Color Ramp/Mix/Wave để tổng hợp vân Solid siêu nét mà không làm mất vằn vằn gốc); 3) Nâng cấp toàn diện tính năng '🔄 Đồng Bộ Các Góc Nhìn Viewport' với hộp thoại tương tác chọn tab trực quan 2 chiều (Lấy góc nhìn từ tab bất kỳ như Modeling về tab Shading, hoặc Đẩy góc nhìn từ tab hiện tại sang tất cả/từng tab khác; hỗ trợ đầy đủ chế độ Camera và góc nhìn tự do).",
+                "v3.12.76: Khắc phục triệt để lỗi Bút Hút Vật Liệu (Eyedropper) và Nâng Cấp Hệ Thống Smart Wear: 1) Bảo toàn 100% Shader Nodes của mọi vật liệu Procedural (RGB Curves, Custom Textures, Bump...) khi dùng Bút Hút gán sang đối tượng khác; 2) Tự động cô lập Mesh data và dọn sạch slot rác trên đối tượng đích trong Object Mode, đảm bảo gán phủ toàn bộ đa giác mặt mà không bị đè slot ẩn; 3) Sửa lỗi nuốt click chuột ban đầu khi bật Bút Hút trong Viewport; 4) Nối trực tiếp toàn bộ kênh Smart Wear (Bụi bẩn Grunge & Xước dăm Scratch) vào Base Color, Roughness, Normal và bổ sung node Math Opacity giúp thanh trượt Độ Hiện Màu (Opacity) hoạt động mượt mà thời gian thực.",
+                "v3.12.75: Tối ưu hóa siêu tốc tính năng Bake Material Sang Solid View (<15ms qua NumPy, triệt tiêu hoàn toàn hiện tượng đơ máy Cycles và lỗi màn hình đen xì trên vật liệu Procedural như Nan gỗ, Lam sóng, Checker, Brick, Noise, Voronoi); Khắc phục triệt để lỗi tọa độ UV ngoài khoảng [0, 1] khi chiếu Box/Planar bị nướng đen; Bảo toàn nguyên vẹn tọa độ và tỉ lệ UVW khi xem trong Solid View.",
+                "v3.12.74: Sửa triệt để lỗi phím tắt Alt+V trong Edit Mode (đăng ký chuẩn Mesh keymap, triệt tiêu lỗi Cannot rip faces); Khắc phục hoàn toàn lỗi UVW Box và Khớp Vừa Khối 1:1 không đồng bộ cạnh bên (tự động phân loại 3D Box chiếu đủ 3 hướng X, Y, Z, không bao giờ ép bẹp cạnh mỏng); Đồng bộ toàn diện trục Cao / Z (mm) trong bảng kích thước và tỷ lệ thực tế vào UV mesh.",
+                "v3.12.73: Khôi phục và nâng cấp vị trí tính năng 'Bake Material sang Solid View' & 'Đồng Bộ UV Mesh (Bake UVW)': 1) Đưa nút '📸 Bake Material Sang Solid View' và '⚡ Đồng Bộ UV Mesh' trực tiếp lên Header thẻ vật liệu chính (box_obj) - luôn hiển thị ngay khi chọn đối tượng; 2) Bổ sung hàng nút Bake Solid & Đồng Bộ UV Mesh ngay trong tab UVW Mapping dưới hàng Căn Vân Dài; 3) Tích hợp phím tắt nhanh Bake Solid và Đồng Bộ UV vào popup Alt+V; 4) Tự động kích hoạt hiển thị Texture trong Solid View và bảo toàn nguyên vẹn UV map hiện có khi bake procedural materials; 5) Sửa triệt để lỗi biến mat_targets khi xử lý vật liệu có độ trong suốt (kính, rèm voan, nước).",
+                "v3.12.72: Đột phá UVW Mapping & Hút Vật Liệu: 1) Tích hợp nút 1-Click '📐 KHỚP VỪA KHỐI (FIT TEXTURE 1:1)' kéo phẳng texture vừa khít 100% toàn bộ đối tượng hoặc bề mặt chọn mà không chia nhỏ lặp vụn từng mặt polygon, tự động đo đạc và cập nhật ngay kích thước thực tế (mm) vào UI; 2) Tinh gọn giao diện UVW Mapping chỉ còn 5 nút cốt lõi (Khớp Vừa Khối 1:1, Chiếu Hộp, Chiếu Phẳng, Căn Vân Dài, Khôi Phục UV) loại bỏ toàn bộ nút rườm rà; 3) Sửa triệt để tính năng Hút Vật Liệu (Alt+V) trong Edit Mode với thuật toán raycast BVHTree chính xác 100%, triệt tiêu hoàn toàn lỗi hút nhầm Wall_Paint trên các chi tiết có modifier (cửa sổ elip, nẹp chỉ); 4) Bổ sung cơ chế chống nuốt click / raycast sớm khi bấm nút Hút Vật Liệu trong bảng nổi Alt+V; 5) Tự động kết nối UV và Mapping node sau khi hút gán vật liệu mới.",
+                "v3.12.71: Nâng cấp toàn diện công cụ UVW Mapping: 1) Tích hợp nút '🔗 Kết Nối UVW Vào Vật Liệu' (Use UV Map on Active Material) tương đương 100% add-on APA UVW Map, tự động kiểm tra và nối Texture Coordinate & UV Mapping vào toàn bộ texture image của vật liệu; 2) Tự động kích hoạt liên kết UV mỗi khi bấm chiếu Box, Planar, Sphere, Cylinder, Fit to Face hoặc Căn vân gỗ, triệt tiêu 100% hiện tượng texture bị trôi màu hoặc trơn tuột; 3) Chuẩn hóa tỉ lệ Box Mapping và Planar Mapping theo mm thực tế thế giới (World/Unit Scale), xử lý triệt để file import từ 3ds Max/CAD bị scale 0.001 hoặc tọa độ mm gây lặp 2000x làm mờ đục vân texture; 4) Bổ sung công cụ '📐 Khớp Kích Thước Vào Khối' (Fit Size to Object) tự động lấy kích thước bounding box mm của vật thể gán vào UVW; 5) Đồng bộ song song tầng UV MT_UV_Base khi crop texture; 6) Tích hợp nút kết nối UVW và khớp khối trực tiếp trên bảng nổi Alt+V.",
+                "v3.12.70: Đại tu toàn diện Bút Hút Vật Liệu (Eyedropper) và Chọn Vật Thể: 1) Hỗ trợ sao chép toàn bộ vật liệu (Multi-material transfer) giữa 2 đối tượng hình khối tương đương (như cửa sổ gồm khung gỗ và kính elip), tự động phân tích và gán chuẩn xác từng vùng vật liệu mà không xóa mất các slot khác; 2) Cơ chế raycast 4 tầng đánh giá depsgraph mesh và BMesh chính xác 100%, triệt tiêu hoàn toàn lỗi hút kính đen tự tạo Wall_Paint; 3) Khắc phục triệt để Bút Hút trong bảng Alt+V ở Edit Mode, hỗ trợ chọn mặt hút và gán vật liệu riêng cho từng mặt được chọn; 4) Bảng Alt+V hiển thị và tinh chỉnh trực tiếp vật liệu của mặt đang chọn trong Edit Mode; 5) Đồng bộ Solid View tức thì cho tất cả material slots trên đối tượng.",
+                "v3.12.69: Lược bỏ hoàn toàn dòng thông tin phiên bản cũ ở đáy bảng điều khiển theo yêu cầu tinh giản giao diện.",
+                "v3.12.68: Tối ưu UI Tab PBR dài rộng rõ chữ, lược bỏ Tab Texture theo yêu cầu tinh giản; Đồng bộ Viewport Shading toàn diện qua mọi Workspace (Modeling, Shading, Layout...) đảm bảo vật liệu Solid Texture luôn hiển thị đồng nhất; Bổ sung tính năng Alpha xuyên thấu cho Kính kiến trúc (Clear, Frosted, Smoked, Fluted) và Rèm Voan (Sheer) hiển thị trong suốt hoàn hảo trên cả Solid View và Render.",
+                "v3.12.67: Khắc phục triệt để lỗi Kéo Di Chuột Trong Viewport (3D Interactive Drag): Chuyển sang cơ chế Giữ Chuột Trái (Hold LMB) để kéo trực tiếp, triệt tiêu 100% hiện tượng texture bị văng/nhảy khi di chuột từ N-Panel vào Viewport; Không bị thoát lệnh đột ngột khi click chuột; Đảo chiều vector kéo mượt mà tự nhiên theo đúng hướng tay người dùng; Bổ sung khung HUD Mini hiển thị trạng thái và thông số tọa độ thời gian thực trên 3D Viewport.",
+                "v3.12.66: Tối ưu hóa tính năng Tịnh Tiến UVW Texture: Thay thế toàn bộ cụm nút bấm +/- rườm rà bằng thanh trượt trực quan (slider=True) cho phép kéo thả trị số U và V siêu mượt với độ chính xác cao và nút [↺ Reset]; Nâng cấp toàn diện công cụ Kéo Chuột Tự Do Trong Viewport (3D Interactive Drag) cập nhật trực tiếp lưới UV mesh theo thời gian thực (60 FPS), hiển thị tức thì trên cả Solid View và Material/Render View, hỗ trợ giữ Shift để vi chỉnh cực nhạy.",
+                "v3.12.65: Sửa dứt điểm 100% lỗi Bút Hút Vật Liệu (Eyedropper): Khắc phục lỗi crash NameError is_multi_slot, loại bỏ hoàn toàn các lỗi AttributeError do gọi sai thuộc tính; Đảm bảo cơ chế gán vật liệu và Box Mapping UV thông minh, hiển thị đầy đủ maps ngay lập tức trên cả Solid View và Material View mà không gây mất mát vật liệu hay méo lệch UV của đối tượng nguồn và đích.",
+                "v3.12.64: Sửa triệt để lỗi Bút Hút Vật Liệu (Eyedropper) không làm mất vật liệu/UV của đối tượng nguồn hay đối tượng đích; Bổ sung thanh trượt và các nút dịch chuyển nhanh UVW Offset (U-, U+, V-, V+, Reset 0) đồng bộ 100% Solid View & Material View; Nâng cấp Bảng nổi Alt+V đầy đủ thông số bề mặt PBR (lược bỏ khung Cắt Crop và nút Thay Map theo đúng yêu cầu tinh giản); Hợp nhất Xem trước vật liệu và Nguồn texture ảnh ngoài trực tiếp vào Tab PBR; Tự động đồng bộ ảnh Base Color và bổ sung nút [X] gỡ bỏ map nhanh cho từng kênh PBR.",
+                "v3.12.63: Tích hợp hệ thống Pie Menu (Alt+C) và Bảng nổi tinh chỉnh nhanh (Alt+V) ngay tại con trỏ chuột: Mở Pie 8 hướng chứa trọn bộ 10 nhóm họ vật liệu và 59 preset PBR chuẩn kiến trúc, di chuột xổ menu con và gán 1-click trực tiếp; Tự động cô lập slot mới cho các mặt đang chọn trong Edit Mode và gán toàn bộ đối tượng trong Object Mode; Phím tắt Alt+V mở bảng nổi Smart Tweak ngay dưới con trỏ chuột gồm đầy đủ điều khiển kích thước UVW (mm), xoay vân gỗ dài nhất, fit to face, box mapping, chỉnh màu Base Color, Roughness, Metallic, Normal và Crop 2D mà không cần mở bảng N-panel.",
+                "v3.12.62: Nâng cấp toàn diện tính năng Cắt Vùng Texture (3ds Max Style): Tái cấu trúc shader MT_Texture_Crop kết hợp đồng bộ trực tiếp lưới Mesh UV của toàn bộ các chi tiết/vật thể cùng chia sẻ vật liệu (như tủ kệ, bàn ghế gồm hàng chục mesh); Chuẩn hóa tầng UV gốc MT_UV_Base triệt tiêu hoàn toàn hiện tượng cắt 2 lần (double-crop) giữa Solid View và Material/Render; Tự động kích hoạt hiển thị Texture trong Solid View; Cập nhật tức thì thời gian thực khi kéo chỉnh trên cửa sổ 2D Crop Canvas, thanh trượt hoặc Preset.",
+                "v3.12.61: Nâng cấp Bút Hút Vật Liệu thông minh đa chế độ: Trong Edit Mode khi chọn đối tượng mặt sẽ hút chuẩn xác vật liệu và tự động trải phẳng UV không méo lệch theo vân vật liệu nguồn, tự động tạo và cô lập Material Slot mới cho các mặt được chọn, bảo tồn 100% vật liệu gốc của các mặt không chọn; Trong Object Mode đối với các vật thể có hình khối tương đồng, tự động hút toàn bộ các Material Slots, map chuẩn vị trí từng cụm polygon và đồng bộ UV texture; Cho phép hút vật liệu giữa các mặt trong cùng một vật thể ở Edit Mode.",
+                "v3.12.60: Khắc phục triệt để lỗi Cắt Texture không ăn trên vật thể, đồng bộ tức thì lưới Mesh UV hiển thị chuẩn 100% trên cả Solid View và Material/Render; Bổ sung nút [⚡ Áp Dụng Cắt Vào Vật Thể]; Đẩy Bút Hút Vật Liệu ra khung nhìn Header chính hiển thị ở mọi tab và sửa lỗi hút vật liệu khi chọn nhiều đối tượng; Mở rộng thanh trượt HDRI Strength lên 80+ (tối đa 500); Giữ nguyên chế độ hiển thị Viewport Shading (Solid/Render) khi tạo hoặc gán vật liệu mới; Tối giản giao diện Header không bị hộp MT_Hub thừa.",
+                "v3.12.59: Tính năng 1-Click Trải Phẳng Khớp Mặt (Fit to Face) co dãn texture vừa khít 100% cạnh mặt phẳng; Khắc phục triệt để lỗi căn vân gỗ theo cạnh dài nhất (hỗ trợ cả Edit Mode và Object Mode, tính toán không gian thực tế World Space); Sửa lỗi kích thước texture (mm) không ăn trên Solid View, đồng bộ tức thì lưới Mesh UV với Material View; Nút Cắt 2D & hướng dẫn trực quan trên Mini-Map HUD.",
+                "v3.12.58: Cửa sổ Cắt Texture 2D trực quan chuẩn 3ds Max View Image hiển thị toàn bộ ảnh và vùng cắt; 8 tay nắm co giãn & di chuyển vùng cắt trực quan trên ảnh; Mini-Map HUD Viewport hiển thị góc màn hình thời gian thực khi kéo di trên 3D mesh.",
+                "v3.12.57: Tích hợp công cụ Cắt Vùng Texture (Texture Crop chuẩn 3ds Max) trong tab UVW; Hỗ trợ kéo di chuyển trực quan 3D trên bề mặt vật thể; Mở cửa sổ khung viền đỏ 2D tương tác; Bổ sung các preset cắt nhanh 1/2 và 1/4; Tự động đồng bộ vùng crop sang Solid View khi ấn Đồng Bộ UVW."
+            ],
+            "changelog_en": [
+                "v3.12.83: 1) Added '👁️ Preview Pattern & Bump' toggle directly on glass surfaces to accurately calibrate map scale, UV position, and etch depth without reflections/refraction interference; 2) Added Contrast and Brightness Offset sliders for Base Color texture; 3) Added 1-Click '⚡ Boost Base Texture Contrast' solving washed-out/overexposed textures on rugs, fabrics, wood, and leather under strong Cycles/EEVEE lighting.",
+                "v3.12.82: 1) Thoroughly fixed Base Color Hue/Saturation/Curves sliders immediately affecting textures via multi-tier shader pipeline; 2) Added 1-Click Standardize All Scene Materials operator scanning and converting 3ds Max/VRay/Corona shaders to Principled BSDF with UV mapping, HSV & Curves; 3) Fixed Blender crash when removing Base Color texture by re-fetching valid BSDF references post-deletion; 4) Completely removed Viewport synchronization per user request.",
+                "v3.12.81: Texture Detection, Art & Etched Glass, and Viewport Sync Fix: 1) Auto-detects Base Color textures on imported FBX/OBJ/CAD meshes via recursive shader node link traversal, displaying the texture slot in N-Panel and enabling instant 1-Click PBR Map generation; 2) Added Texture input for Metal materials while preserving metallic properties and supporting full PBR channels; 3) Glass family adds texture input and two 1-Click buttons: '🎨 Create Stained Glass Art' and '🪟 Create Etched/Frosted Pattern Glass' with live sliders for pattern opacity, frost roughness, etch relief depth, and pattern inversion; 4) Permanently fixed Viewport Synchronization: eliminated view_matrix assignment position shift, replaced modal dialog with clean popup, achieving 100% exact mathematical sync across Blender workspace tabs.",
+                "v3.12.80: Comprehensive UVW Mapping & Viewport Sync Overhaul (3ds Max Standard): 1) Fixed Viewport Sync: Displays actual Blender Workspace tabs from the top header bar (Modeling, Material - UVMaps, Shading, Asset Library...), eliminating internal names like Layout.001; 2) Smooth U/V Translation sliders: Soft bounds [-1.0, 1.0], 1% fine step for smooth non-flying dragging; 3) Architectural wood grain rules for '🌲 Align Long Grain': horizontal cabinet shelves/lids/bases always run along cabinet length (X axis), vertical side panels and slats always run vertically (Z axis); 4) 3ds Max standard X,Y,Z scaling ratios: higher values mean larger/longer grain, standardized to 2.4m industrial panels for 1.0 default ratio; 5) Fixed 90-degree UV rotation lockup on all face clusters.",
+                "v3.12.79: Comprehensive UVW Mapping overhaul and Eyedropper fixes: 1) 100% fixed Eyedropper sampling floor/hidden objects in Local View (/) with accurate visible_get(viewport=space_3d) checks, see-through glass, and live HUD cursor preview; 2) 3ds Max 1:1 Fit Box stretching texture across mesh bounding box without distortion; 3) '🌲 Align Long Grain' auto-decomposing connected islands to orient grain along the longest edge with uniform 1:1 world scale; 4) Relative scale ratio controls (X, Y, Z defaults 1.0) with lock link 🔗, direct input, and multiplier buttons with [↺ 1.00] reset; 5) Streamlined UVW Mapping UI; 6) Moved Bake Material to Solid View into PBR Surface Parameters; 7) 100% accurate UV rotation in Edit Mode around selected face UV medians.",
+                "v3.12.77: Fixed 3 critical issues: 1) Restored '🧵 Fabric & Sheen' panel section in N-Panel (fixed NameError cur_preset, displaying full controls for Sheen Weight, Sheen Roughness, Sheen Tint, Specular & Alpha); 2) 100% preserves original procedural material shader nodes when clicking '📸 Bake Material to Solid View' (eliminated unwanted Mapping node scale reset, preserving procedural wave/stripes and synthesizing sharp Solid View preview without corrupting original materials); 3) Overhauled '🔄 Sync Viewport Views' with interactive 2-way workspace selector popup (Pull view from any workspace e.g. Modeling into Shading, or Push current view to all/selected workspaces, with full Camera and perspective support).",
+                "v3.12.76: Fixed Eyedropper Material Picker and Upgraded Smart Wear System: 1) 100% preserves custom Shader Nodes of Procedural materials (RGB Curves, Custom Textures, Bump...) when picked and transferred to other meshes; 2) Auto-isolates mesh data (users > 1) and completely cleans stale slots on destination objects in Object Mode, mapping all face polygons directly to the picked material; 3) Fixed initial mouse click suppression in Viewport Eyedropper modal; 4) Connected complete Smart Wear pipeline (Grunge & Scratch) into Base Color, Roughness, Normal, and added Math Opacity nodes for live Opacity slider control.",
+                "v3.12.75: Ultra-fast Procedural Material Bake to Solid View (<15ms via NumPy procedural texture synthesis): 1) Completely eliminated heavy Cycles scene baking, OptiX 7804 kernel compile freezes, and BVH stalls; 2) Fully fixed the [0, 1] UV space rasterization bug where Box/Planar projected meshes baked completely pitch black in Solid View; 3) Procedural Wave/Stripes (Nan gỗ / Lam sóng), Checker, Brick, Noise, Voronoi, Gradient, and ColorRamps are rendered instantly with high fidelity in Solid View; 4) Bulletproof black-screen safeguard guaranteeing meshes never turn black; 5) Preserves UV mapping orientation and scale.",
+                "v3.12.74: Fixed Alt+V in Edit Mode by registering into KeyMap('Mesh') to override default mesh.rip_fill ('Cannot rip faces'); Overhauled 3D Box UV classification with multi-axis orientation counting (active_axes >= 2) eliminating slab collapse; Added full support for Cao / Z (mm) co-scaling across X/Y/Z face normals in update_uv_size_mm.",
+                "v3.12.72: Breakthrough UVW Mapping & Eyedropper upgrades: 1) Added 1-Click '📐 FIT TEXTURE TO MESH (1:1)' stretching texture 100% across the whole mesh or selected surface without per-face subdivision/tiling, automatically measuring and updating real-world physical dimensions (mm) in the UI; 2) Radically streamlined UVW Mapping interface down to 5 essential tools (Fit 1:1, Box, Planar, Align Long Grain, Restore UV) eliminating all cluttered buttons; 3) Fully fixed Alt+V Eyedropper Material Picker in Edit Mode using 100% accurate BVHTree raycast sampling, eliminating wrong material (Wall_Paint) selection on modified geometry (curved windows, moldings); 4) Fixed mouse release protection to prevent click swallowing/accidental clicks when invoking Eyedropper from Alt+V popup; 5) Auto-connects UV Mapping node pipeline on newly picked material.",
+                "v3.12.71: Comprehensive UVW Mapping upgrade: 1) Added 1-Click '🔗 Link UVW to Material' (Use UV Map on Active Material) replacing external add-on APA UVW Map, auto-connecting Texture Coordinate & UV Mapping across all image texture nodes; 2) Automatic UV pipeline auto-linking on all projection operators (Box, Planar, Sphere, Cylinder, Fit to Face, Align Grain), permanently eliminating flat/smooth untextured surfaces; 3) Normalized real-world millimeter scale for Box & Planar projections, fully handling 3ds Max/CAD millimeter imports and unapplied scales to eliminate 2000x micro-tiling blur; 4) Added '📐 Fit Size to Object' auto-measuring mesh bounding dimensions (mm); 5) Synchronous MT_UV_Base layer updates for crop synchronization; 6) Direct Link UV and Fit Size controls in Alt+V popup.",
+                "v3.12.70: Comprehensive overhaul of Eyedropper & Object Material Picker: 1) Full multi-material transfer between matching/similar objects (e.g. windows with wood frame and oval glass) preserving all slots; 2) 4-tier evaluated depsgraph raycast and BMesh picking, completely fixing black glass picking Wall_Paint; 3) Fully fixed Alt+V eyedropper in Edit Mode with reliable face-level picking & assignment; 4) Alt+V popup directly inspects and tweaks selected face material in Edit Mode; 5) Live Solid View sync across all material slots concurrently.",
+                "v3.12.69: Removed outdated version footer text at the bottom of the panel for a cleaner UI.",
+                "v3.12.68: Optimized Task Tabs toolbar by widening PBR tab and removing redundant Texture tab; Comprehensive multi-workspace Viewport Solid shading synchronization across all tabs; Added Alpha transparency support for Glass and Sheer Curtains in both Solid View and Render.",
+                "v3.12.67: Fully resolved Viewport Mouse Drag issues (3D Interactive Drag): Re-engineered with Hold-to-Drag (Hold LMB) mechanics, completely eliminating accidental texture jumps when moving the mouse from N-panel into 3D Viewport; Prevents accidental termination on mouse click; Properly aligned drag direction with natural hand movement; Added on-screen 3D Viewport HUD showing live status and coordinates.",
+                "v3.12.66: Optimized Texture UVW Translation (Offset): Replaced cluttered +/- step buttons with intuitive continuous sliders (slider=True) for smooth, high-precision U and V dragging with a clean [↺ Reset] button; Overhauled Free Mouse Drag in Viewport (3D Interactive Drag) to modify mesh UV loops directly in real-time (60 FPS) across both Solid View and Material/Render Views with Shift precision micro-tuning.",
+                "v3.12.65: 100% fixed Eyedropper Material Picker: Resolved NameError is_multi_slot crash, eliminated internal AttributeError exceptions during property sync; Ensured reliable single/multi-object material transfer with intelligent Box Mapping UV fallback, immediately displaying full textures on both Solid View and Material View without altering source objects or losing textures.",
+                "v3.12.64: Fully fixed Eyedropper Material Picker bug ensuring non-destructive transfer without altering or clearing source or target materials/UVs; Added precise numeric sliders and step shift buttons for UVW Offset (U-, U+, V-, V+, Reset 0) with 100% Solid & Material View synchronization; Enhanced Alt+V quick popup with comprehensive PBR surface tuning (omitting 2D crop and replace buttons); Unified Material Preview and External Texture Source directly into PBR tab; Auto-syncs Base Color image and adds 1-click [X] map removal button to each PBR channel.",
+                "v3.12.63: Integrated Native Radial Pie Menu (Alt+C) & Floating Smart Tweak Popup (Alt+V) directly at cursor: 8-direction radial pie menu containing all 10 architectural material families and 59 PBR presets with cascading submenus for 1-click assignment; Automatically creates isolated material slots for selected faces in Edit Mode and assigns all objects in Object Mode; Alt+V opens floating smart tweak popup right under the mouse cursor with real-world UVW mm sizing, grain alignment, fit to face, box mapping, PBR color/roughness/metallic/normal sliders, and 2D Texture Crop without needing the N-panel.",
+                "v3.12.62: Complete Texture Cropping Architecture Upgrade (3ds Max Style): Redesigned shader MT_Texture_Crop combined with multi-mesh UV synchronization across all objects sharing the material (such as multi-part cabinets and furniture); Dual-UV architecture with MT_UV_Base completely eliminating double-cropping between Solid View and Material/Render; Auto-enables Texture color shading in Solid View; Instant real-time updates across 2D Crop Canvas, sliders, and presets.",
+                "v3.12.61: Smart Multi-Mode Eyedropper Material Picker Upgrade: In Edit Mode when picking materials for selected faces, accurately samples material and automatically projects orthonormal planar UVs matching source texel density without distortion, automatically isolates and creates dedicated Material Slots for selected faces while preserving 100% of original materials on unselected faces; In Object Mode on similar/matching geometry, automatically clones all Material Slots, assigns them to corresponding polygon regions via topology/spatial BVH matching, and syncs UV texture maps; Supports picking between faces of the same mesh in Edit Mode.",
+                "v3.12.60: Fully resolved Texture Crop having no effect by syncing directly to Mesh UV layer (100% identical in Solid View and Material/Render); Added [⚡ Apply Crop to Mesh] button; Moved Eyedropper Material Picker to Global Header visible across all tabs and fixed multi-selection assignment; Expanded HDRI Strength slider up to 80+ (max 500); Preserved active Viewport Shading (Solid/Rendered) when creating/assigning materials; Cleaned up redundant MT_Hub header banner.",
+                "v3.12.59: 1-Click Fit Texture to Face fitting texture boundaries exactly 100% across geometry faces; Fully fixed Align Wood Grain to Longest Edge (supporting both Edit Mode and Object Mode with World Space precision); Fixed texture dimension (mm) updates in Solid View by directly scaling Mesh UV loops in real-time; Prominent 2D Crop button and helpful hint on Viewport Mini-Map HUD.",
+                "v3.12.58: 2D Interactive Texture Crop Dialog (3ds Max View Image style) displaying full bitmap and crop box; 8 resize handles & direct drag on image; Viewport Mini-Map HUD real-time thumbnail during 3D surface dragging.",
+                "v3.12.57: Integrated Texture Crop tool (3ds Max Bitmap Crop style) in UVW tab; Interactive 3D Viewport drag & move on mesh surfaces; 2D interactive red bounding box viewer; Quick half and quarter crop presets; Auto-syncs cropped mapping to Solid View."
+            ],
+            "tutorial_url": "https://assassin254.github.io/mt-studio-docs/",
+            "tutorial_url_en": "https://assassin254.github.io/mt-studio-docs/en.html",
+            "pdf_url": "https://assassin254.github.io/mt-studio-docs/Huong_Dan_Su_Dung_MT_PBR_Studio.pdf",
+            "pdf_url_en": "https://assassin254.github.io/mt-studio-docs/User_Guide_MT_PBR_Studio_EN.pdf",
+            "buy_url": "",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.87/MT_PBR_Studio.zip",
+            "youtube_url": "https://youtu.be/dummy",
+            "docs_url": "https://mt-studio.vn",
+            "n_panel_tab": "MT_PBR Studio Pro",
+            "is_available": true
+        },
+        {
+            "code": "MT_SmartGroup",
+            "module_name": "MT_SmartGroup",
+            "name": "MT SmartGroup",
+            "icon": "GROUP",
+            "version": "v1.6.2",
+            "version_tuple": [
+                1,
+                6,
+                2
+            ],
+            "desc_lines": [
+                "📦 Gom nhóm toàn bộ object như 3ds Max / SketchUp",
+                "🚀 Mở / Đóng / Chỉnh sửa trực tiếp không rã Group",
+                "✨ Group lồng Group (Nested Groups) đa cấp độ"
+            ],
+            "desc_lines_en": [
+                "📦 Group objects exactly like 3ds Max / SketchUp",
+                "🚀 Open / Close / Edit directly without ungrouping",
+                "✨ Multi-level Nested Groups support"
+            ],
+            "price": "200.000đ ($16)",
+            "price_vi": "200.000đ",
+            "price_en": "$16",
+            "update_recommend": true,
+            "update_notice": "v1.6.2: Sửa triệt để lỗi văng khối khi bắt đáy/thả rơi Z (triệt tiêu 100% biến dạng ma trận kép Double Transform); Khắc phục lỗi Empty đáy bay xa/âm dưới sàn bằng thuật toán trích xuất Pure Yaw và chuẩn hóa cao độ Z thế giới; Bảo toàn 100% vị trí các vật thể con khi đổi Origin hoặc gán Parent vào Empty mới.",
+            "update_notice_en": "v1.6.2: Completely eliminated double transform / separated objects on bottom snap & Z drop; Fixed Empty positioning below floor via Pure Yaw extraction and exact world Z clamping; 100% preserved child coordinates on origin changes and new parent empties.",
+            "changelog": [
+                "v1.6.2: 1) Triệt tiêu 100% lỗi văng khối (Double Transform): Thuật toán lọc các đối tượng bậc cao nhất (Top Movers) đảm bảo vật thể con cháu không bị biến dạng dịch chuyển 2 lần khi Thả rơi Z hoặc Áp mặt đáy vào Cursor; 2) Sửa lỗi Empty đáy bay xa hoặc rơi âm sâu dưới sàn: Thuật toán OBB trích xuất góc Pure Yaw loại trừ góc nghiêng pitch/roll và chốt cứng cao độ Z thế giới thực tế (0mm sai số); 3) Bảo toàn vị trí con tuyệt đối: Đổi Origin hoặc tạo Parent vào Empty mới giữ nguyên 100% tọa độ thế giới của mọi chi tiết con.",
+                "v1.6.1: 1) Sửa triệt để lỗi chọn Group: Khi gom nhóm hoặc click bất kỳ chi tiết con nào trong Viewport, toàn bộ nhóm được chọn và làm nổi bật lập tức, Empty đại diện làm tâm pivot, di chuyển/xoay mượt mà 120 FPS; 2) Đại tu toàn diện Hệ thống Component theo kiến trúc Linked Hierarchy trực tiếp: Loại bỏ hoàn toàn Collection Instance và Collection ẩn (nguyên nhân gây bay lệch tọa độ), sửa chi tiết ngay tại chỗ trong Viewport, tự động đồng bộ biến đổi sang các bản sao chị em khi Đóng Component, hỗ trợ Rã Component (Explode) giữ nguyên 100% vị trí.",
+                "v1.6.0: 1) Khắc phục triệt để hiện tượng giật lag khi đóng Group: Tối ưu hóa timer ngầm (0% CPU khi không đổi chọn), chỉ chọn duy nhất Empty Group gốc thay vì quét chọn hàng chục đối tượng con, triệt tiêu 100% vẽ quan hệ nặng nề; 2) Đại tu toàn diện Tạo/Gỡ Parent: Bảo toàn 100% ma trận vị trí (C engine Keep Transform), bổ sung nút '🎯 Tạo Parent Vào Empty Mới' tính toán tâm đáy OBB chuẩn xác không bay lệch vật thể; 3) Tích hợp Hệ Thống Component Liên Kết Chuẩn SketchUp: Tạo Component thông minh, nhân bản Alt+D đồng bộ thời gian thực khi di chuyển hoặc sửa hình học, hỗ trợ Mở/Đóng sửa tại chỗ và Tách độc lập (Make Unique).",
+                "Phát hành bản Alpha 1.1.0"
+            ],
+            "changelog_en": [
+                "v1.6.2: 1) Completely eliminated Double Transform / flying parts: Top-mover extraction filter guarantees child objects are never moved twice when Dropping Z or Snapping Bottom to Cursor; 2) Fixed Empty far below floor: OBB Pure Yaw extraction eliminates pitch/roll skew and pins exact world Z bounds (0mm drift); 3) Absolute child coordinate preservation: Changing origin or parenting to new empty strictly preserves 100% world matrices for all children.",
+                "v1.6.1: 1) Fully fixed group selection: clicking any child part selects and highlights the entire group immediately with root empty as active pivot; 2) Overhauled Component system using direct Linked Hierarchy: completely removed collection instances and hidden libraries, eliminating position jumps, supporting in-place editing and 100% position-preserving Explode.",
+                "v1.6.0: 1) Fixed group closing lag: optimized background selection timer (0% CPU idle), selects only root empty instead of heavy child selection; 2) Overhauled Parenting: 100% native keep transform, added 'Parent to New Empty' at bottom center OBB; 3) SketchUp-style Linked Component system: Alt+D live synced instances, edit-in-place Open/Close, and Make Unique.",
+                "Alpha release 1.1.0"
+            ],
+            "tutorial_url": "",
+            "buy_url": "",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_SmartGroup.zip",
+            "n_panel_tab": "MT_SmartGroup",
+            "is_available": true
+        },
+        {
+            "code": "MT_Camera",
+            "module_name": "MT_Camera",
+            "name": "MT Camera",
+            "icon": "CAMERA_DATA",
+            "version": "v1.4.6",
+            "version_tuple": [
+                1,
+                4,
+                6
+            ],
+            "desc_lines": [
+                "🎥 Quản lý toàn bộ camera trong Scene nhanh chóng",
+                "🚶 Chế độ điều khiển Walk Navigation (WASD)",
+                "📏 Căn phẳng góc máy chuẩn kiến trúc 1-click",
+                "🖼️ Setup tỉ lệ khung hình chuẩn & tự tính độ phân giải",
+                "⚡ Render Batch (Viewport & Actual) tự động lưu file"
+            ],
+            "desc_lines_en": [
+                "🎥 Quick management for all cameras in the Scene",
+                "🚶 Walk Navigation mode (WASD)",
+                "📏 1-click straight camera alignment for archviz",
+                "🖼️ Standard aspect ratios & auto resolution calculation",
+                "⚡ Batch Render (Viewport & Actual) with auto-save"
+            ],
+            "price": "200.000đ ($16)",
+            "price_vi": "200.000đ",
+            "price_en": "$16",
+            "update_recommend": false,
+            "update_notice": "Cập nhật MT_Camera v1.4.6",
+            "update_notice_en": "",
+            "changelog": [
+                "Phát hành bản 1.0.0"
+            ],
+            "changelog_en": [
+                "Initial release 1.0.0"
+            ],
+            "tutorial_url": "",
+            "buy_url": "",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Camera.zip",
+            "n_panel_tab": "MT Camera",
+            "is_available": true
+        },
+        {
+            "code": "MT_Lightmix",
+            "module_name": "MT_Lightmix",
+            "name": "MT Lightmix",
+            "icon": "LIGHT",
+            "version": "v1.0.62",
+            "version_tuple": [
+                1,
+                0,
+                62
+            ],
+            "desc_lines": [
+                "💡 Đặt đèn LED, âm trần, đèn cửa sổ nhanh chóng",
+                "🎛️ Interactive LightMix giống hệt Corona",
+                "🌡️ Nhiệt độ màu vật lý chuẩn xác với Blackbody Node"
+            ],
+            "desc_lines_en": [
+                "💡 Place LED, downlight, and window lights quickly",
+                "🎛️ Interactive LightMix similar to Corona",
+                "🌡️ Accurate physical color temp with Blackbody Node"
+            ],
+            "price": "250.000đ ($20)",
+            "price_vi": "250.000đ",
+            "price_en": "$20",
+            "update_recommend": false,
+            "update_notice": "Cập nhật MT_Lightmix v1.0.62",
+            "update_notice_en": "",
+            "changelog": [
+                "Phát hành bản 1.0.2 - Fix lỗi đèn và bổ sung UI"
+            ],
+            "changelog_en": [
+                "Release 1.0.2 - Bug fixes and UI improvements"
+            ],
+            "tutorial_url": "",
+            "buy_url": "",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Lightmix.zip",
+            "n_panel_tab": "MT Lightmix",
+            "is_available": true
+        },
+        {
+            "code": "MT_Sweep_Profile",
+            "module_name": "MT_Sweep_Profile",
+            "name": "MT_Sweep Profile Pro",
+            "icon": "MOD_CURVE",
+            "version": "v2.6.0",
+            "version_tuple": [
+                2,
+                6,
+                0
+            ],
+            "desc_lines": [
+                "🏛️ Thư viện 40 mặt cắt phào chỉ kiến trúc chuẩn Kstudio (Trần, Len chân tường, Chỉ tường, Khung tranh, Khe hắt LED, Tay vịn) với ảnh 3D Isometric.",
+                "📐 Ma trận 9 điểm tâm (9-Point Pivot Alignment) & Khóa tỉ lệ kích thước thực tế (mm) chuẩn xác 100%.",
+                "✨ Lõi Geometry Nodes Even-Thickness 3D Miter chống móp góc vuông 90° trên cả 3 trục X/Y/Z, sạch Outliner.",
+                "✂️ Trích xuất phào chỉ trực tiếp từ cạnh tường chọn trong Edit Mode (Use Selected Edges) & Tạo Ô Chỉ Tường Boiserie 1-Click.",
+                "🪵 Trải sẵn Real-World UVW dọc theo chiều dài phào (UVMap + MT_UV_Base), tương thích 100% với MT_PBR Studio Pro.",
+                "➕ Lấy mặt cắt tùy chỉnh từ Scene (Add from Scene) kèm bộ Render Thumbnail Studio 3D tự động."
+            ],
+            "desc_lines_en": [
+                "🏛️ 40 Kstudio-standard Architectural Molding Profiles (Crown, Baseboard, Wainscoting, Picture Frame, LED Cove, Handrail) with 3D Studio Thumbnails.",
+                "📐 9-Point Pivot Alignment Grid & Real-World millimeter (mm) dimensions with Aspect Ratio Lock.",
+                "✨ Geometry Nodes 3D Even-Thickness Miter solver preventing 90° corner pinching across X/Y/Z with zero Outliner clutter.",
+                "✂️ Extract Sweep directly from Selected Mesh Edges in Edit Mode & 1-Click Auto Wainscoting/Boiserie generator.",
+                "🪵 Real-World continuous UVW mapping along molding length (UVMap + MT_UV_Base), 100% compatible with MT_PBR Studio Pro.",
+                "➕ Add Custom Profile from Scene with automatic 3D Isometric Studio Thumbnail renderer."
+            ],
+            "price": "300.000đ ($24)",
+            "price_vi": "300.000đ",
+            "price_en": "$24",
+            "update_recommend": true,
+            "update_notice": "Cập nhật MT_Sweep_Profile v2.6.0",
+            "update_notice_en": "Initial release of MT_Sweep Profile Pro v1.0.0 - Professional Architectural Molding Suite!",
+            "changelog": [
+                "v1.0.0: Phát hành chính thức MT_Sweep Profile Pro tích hợp 40 mặt cắt kiến trúc Kstudio, Ma trận 9 điểm tâm, Trích xuất cạnh Edit Mode, Tự động chia ô phào chỉ tường (Wainscoting) và đồng bộ 100% UVW thực tế với MT_PBR Studio Pro."
+            ],
+            "changelog_en": [
+                "v1.0.0: Official release of MT_Sweep Profile Pro featuring 40 Kstudio architectural profiles, 9-point pivot alignment, Edit Mode edge extraction, Auto Wainscoting generator, and 100% real-world UVW sync with MT_PBR Studio Pro."
+            ],
+            "tutorial_url": "",
+            "buy_url": "",
+            "download_url": "https://github.com/Assassin254/mt_hub_releases/releases/download/v3.12.0/MT_Sweep_Profile.zip",
+            "n_panel_tab": "MT_Sweep Profile",
+            "is_available": true
+        }
+    ]
 }
