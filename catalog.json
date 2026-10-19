@@ -174,11 +174,11 @@
             "module_name": "MT_SmartGroup",
             "name": "MT SmartGroup",
             "icon": "GROUP",
-            "version": "v1.6.0",
+            "version": "v1.6.1",
             "version_tuple": [
                 1,
                 6,
-                0
+                1
             ],
             "desc_lines": [
                 "📦 Gom nhóm toàn bộ object như 3ds Max / SketchUp",
@@ -194,13 +194,15 @@
             "price_vi": "200.000đ",
             "price_en": "$16",
             "update_recommend": true,
-            "update_notice": "v1.6.0: Sửa triệt để giật lag khi đóng Group, sửa lỗi Parent bay tứ tung (bảo toàn 100% vị trí & thêm Tạo Parent To Empty), tích hợp Hệ Thống Component liên kết kiểu SketchUp (Alt+D đồng bộ tự động thời gian thực).",
-            "update_notice_en": "v1.6.0: Completely fixed group closing lag, fixed parent offset issues (100% position preservation & Parent to Empty), added SketchUp-style Linked Component system (Alt+D live sync).",
+            "update_notice": "v1.6.1: Sửa triệt để lỗi chọn Group (hiển thị chọn toàn bộ nhóm trực quan ngay khi gom nhóm hoặc click chuột); Tái cấu trúc Hệ thống Component chuẩn SketchUp trực tiếp trong Viewport (triệt tiêu 100% hiện tượng văng lệch tọa độ, sửa tại chỗ, rã component bảo toàn vị trí).",
+            "update_notice_en": "v1.6.1: Fixed group selection (visual highlight of full group on create and click); Re-architected SketchUp-style Linked Component directly in Viewport (zero jumping, in-place editing, clean explode).",
             "changelog": [
+                "v1.6.1: 1) Sửa triệt để lỗi chọn Group: Khi gom nhóm hoặc click bất kỳ chi tiết con nào trong Viewport, toàn bộ nhóm được chọn và làm nổi bật lập tức, Empty đại diện làm tâm pivot, di chuyển/xoay mượt mà 120 FPS; 2) Đại tu toàn diện Hệ thống Component theo kiến trúc Linked Hierarchy trực tiếp: Loại bỏ hoàn toàn Collection Instance và Collection ẩn (nguyên nhân gây bay lệch tọa độ), sửa chi tiết ngay tại chỗ trong Viewport, tự động đồng bộ biến đổi sang các bản sao chị em khi Đóng Component, hỗ trợ Rã Component (Explode) giữ nguyên 100% vị trí.",
                 "v1.6.0: 1) Khắc phục triệt để hiện tượng giật lag khi đóng Group: Tối ưu hóa timer ngầm (0% CPU khi không đổi chọn), chỉ chọn duy nhất Empty Group gốc thay vì quét chọn hàng chục đối tượng con, triệt tiêu 100% vẽ quan hệ nặng nề; 2) Đại tu toàn diện Tạo/Gỡ Parent: Bảo toàn 100% ma trận vị trí (C engine Keep Transform), bổ sung nút '🎯 Tạo Parent Vào Empty Mới' tính toán tâm đáy OBB chuẩn xác không bay lệch vật thể; 3) Tích hợp Hệ Thống Component Liên Kết Chuẩn SketchUp: Tạo Component thông minh, nhân bản Alt+D đồng bộ thời gian thực khi di chuyển hoặc sửa hình học, hỗ trợ Mở/Đóng sửa tại chỗ và Tách độc lập (Make Unique).",
                 "Phát hành bản Alpha 1.1.0"
             ],
             "changelog_en": [
+                "v1.6.1: 1) Fully fixed group selection: clicking any child part selects and highlights the entire group immediately with root empty as active pivot; 2) Overhauled Component system using direct Linked Hierarchy: completely removed collection instances and hidden libraries, eliminating position jumps, supporting in-place editing and 100% position-preserving Explode.",
                 "v1.6.0: 1) Fixed group closing lag: optimized background selection timer (0% CPU idle), selects only root empty instead of heavy child selection; 2) Overhauled Parenting: 100% native keep transform, added 'Parent to New Empty' at bottom center OBB; 3) SketchUp-style Linked Component system: Alt+D live synced instances, edit-in-place Open/Close, and Make Unique.",
                 "Alpha release 1.1.0"
             ],
