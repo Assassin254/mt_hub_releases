@@ -184,11 +184,11 @@
             "module_name": "MT_SmartGroup",
             "name": "MT SmartGroup",
             "icon": "GROUP",
-            "version": "v1.6.3",
+            "version": "v1.6.4",
             "version_tuple": [
                 1,
                 6,
-                3
+                4
             ],
             "desc_lines": [
                 "📦 Gom nhóm toàn bộ object như 3ds Max / SketchUp",
