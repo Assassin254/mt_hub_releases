@@ -356,10 +356,10 @@
       "module_name": "MT_Floor_Generator",
       "name": "MT Floor Generator",
       "icon": "MESH_GRID",
-      "version": "v1.1.0",
+      "version": "v1.2.0",
       "version_tuple": [
         1,
-        1,
+        2,
         0
       ],
       "desc_lines": [
@@ -380,7 +380,7 @@
       "price_vi": "300.000đ",
       "price_en": "$24",
       "update_recommend": false,
-      "update_notice": "MT Floor Generator v1.0.2 - Bộ tạo sàn gỗ và gạch ốp lát chuyên nghiệp tích hợp vào hệ sinh thái MT_Hub!",
+      "update_notice": "Cập nhật MT_Floor_Generator v1.2.0",
       "update_notice_en": "MT Floor Generator v1.0.2 - Architectural flooring generator integrated into MT_Hub ecosystem!",
       "changelog": [
         "v1.0.2: Tích hợp đầy đủ vào hệ sinh thái MT_Hub, hỗ trợ thanh điều hướng TopBar MT Studio, quản lý bản quyền tập trung và cổng bảo vệ tiêu chuẩn.",
