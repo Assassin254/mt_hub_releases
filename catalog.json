@@ -356,15 +356,16 @@
       "module_name": "MT_Floor_Generator",
       "name": "MT Floor Generator",
       "icon": "MESH_GRID",
-      "version": "v3.4.2",
+      "version": "v3.5.0",
       "version_tuple": [
         3,
-        4,
-        2
+        5,
+        0
       ],
       "desc_lines": [
         "🪵 Tạo sàn gỗ & gạch ốp lát 1-Click bằng Geometry Nodes nhanh gấp 10 lần thủ công.",
         "📐 6 kiểu lát chuẩn kiến trúc: Standard (so le), Multi-Size (nhiều kích thước), Herringbone (xương cá), Chevron (chữ V), Hexagon (lục giác), Basket Weave (đan rổ).",
+        "🧩 Tính năng Tách Object Mesh thật theo từng ID + Ron Mạch độc lập kèm quản lý vật liệu ID và nạp ảnh Texture ngẫu nhiên.",
         "🎛️ Tự động vát cạnh (Bevel), tạo mạch vữa (Grout), biến thiên độ cao/nghiêng ngẫu nhiên (Tilt & Elevation) sống động như thật.",
         "⚡ Preset kích thước chuẩn Việt Nam: Sàn gỗ 1200x150, Gạch 600x600, 800x800, Gạch thẻ subway 300x75, Xương cá 600x90, Lục giác 200.",
         "💎 Tính năng Bake Mesh 1-Click để xuất trực tiếp sang Unreal Engine, D5 Render, Lumion hoặc 3ds Max."
@@ -372,6 +373,7 @@
       "desc_lines_en": [
         "🪵 Procedural Flooring & Tile Generator powered by Blender Geometry Nodes (10x faster).",
         "📐 6 Architectural Patterns: Standard offset, Multi-Size, Herringbone, Chevron, Hexagon, Basket Weave.",
+        "🧩 Separate Real Mesh Objects by ID + Grout mesh with ID Material Manager and batch random textures loader.",
         "🎛️ Auto Bevel edges, realistic Grout mesh, and subtle Natural Variation (Tilt, Height, Clapboard).",
         "⚡ Architectural Presets: Wood Plank 1200x150, Tile 600x600, 800x800, Subway tile 300x75, Herringbone 600x90, Hex 200.",
         "💎 1-Click Bake to Static Mesh for UE5, D5 Render, Lumion or 3ds Max export."
@@ -380,16 +382,16 @@
       "price_vi": "300.000đ",
       "price_en": "$24",
       "update_recommend": false,
-      "update_notice": "Cập nhật MT_Floor_Generator v3.4.2",
+      "update_notice": "Cập nhật MT_Floor_Generator v3.5.0",
       "update_notice_en": "MT Floor Generator v1.0.2 - Architectural flooring generator integrated into MT_Hub ecosystem!",
       "changelog": [
-        "v1.0.2: Tích hợp đầy đủ vào hệ sinh thái MT_Hub, hỗ trợ thanh điều hướng TopBar MT Studio, quản lý bản quyền tập trung và cổng bảo vệ tiêu chuẩn.",
-        "v1.0.1: Bổ sung các preset chuẩn kích thước xây dựng Việt Nam và cải tiến độ mượt của node group.",
+        "v3.5.0: Tích hợp đầy đủ vào trạm điều hành MT Studio, bổ sung tính năng Tách Object theo ID + Quản lý vật liệu ID, hỗ trợ thanh điều hướng TopBar.",
+        "v1.0.2: Tích hợp cổng bảo vệ bản quyền tiêu chuẩn MT_Hub.",
         "v1.0.0: Phát hành phiên bản đầu tiên của MT Floor Generator."
       ],
       "changelog_en": [
-        "v1.0.2: Full integration into MT_Hub ecosystem, MT Studio TopBar switcher support, centralized license and gate protection.",
-        "v1.0.1: Added architectural presets and optimized node groups.",
+        "v3.5.0: Full integration into MT Studio workspace, Split by ID objects + ID Material Manager, TopBar switcher support.",
+        "v1.0.2: Standard MT_Hub license gate protection.",
         "v1.0.0: Initial release of MT Floor Generator."
       ],
       "tutorial_url": "",
